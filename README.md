@@ -1,10 +1,15 @@
-# AI Coding 福利站导航
+# AI 公益站导航 · Claude Code / Codex 免费额度聚合
 
-> 免费额度 · 白嫖 Claude Code / Codex / Cursor 的中转与公益站合集
+> 公益站 + New API 中转站合集：注册送额度、每日签到、免费调 Claude / GPT / Gemini，自动探活实时更新
 
-> 数据快照：2026-09-01 12:11 UTC，由 GitHub Actions 自动抓取更新。
+[![GitHub Stars](https://img.shields.io/github/stars/wynx1123/ai-welfare-hub?style=social)](https://github.com/wynx1123/ai-welfare-hub/stargazers)
+[![Live Status](https://img.shields.io/badge/%E6%8E%A2%E6%B4%BB-%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0-brightgreen)](https://wynx1123.github.io/ai-welfare-hub/)
+
+> 数据快照：2026-09-01 13:02 UTC，由 GitHub Actions 自动抓取更新。
 
 **当前收录 15 个站点**，美元计价站全部注册首日合计约 **$967** 额度。
+
+**搜到这的你可能在找**：Claude Code 免费额度 / 公益站 / New API 中转 / Codex 白嫖 / Cursor 免费用 / AI API 公益站导航 / claude-opus 免费 / gpt 免费接口 —— 这里全都有，而且每 6 小时自动探活，不会点进去才发现站挂了。
 
 ## 🚀 快速上车
 

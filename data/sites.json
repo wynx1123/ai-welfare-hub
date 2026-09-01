@@ -1,24 +1,25 @@
 {
   "meta": {
-    "title": "AI Coding 福利站导航",
-    "tagline": "免费额度 · 白嫖 Claude Code / Codex / Cursor 的中转与公益站合集",
+    "title": "AI 公益站导航 · Claude Code / Codex 免费额度聚合",
+    "tagline": "公益站 + New API 中转站合集：注册送额度、每日签到、免费调 Claude / GPT / Gemini，自动探活实时更新",
     "keywords": [
       "Claude Code 免费",
-      "Claude Code 中转",
-      "Codex 中转",
+      "Claude Code 公益站",
       "Codex 公益站",
+      "Claude Code 中转",
       "AI API 中转站",
       "公益站",
       "免费 API 额度",
-      "每日免费额度",
-      "claude-opus-5 API",
       "New API",
-      "AgentRouter",
-      "RawChat",
-      "Matrix 统一网关",
-      "TaBiAI",
-      "GoRouter",
-      "claude-opus-5 按次计费"
+      "new-api 导航",
+      "免费 Claude",
+      "白嫖 Claude Code",
+      "Claude Code 额度",
+      "Codex 免费",
+      "Cursor 免费",
+      "API 公益站",
+      "每日签到",
+      "免费额度"
     ],
     "repoUrl": "https://github.com/wynx1123/ai-welfare-hub",
     "pagesUrl": "https://wynx1123.github.io/ai-welfare-hub/"

@@ -99,9 +99,14 @@ function buildReadme() {
 
 > ${data.meta.tagline}
 
+[![GitHub Stars](https://img.shields.io/github/stars/wynx1123/ai-welfare-hub?style=social)](https://github.com/wynx1123/ai-welfare-hub/stargazers)
+[![Live Status](https://img.shields.io/badge/%E6%8E%A2%E6%B4%BB-%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0-brightgreen)](${data.meta.pagesUrl || 'https://wynx1123.github.io/ai-welfare-hub/'})
+
 ${genLine}
 
 **当前收录 ${data.sites.length} 个站点**，美元计价站全部注册首日合计约 **${fmtUsd(totalUsd)}** 额度。
+
+**搜到这的你可能在找**：Claude Code 免费额度 / 公益站 / New API 中转 / Codex 白嫖 / Cursor 免费用 / AI API 公益站导航 / claude-opus 免费 / gpt 免费接口 —— 这里全都有，而且每 6 小时自动探活，不会点进去才发现站挂了。
 
 ## 🚀 快速上车
 
