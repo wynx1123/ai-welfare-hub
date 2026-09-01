@@ -1,0 +1,49 @@
+name: refresh
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # 每 6 小时抓一次实时数据并重新发布
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  refresh-build-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validate sites.json
+        run: node scripts/validate.mjs
+      - name: Test (offline)
+        run: node scripts/test.mjs
+      - name: Refresh live snapshot
+        run: node scripts/refresh.mjs
+      - name: Build pages
+        run: node scripts/build.mjs
+      - name: Link health check
+        run: node scripts/check.mjs
+      - name: Commit refreshed data
+        if: github.event_name != 'push' # push 触发时避免和自己竞态，只由定时任务提交
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/live.json README.md docs/index.html
+          git diff --cached --quiet && echo "无变化" || git commit -m "chore: auto refresh $(date -u +%F_%H:%M) UTC"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - uses: actions/deploy-pages@v4
