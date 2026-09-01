@@ -2,7 +2,7 @@
 
 > 免费额度 · 白嫖 Claude Code / Codex / Cursor 的中转与公益站合集
 
-> 数据快照：2026-09-01 12:04 UTC，由 GitHub Actions 自动抓取更新。
+> 数据快照：2026-09-01 12:11 UTC，由 GitHub Actions 自动抓取更新。
 
 **当前收录 15 个站点**，美元计价站全部注册首日合计约 **$967** 额度。
 
@@ -14,8 +14,8 @@
 | [JustDoWork](https://api.justwoker.icu/register?aff=Q9bp) | 🟢 在线 | ~$92 | 注册 $70 + 签到 $22 | ✅ | anthropic / openai | — |
 | [RawChat 公益站](https://new.sharedchat.cc/list/#/register?i=cx8IE) | 🟢 在线 | — | 每日池 $50 | — | — | — |
 | [Matrix](https://matrix.mzsjai.com/login) | 🟢 在线 | 600 积分 | 邀请 $600 | — | — | — |
-| [TaBiAI](https://tabitoken.com/sign-up?aff=5yhK) | 🟢 在线 | $120 | 注册 $100 + 邀请 $20 | — | anthropic / openai | — |
-| [GoRouter](https://gorouter.app/sign-up?aff=Vo1d) | 🟢 在线 | $70 | 注册 $50 + 邀请 $20 | — | anthropic / openai | — |
+| [TaBiAI](https://tabitoken.com/sign-up?aff=5yhK) | 🟢 在线 | $120 | 注册 $100 + 邀请 $20 | — | anthropic / openai | 4 |
+| [GoRouter](https://gorouter.app/sign-up?aff=Vo1d) | 🟢 在线 | $70 | 注册 $50 + 邀请 $20 | — | anthropic / openai | 2 |
 | [肖恩Ai](https://free.supxh.xin/register?code=FKGTEA) | 🟢 在线 |  积分 | 注册 $5000 + 签到 $2000 | ✅ | — | — |
 | [SeekAI](https://seekai.cc/sign-up?aff=jVlv) | 🟢 在线 | — | — | — | — | — |
 | [NOFX](https://nofx.one/zh-CN/sign-in?ref=1B51CYR5) | 🟢 在线 | 5 积分 | 注册 $20 + 邀请 $5 + 签到 $5 | ✅ | — | — |
