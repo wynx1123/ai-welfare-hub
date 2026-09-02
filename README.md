@@ -5,7 +5,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/wynx1123/ai-welfare-hub?style=social)](https://github.com/wynx1123/ai-welfare-hub/stargazers)
 [![Live Status](https://img.shields.io/badge/%E6%8E%A2%E6%B4%BB-%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0-brightgreen)](https://wynx1123.github.io/ai-welfare-hub/)
 
-> 数据快照：2026-09-02 03:12 UTC，由 GitHub Actions 自动抓取更新。
+> 数据快照：2026-09-02 10:46 UTC，由 GitHub Actions 自动抓取更新。
 
 **当前收录 15 个站点**，美元计价站全部注册首日合计约 **$967** 额度。
 
@@ -15,7 +15,7 @@
 
 | 站点 | 状态 | 首日可得 | 额度构成 | 每日签到 | 协议 | 模型数 |
 |---|---|---|---|---|---|---|
-| [AgentRouter](https://agentrouter.org/register?aff=NARV) | 🟢 在线 | $175 | 注册 $100 + 邀请 $50 + 签到 $25 | ✅ | anthropic / openai | 5 |
+| [AgentRouter](https://agentrouter.org/register?aff=NARV) | 🟢 在线 | $175 | 注册 $100 + 邀请 $50 + 签到 $25 | ✅ | anthropic / openai | — |
 | [JustDoWork](https://api.justwoker.icu/register?aff=Q9bp) | 🟢 在线 | ~$92 | 注册 $70 + 签到 $22 | ✅ | anthropic / openai | — |
 | [RawChat 公益站](https://new.sharedchat.cc/list/#/register?i=cx8IE) | 🟢 在线 | — | 每日池 $50 | — | — | — |
 | [Matrix](https://matrix.mzsjai.com/login) | 🟢 在线 | 600 积分 | 邀请 $600 | — | — | — |
@@ -25,7 +25,7 @@
 | [SeekAI](https://seekai.cc/sign-up?aff=jVlv) | 🟢 在线 | — | — | — | — | — |
 | [NOFX](https://nofx.one/zh-CN/sign-in?ref=1B51CYR5) | 🟢 在线 | 5 积分 | 注册 $20 + 邀请 $5 + 签到 $5 | ✅ | — | — |
 | [kktoken](https://kktoken.cc/sign-up?aff=tWv1) | 🟢 在线 | $120 | 注册 $100 + 签到 $20 | ✅ | — | — |
-| [维云](https://vsllm.com/register?aff=Aci9) | 🟢 在线 | — | — | — | anthropic / openai | 63 |
+| [维云](https://vsllm.com/register?aff=Aci9) | 🟢 在线 | — | — | — | anthropic / openai | 64 |
 | [DoCode](https://docode.cc/register?aff=7bWb) | 🟢 在线 | ~$360 | 注册 $300 + 邀请 $60 | — | anthropic / openai | — |
 | [TrueSOTA](https://true-sota.com/register?aff=8DTJUTUBJNE3) | 🟢 在线 | $20 | 注册 $0 + 邀请 $20 + 签到 $0 | ✅ | openai | — |
 | [幻城网安](https://api.hcnsec.cn/sign-up?aff=zDqY) | 🟢 在线 | — | — | — | anthropic / openai | — |
