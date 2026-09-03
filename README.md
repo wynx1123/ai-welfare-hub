@@ -5,7 +5,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/wynx1123/ai-welfare-hub?style=social)](https://github.com/wynx1123/ai-welfare-hub/stargazers)
 [![Live Status](https://img.shields.io/badge/%E6%8E%A2%E6%B4%BB-%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0-brightgreen)](https://wynx1123.github.io/ai-welfare-hub/)
 
-> 数据快照：2026-09-03 03:14 UTC，由 GitHub Actions 自动抓取更新。
+> 数据快照：2026-09-03 10:46 UTC，由 GitHub Actions 自动抓取更新。
 
 **当前收录 15 个站点**，美元计价站全部注册首日合计约 **$967** 额度。
 
