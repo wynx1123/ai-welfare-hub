@@ -34,6 +34,8 @@ jobs:
         run: node scripts/build.mjs
       - name: Link health check
         run: node scripts/check.mjs
+        env:
+          CHECK_STRICT: '0' # 单站偶发超时只告警，不阻断 Pages 部署；本地跑仍是严格模式
       - name: Commit refreshed data
         if: github.event_name != 'push' # push 触发时避免和自己竞态，只由定时任务提交
         run: |
