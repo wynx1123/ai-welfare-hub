@@ -4,12 +4,14 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 
-const [sitesRaw, liveRaw] = await Promise.all([
+const [sitesRaw, liveRaw, freeApisRaw] = await Promise.all([
   readFile(`${ROOT}/data/sites.json`, 'utf8'),
   readFile(`${ROOT}/data/live.json`, 'utf8').catch(() => null),
+  readFile(`${ROOT}/data/free-apis.json`, 'utf8').catch(() => null),
 ]);
 const data = JSON.parse(sitesRaw);
 const live = liveRaw ? JSON.parse(liveRaw) : null;
+const freeApis = freeApisRaw ? JSON.parse(freeApisRaw) : null;
 const liveById = new Map((live?.sites ?? []).map((s) => [s.id, s]));
 
 function esc(s) {
@@ -69,7 +71,10 @@ const pageData = data.sites.map((site) => {
   };
 });
 
-const generatedAt = live?.generatedAt ?? null;
+  const generatedAt = live?.generatedAt ?? null;
+
+  // ---------- 官方免费 API 分区数据 ----------
+  const freeApiJson = freeApis ? JSON.stringify(freeApis).replaceAll('</', '<\\/') : null;
 
 // ---------- README ----------
 function readmeSiteRow(site) {
@@ -95,6 +100,25 @@ function buildReadme() {
   const detailRows = data.sites.map(readmeSiteRow).join('\n');
   const genLine = generatedAt ? `> 数据快照：${generatedAt.replace('T', ' ').slice(0, 16)} UTC，由 GitHub Actions 自动抓取更新。` : '> 尚无实时快照，先运行 `npm run refresh`。';
 
+  // ---------- 官方免费 API 分区（itsfree.ai 整理） ----------
+  const providersTable = freeApis?.providers?.length
+    ? freeApis.providers.map((p) => `| [${p.name}](${p.url}) | ${p.freeTier} | ${p.context} | ${p.signup} | ${p.models} | \`${p.baseUrl}\` |`).join('\n')
+    : '';
+  const moreLine = freeApis?.more?.length
+    ? `\n**还有 13 家**：${freeApis.more.map((m) => `[${m.name}](${m.url})（${m.freeTier}）`).join(' · ')}\n`
+    : '';
+  const freeApiSection = providersTable ? `
+## 🏢 官方免费 API（公益站之外的保底方案）
+
+公益站随时可能关停或改规则，各家平台的**官方免费层**是更稳的保底：注册即用、长期有效、不经过第三方中转。数据整理自 [itsfree.ai](https://itsfree.ai/)（@midudev 出品的官方免费 API 目录，完整目录含 25 家 provider / 463 个免费模型 / 9 种本地运行时）。
+
+| Provider | 免费额度 | 上下文 | 注册 | 模型数 | Base URL |
+|---|---|---|---|---|---|
+${providersTable}
+${moreLine}
+> 国内直连推荐：ModelScope 魔搭（阿里）、Z.ai 智谱、AMD Radeon Cloud（中国站）；不想注册的可用 LLM7.io / OVHcloud。
+` : '';
+
   return `# ${data.meta.title}
 
 > ${data.meta.tagline}
@@ -119,7 +143,7 @@ ${detailRows}
 | 站点 | 定位 |
 |---|---|
 ${sitesTable}
-
+${freeApiSection}
 ## 🧰 仓库结构
 
 | 文件 | 作用 |
@@ -245,6 +269,20 @@ select { padding: 10px; border: 1px solid var(--border); border-radius: 10px; ba
 details.more { font-size: 13px; color: var(--muted); }
 details.more summary { cursor: pointer; user-select: none; }
 .empty { text-align: center; color: var(--muted); padding: 48px 0; }
+#free-apis { margin-top: 48px; }
+#free-apis h2 { font-size: 20px; margin: 0 0 4px; }
+.sec-desc { color: var(--muted); font-size: 13.5px; margin: 0 0 16px; }
+.sec-more { color: var(--muted); font-size: 13px; margin-top: 14px; }
+.api-grid { margin-top: 12px; }
+.api-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; font-size: 13.5px; }
+.api-card:hover { border-color: var(--accent); }
+.api-card .api-top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.api-card h3 { margin: 0; font-size: 15.5px; }
+.api-card .free { color: var(--green); font-size: 12.5px; white-space: nowrap; font-weight: 600; }
+.api-card .api-meta { color: var(--muted); font-size: 12.5px; display: flex; gap: 10px; flex-wrap: wrap; }
+.api-card .api-hl { color: var(--muted); font-size: 13px; margin: 2px 0 0; }
+.api-card code { background: var(--tag); border-radius: 5px; padding: 1px 6px; font-size: 12px; word-break: break-all; }
+.api-card .api-actions { margin-top: auto; padding-top: 8px; display: flex; gap: 8px; }
 footer { margin-top: 40px; font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--border); padding-top: 16px; }
 a { color: var(--accent); }
 </style>
@@ -269,12 +307,19 @@ a { color: var(--accent); }
 <div id="tags"></div>
 <main class="grid" id="grid"></main>
 <div class="empty" id="empty" hidden>没有匹配的站点</div>
+<section id="free-apis" hidden>
+  <h2>🏢 官方免费 API（公益站之外的保底）</h2>
+  <p class="sec-desc">公益站随时可能关停或改规则，各家平台的<strong>官方免费层</strong>更稳：注册即用、长期有效、不经第三方中转。数据整理自 <a href="https://itsfree.ai/" target="_blank" rel="noopener">itsfree.ai</a>（@midudev 出品，完整目录 25 家 provider / 463 个免费模型 / 9 种本地运行时）。国内直连推荐 ModelScope 魔搭、Z.ai 智谱、AMD Radeon Cloud。</p>
+  <div class="grid api-grid" id="api-grid"></div>
+  <p class="sec-more" id="api-more"></p>
+</section>
 <footer>
   <p>本页仅为信息聚合，与收录站点无隶属关系，不承诺可用性。请勿将生产密钥、隐私数据、企业代码交给来源不明的中转服务。注册链接若含邀请参数，意味着站长可能获得邀请奖励。</p>
   <p>数据快照由脚本自动抓取，页面静态生成 —— <a href="#" id="repo-link">仓库地址</a></p>
 </footer>
 </div>
 <script id="page-data" type="application/json">${json}</script>
+${freeApiJson ? `<script id="free-api-data" type="application/json">${freeApiJson}</script>` : ''}
 <script>
 (function () {
   var DATA = JSON.parse(document.getElementById('page-data').textContent);
@@ -373,6 +418,29 @@ a { color: var(--accent); }
   q.addEventListener('input', function () { state.q = q.value.trim(); render(); });
   sortSel.addEventListener('change', render);
   render();
+
+  // 官方免费 API 分区
+  var apiDataEl = document.getElementById('free-api-data');
+  if (apiDataEl) {
+    var APIS = JSON.parse(apiDataEl.textContent);
+    var apiGrid = document.getElementById('api-grid');
+    document.getElementById('free-apis').hidden = false;
+    apiGrid.innerHTML = (APIS.providers || []).map(function (p) {
+      return '<div class="api-card">' +
+        '<div class="api-top"><h3>' + esc(p.name) + '</h3><span class="free">' + esc(p.freeTier) + '</span></div>' +
+        '<div class="api-meta"><span>📏 ' + esc(p.context) + ' 上下文</span><span>📦 ' + esc(p.models) + ' 个模型</span><span>🔑 ' + esc(p.signup) + '注册</span></div>' +
+        '<p class="api-hl">' + esc(p.highlight) + '</p>' +
+        '<div><code>' + esc(p.baseUrl) + '</code></div>' +
+        '<div class="api-actions"><a class="btn" href="' + esc(p.url) + '" target="_blank" rel="noopener">详情</a></div>' +
+        '</div>';
+    }).join('');
+    var moreEl = document.getElementById('api-more');
+    if (APIS.more && APIS.more.length) {
+      moreEl.innerHTML = '还有 ' + APIS.more.length + ' 家：' + APIS.more.map(function (m) {
+        return '<a href="' + esc(m.url) + '" target="_blank" rel="noopener">' + esc(m.name) + '</a>（' + esc(m.freeTier) + '）';
+      }).join(' · ');
+    }
+  }
 })();
 </script>
 </body>

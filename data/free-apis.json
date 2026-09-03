@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "source": "itsfree.ai",
+    "sourceUrl": "https://itsfree.ai/",
+    "author": "@midudev",
+    "note": "官方免费 API 目录：平台官方提供的免费层（非公益中转站），注册即用、长期稳定，适合作为公益站之外的保底方案。数据整理自 itsfree.ai（2026-09 验证），完整目录含 25 家 provider、463 个免费模型、9 种本地运行时。",
+    "verifiedAt": "2026-09-03"
+  },
+  "providers": [
+    {
+      "name": "Google AI Studio",
+      "url": "https://itsfree.ai/provider/google-ai-studio/",
+      "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "freeTier": "1,500 请求/天",
+      "context": "1M",
+      "signup": "邮箱",
+      "models": 17,
+      "highlight": "免费层里最慷慨的一家：Gemini 全系 + 100 万上下文，还支持图片/音频/视频输入",
+      "envKey": "GEMINI_API_KEY"
+    },
+    {
+      "name": "Groq",
+      "url": "https://itsfree.ai/provider/groq/",
+      "baseUrl": "https://api.groq.com/openai/v1",
+      "freeTier": "1,000 请求/天",
+      "context": "131K",
+      "signup": "邮箱",
+      "models": 7,
+      "highlight": "LPU 芯片跑开源模型，速度全场最快；GPT-OSS 120B / Qwen 3.8 免费用",
+      "envKey": "GROQ_API_KEY"
+    },
+    {
+      "name": "NVIDIA NIM",
+      "url": "https://itsfree.ai/provider/nvidia-nim/",
+      "baseUrl": "https://integrate.api.nvidia.com/v1",
+      "freeTier": "40 请求/分钟",
+      "context": "1M",
+      "signup": "手机号",
+      "models": 82,
+      "highlight": "免费目录最宽：82 个开源模型含 DeepSeek V4 / Nemotron，不用信用卡",
+      "envKey": "NVIDIA_API_KEY"
+    },
+    {
+      "name": "OpenRouter",
+      "url": "https://itsfree.ai/provider/openrouter/",
+      "baseUrl": "https://openrouter.ai/api/v1",
+      "freeTier": "18 个模型 0 元",
+      "context": "1M",
+      "signup": "邮箱",
+      "models": 18,
+      "highlight": "一个 key 聚合全主流模型，标 :free 的模型零成本调用",
+      "envKey": "OPENROUTER_API_KEY"
+    },
+    {
+      "name": "Vercel AI Gateway",
+      "url": "https://itsfree.ai/provider/vercel-ai-gateway/",
+      "baseUrl": "https://ai-gateway.vercel.sh/v1",
+      "freeTier": "$5/月",
+      "context": "1M",
+      "signup": "邮箱",
+      "models": 12,
+      "highlight": "每月白送 5 刀额度，可用 GPT / Claude / Gemini 全系",
+      "envKey": "AI_GATEWAY_API_KEY"
+    },
+    {
+      "name": "AMD Radeon Cloud",
+      "url": "https://itsfree.ai/provider/amd-radeon/",
+      "baseUrl": "https://developer.amd.com.cn/radeon/api/v1",
+      "freeTier": "$10/天",
+      "context": "1M",
+      "signup": "邮箱",
+      "models": 5,
+      "highlight": "每天 $10 用量免费（约每月 $300），有 DeepSeek V4 Flash，国内可直连",
+      "envKey": "AMD_API_KEY"
+    },
+    {
+      "name": "Cloudflare Workers AI",
+      "url": "https://itsfree.ai/provider/cloudflare-workers-ai/",
+      "baseUrl": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/v1",
+      "freeTier": "10,000 neurons/天",
+      "context": "262K",
+      "signup": "邮箱",
+      "models": 40,
+      "highlight": "40 个模型按 neurons 计费，轻度使用基本免费",
+      "envKey": "CLOUDFLARE_API_TOKEN"
+    },
+    {
+      "name": "Mistral AI",
+      "url": "https://itsfree.ai/provider/mistral/",
+      "baseUrl": "https://api.mistral.ai/v1",
+      "freeTier": "Free 模式",
+      "context": "256K",
+      "signup": "邮箱",
+      "models": 12,
+      "highlight": "官方 Free mode 直接用，Mistral Small / Nemo 全免费",
+      "envKey": "MISTRAL_API_KEY"
+    },
+    {
+      "name": "Cohere",
+      "url": "https://itsfree.ai/provider/cohere/",
+      "baseUrl": "https://api.cohere.com/compatibility/v1",
+      "freeTier": "1,000 请求/月",
+      "context": "256K",
+      "signup": "邮箱",
+      "models": 12,
+      "highlight": "Command A / R+ 全系每月 1000 次，OpenAI 兼容端点",
+      "envKey": "COHERE_API_KEY"
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://itsfree.ai/provider/huggingface/",
+      "baseUrl": "https://router.huggingface.co/v1",
+      "freeTier": "$0.10/月",
+      "context": "131K",
+      "signup": "邮箱",
+      "models": 135,
+      "highlight": "135 个开源模型走统一 router，额度小但覆盖广",
+      "envKey": "HF_TOKEN"
+    },
+    {
+      "name": "ModelScope 魔搭（阿里）",
+      "url": "https://itsfree.ai/provider/cloud-modelscope/",
+      "baseUrl": "https://api-inference.modelscope.cn/v1",
+      "freeTier": "2,000 请求/天",
+      "context": "1M",
+      "signup": "手机号",
+      "models": 50,
+      "highlight": "国内直连不用梯子，Qwen / DeepSeek / GLM 全系，每天 2000 次",
+      "envKey": "MODELSCOPE_API_KEY"
+    },
+    {
+      "name": "Z.ai 智谱",
+      "url": "https://itsfree.ai/provider/zai/",
+      "baseUrl": "https://open.bigmodel.cn/api/paas/v4",
+      "freeTier": "GLM Flash 免费",
+      "context": "200K",
+      "signup": "手机号",
+      "models": 4,
+      "highlight": "GLM 4.7 / 4.6 / 4.5 Flash 永久免费，国内直连",
+      "envKey": "ZHIPU_API_KEY"
+    }
+  ],
+  "more": [
+    { "name": "DeepSeek", "url": "https://itsfree.ai/provider/deepseek/", "freeTier": "注册送额度" },
+    { "name": "LLM7.io", "url": "https://itsfree.ai/provider/llm7/", "freeTier": "10 次/分钟，无需注册" },
+    { "name": "Cerebras", "url": "https://itsfree.ai/provider/cerebras/", "freeTier": "$5 一次性（需绑卡）" },
+    { "name": "Requesty", "url": "https://itsfree.ai/provider/requesty/", "freeTier": "200 请求/天" },
+    { "name": "SambaNova", "url": "https://itsfree.ai/provider/sambanova/", "freeTier": "20 请求/天" },
+    { "name": "Ollama Cloud", "url": "https://itsfree.ai/provider/ollama-cloud/", "freeTier": "每月起始额度" },
+    { "name": "OVHcloud AI", "url": "https://itsfree.ai/provider/ovhcloud/", "freeTier": "7 个模型 €0，无需注册" },
+    { "name": "Alibaba Model Studio", "url": "https://itsfree.ai/provider/alibaba/", "freeTier": "每模型 90 天 100 万 tokens" },
+    { "name": "OpenCode Zen", "url": "https://itsfree.ai/provider/opencode-zen/", "freeTier": "6 个免费模型" },
+    { "name": "AI21 Labs", "url": "https://itsfree.ai/provider/ai21/", "freeTier": "$5 / 3 个月" },
+    { "name": "SiliconFlow 硅基流动", "url": "https://itsfree.ai/provider/siliconflow/", "freeTier": "实名后按模型免费" },
+    { "name": "Nebius AI Studio", "url": "https://itsfree.ai/provider/nebius/", "freeTier": "$1 / 30 天（需绑卡）" },
+    { "name": "Nscale", "url": "https://itsfree.ai/provider/nscale/", "freeTier": "$5 起始额度" }
+  ]
+}

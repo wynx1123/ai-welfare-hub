@@ -51,6 +51,29 @@
 | [幻城网安](https://api.hcnsec.cn/sign-up?aff=zDqY) | 新疆幻城网安科技公益大模型安全网关 · 注册开放，每日签到，余额可兑 SVIP |
 | [Vyce AI](https://vyceai.com/signup?ref=VYCE_HZ3N7M) | AI API 代理 · 邀请注册双方各得 $10，Claude/GPT/Gemini/Grok 旗舰齐全 |
 
+## 🏢 官方免费 API（公益站之外的保底方案）
+
+公益站随时可能关停或改规则，各家平台的**官方免费层**是更稳的保底：注册即用、长期有效、不经过第三方中转。数据整理自 [itsfree.ai](https://itsfree.ai/)（@midudev 出品的官方免费 API 目录，完整目录含 25 家 provider / 463 个免费模型 / 9 种本地运行时）。
+
+| Provider | 免费额度 | 上下文 | 注册 | 模型数 | Base URL |
+|---|---|---|---|---|---|
+| [Google AI Studio](https://itsfree.ai/provider/google-ai-studio/) | 1,500 请求/天 | 1M | 邮箱 | 17 | `https://generativelanguage.googleapis.com/v1beta/openai` |
+| [Groq](https://itsfree.ai/provider/groq/) | 1,000 请求/天 | 131K | 邮箱 | 7 | `https://api.groq.com/openai/v1` |
+| [NVIDIA NIM](https://itsfree.ai/provider/nvidia-nim/) | 40 请求/分钟 | 1M | 手机号 | 82 | `https://integrate.api.nvidia.com/v1` |
+| [OpenRouter](https://itsfree.ai/provider/openrouter/) | 18 个模型 0 元 | 1M | 邮箱 | 18 | `https://openrouter.ai/api/v1` |
+| [Vercel AI Gateway](https://itsfree.ai/provider/vercel-ai-gateway/) | $5/月 | 1M | 邮箱 | 12 | `https://ai-gateway.vercel.sh/v1` |
+| [AMD Radeon Cloud](https://itsfree.ai/provider/amd-radeon/) | $10/天 | 1M | 邮箱 | 5 | `https://developer.amd.com.cn/radeon/api/v1` |
+| [Cloudflare Workers AI](https://itsfree.ai/provider/cloudflare-workers-ai/) | 10,000 neurons/天 | 262K | 邮箱 | 40 | `https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/v1` |
+| [Mistral AI](https://itsfree.ai/provider/mistral/) | Free 模式 | 256K | 邮箱 | 12 | `https://api.mistral.ai/v1` |
+| [Cohere](https://itsfree.ai/provider/cohere/) | 1,000 请求/月 | 256K | 邮箱 | 12 | `https://api.cohere.com/compatibility/v1` |
+| [Hugging Face](https://itsfree.ai/provider/huggingface/) | $0.10/月 | 131K | 邮箱 | 135 | `https://router.huggingface.co/v1` |
+| [ModelScope 魔搭（阿里）](https://itsfree.ai/provider/cloud-modelscope/) | 2,000 请求/天 | 1M | 手机号 | 50 | `https://api-inference.modelscope.cn/v1` |
+| [Z.ai 智谱](https://itsfree.ai/provider/zai/) | GLM Flash 免费 | 200K | 手机号 | 4 | `https://open.bigmodel.cn/api/paas/v4` |
+
+**还有 13 家**：[DeepSeek](https://itsfree.ai/provider/deepseek/)（注册送额度） · [LLM7.io](https://itsfree.ai/provider/llm7/)（10 次/分钟，无需注册） · [Cerebras](https://itsfree.ai/provider/cerebras/)（$5 一次性（需绑卡）） · [Requesty](https://itsfree.ai/provider/requesty/)（200 请求/天） · [SambaNova](https://itsfree.ai/provider/sambanova/)（20 请求/天） · [Ollama Cloud](https://itsfree.ai/provider/ollama-cloud/)（每月起始额度） · [OVHcloud AI](https://itsfree.ai/provider/ovhcloud/)（7 个模型 €0，无需注册） · [Alibaba Model Studio](https://itsfree.ai/provider/alibaba/)（每模型 90 天 100 万 tokens） · [OpenCode Zen](https://itsfree.ai/provider/opencode-zen/)（6 个免费模型） · [AI21 Labs](https://itsfree.ai/provider/ai21/)（$5 / 3 个月） · [SiliconFlow 硅基流动](https://itsfree.ai/provider/siliconflow/)（实名后按模型免费） · [Nebius AI Studio](https://itsfree.ai/provider/nebius/)（$1 / 30 天（需绑卡）） · [Nscale](https://itsfree.ai/provider/nscale/)（$5 起始额度）
+
+> 国内直连推荐：ModelScope 魔搭（阿里）、Z.ai 智谱、AMD Radeon Cloud（中国站）；不想注册的可用 LLM7.io / OVHcloud。
+
 ## 🧰 仓库结构
 
 | 文件 | 作用 |
