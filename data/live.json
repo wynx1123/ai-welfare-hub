@@ -1,30 +1,75 @@
 {
-  "generatedAt": "2026-09-06T03:16:06.640Z",
+  "generatedAt": "2026-09-06T05:45:35.418Z",
   "sites": [
     {
       "id": "agentrouter",
-      "checkedAt": "2026-09-06T03:15:59.697Z",
+      "checkedAt": "2026-09-06T05:45:22.710Z",
       "online": true,
-      "latencyMs": 1092,
+      "latencyMs": 661,
       "error": null,
       "apiOk": true,
-      "pricingOk": false,
-      "systemName": null,
-      "version": null,
+      "pricingOk": true,
+      "systemName": "Agent Router",
+      "version": "init-20260905-ee3cd7c7",
       "registerOpen": null,
       "passwordRegister": null,
       "checkinEnabled": null,
-      "loginMethods": [],
+      "loginMethods": [
+        "GitHub OAuth",
+        "LinuxDO OAuth"
+      ],
       "topupEnabled": null,
-      "quotaPerUnit": null,
-      "announcements": [],
-      "models": null,
-      "modelsCount": null,
+      "quotaPerUnit": 500000,
+      "announcements": [
+        {
+          "id": 15,
+          "date": null,
+          "text": "📢 备用域名正式上线\n\n为进一步提升服务可用性，本站现已推出备用域名：🔗 https://ps.air-outer.com\n\n访问不了原域名的中国大陆用户可使用此域名，备用域名支持 API 接口调用 与 官网访问，与原域名功能完全一致。\n\n原域名 https://agentrouter.org 可继续使用。"
+        },
+        {
+          "id": 14,
+          "date": null,
+          "text": "🎁 官方社区平台汇总\n\n欢迎加入或关注以下官方渠道，获取最新动态与支持：\n\n📱 QQ 群（会定期清人，没进多试几次）\n· 1群：1054950616\n· 2群：1091388133\n· 3群：700583832\n\n💬 Discord（有中文交流频道）\nhttps://discord.gg/HgekCyHJqB\n\n🐦 X（Twitter）\nhttps://x.com/AgentRouter_0"
+        },
+        {
+          "id": 13,
+          "date": null,
+          "text": "📢 不当使用行为封禁说明\n\n为维护服务公平，平台禁止以下不当行为：\n· 批量注册/获取额度\n· 自动化刷量套利\n· 转售、共享账号及额度\n· 虚假邀请欺诈\n· 恶意绕过限制、干扰服务\n\n违规账号将封禁，名单见 Discord 🚫blocked-history 频道。\n申诉请联系：agent_router_org@163.com"
+        }
+      ],
+      "models": [
+        {
+          "name": "claude-opus-4-8",
+          "protocols": [],
+          "inputPerMTok": null
+        },
+        {
+          "name": "claude-opus-5",
+          "protocols": [],
+          "inputPerMTok": null
+        },
+        {
+          "name": "deepseek-v4-flash",
+          "protocols": [],
+          "inputPerMTok": null
+        },
+        {
+          "name": "glm-5.3",
+          "protocols": [],
+          "inputPerMTok": null
+        },
+        {
+          "name": "gpt-5.6-sol",
+          "protocols": [],
+          "inputPerMTok": null
+        }
+      ],
+      "modelsCount": 5,
       "mirrors": [
         {
           "label": "大陆备用域名",
           "online": true,
-          "latencyMs": 1297
+          "latencyMs": 218
         }
       ],
       "dataStale": false,
@@ -32,9 +77,9 @@
     },
     {
       "id": "justdowork",
-      "checkedAt": "2026-09-06T03:15:59.702Z",
+      "checkedAt": "2026-09-06T05:45:22.721Z",
       "online": true,
-      "latencyMs": 1146,
+      "latencyMs": 878,
       "error": null,
       "apiOk": true,
       "pricingOk": false,
@@ -58,9 +103,9 @@
     },
     {
       "id": "rawchat",
-      "checkedAt": "2026-09-06T03:15:59.702Z",
+      "checkedAt": "2026-09-06T05:45:22.722Z",
       "online": true,
-      "latencyMs": 210,
+      "latencyMs": 732,
       "error": null,
       "apiOk": true,
       "pricingOk": false,
@@ -81,9 +126,9 @@
     },
     {
       "id": "matrix",
-      "checkedAt": "2026-09-06T03:15:59.702Z",
+      "checkedAt": "2026-09-06T05:45:22.722Z",
       "online": true,
-      "latencyMs": 1656,
+      "latencyMs": 204,
       "error": null,
       "apiOk": true,
       "pricingOk": false,
@@ -104,23 +149,20 @@
     },
     {
       "id": "tabitoken",
-      "checkedAt": "2026-09-06T03:16:00.040Z",
+      "checkedAt": "2026-09-06T05:45:23.017Z",
       "online": true,
-      "latencyMs": 205,
+      "latencyMs": 667,
       "error": null,
       "apiOk": true,
-      "pricingOk": true,
-      "systemName": "TaBiAI",
-      "version": "init-20260817-f880a343",
-      "registerOpen": true,
-      "passwordRegister": false,
-      "checkinEnabled": true,
-      "loginMethods": [
-        "GitHub OAuth",
-        "邮箱 + 密码"
-      ],
+      "pricingOk": false,
+      "systemName": null,
+      "version": null,
+      "registerOpen": null,
+      "passwordRegister": null,
+      "checkinEnabled": null,
+      "loginMethods": [],
       "topupEnabled": null,
-      "quotaPerUnit": 500000,
+      "quotaPerUnit": null,
       "announcements": [],
       "models": [
         {
@@ -146,28 +188,25 @@
       ],
       "modelsCount": 4,
       "mirrors": [],
-      "dataStale": false,
-      "staleFrom": null
+      "dataStale": true,
+      "staleFrom": "2026-09-06T05:45:23.017Z"
     },
     {
       "id": "gorouter",
-      "checkedAt": "2026-09-06T03:16:00.730Z",
+      "checkedAt": "2026-09-06T05:45:23.732Z",
       "online": true,
-      "latencyMs": 555,
+      "latencyMs": 714,
       "error": null,
       "apiOk": true,
-      "pricingOk": true,
-      "systemName": "GoRouter",
-      "version": "init-20260813-3cd90886",
-      "registerOpen": true,
-      "passwordRegister": false,
-      "checkinEnabled": true,
-      "loginMethods": [
-        "GitHub OAuth",
-        "邮箱 + 密码"
-      ],
+      "pricingOk": false,
+      "systemName": null,
+      "version": null,
+      "registerOpen": null,
+      "passwordRegister": null,
+      "checkinEnabled": null,
+      "loginMethods": [],
       "topupEnabled": null,
-      "quotaPerUnit": 500000,
+      "quotaPerUnit": null,
       "announcements": [],
       "models": [
         {
@@ -183,14 +222,14 @@
       ],
       "modelsCount": 2,
       "mirrors": [],
-      "dataStale": false,
-      "staleFrom": null
+      "dataStale": true,
+      "staleFrom": "2026-09-06T05:45:23.732Z"
     },
     {
       "id": "supxh",
-      "checkedAt": "2026-09-06T03:16:00.888Z",
+      "checkedAt": "2026-09-06T05:45:23.838Z",
       "online": true,
-      "latencyMs": 292,
+      "latencyMs": 693,
       "error": null,
       "apiOk": true,
       "pricingOk": false,
@@ -211,9 +250,9 @@
     },
     {
       "id": "seekai",
-      "checkedAt": "2026-09-06T03:16:01.498Z",
+      "checkedAt": "2026-09-06T05:45:24.157Z",
       "online": true,
-      "latencyMs": 114,
+      "latencyMs": 626,
       "error": null,
       "apiOk": false,
       "pricingOk": false,
@@ -234,9 +273,9 @@
     },
     {
       "id": "nofx",
-      "checkedAt": "2026-09-06T03:16:01.645Z",
+      "checkedAt": "2026-09-06T05:45:24.789Z",
       "online": true,
-      "latencyMs": 1176,
+      "latencyMs": 1520,
       "error": null,
       "apiOk": false,
       "pricingOk": false,
@@ -257,9 +296,9 @@
     },
     {
       "id": "kktoken",
-      "checkedAt": "2026-09-06T03:16:01.651Z",
+      "checkedAt": "2026-09-06T05:45:24.796Z",
       "online": true,
-      "latencyMs": 751,
+      "latencyMs": 654,
       "error": null,
       "apiOk": false,
       "pricingOk": false,
@@ -280,12 +319,12 @@
     },
     {
       "id": "vsllm",
-      "checkedAt": "2026-09-06T03:16:02.411Z",
-      "online": true,
-      "latencyMs": 163,
-      "error": null,
-      "apiOk": true,
-      "pricingOk": true,
+      "checkedAt": "2026-09-06T05:45:24.920Z",
+      "online": false,
+      "latencyMs": null,
+      "error": "UND_ERR_CONNECT_TIMEOUT",
+      "apiOk": false,
+      "pricingOk": false,
       "systemName": "维云模型开放平台",
       "version": "",
       "registerOpen": null,
@@ -643,14 +682,14 @@
       ],
       "modelsCount": 65,
       "mirrors": [],
-      "dataStale": false,
-      "staleFrom": null
+      "dataStale": true,
+      "staleFrom": "2026-09-06T05:45:24.920Z"
     },
     {
       "id": "docode",
-      "checkedAt": "2026-09-06T03:16:02.599Z",
+      "checkedAt": "2026-09-06T05:45:25.456Z",
       "online": true,
-      "latencyMs": 1127,
+      "latencyMs": 562,
       "error": null,
       "apiOk": true,
       "pricingOk": false,
@@ -690,9 +729,9 @@
     },
     {
       "id": "true-sota",
-      "checkedAt": "2026-09-06T03:16:02.760Z",
+      "checkedAt": "2026-09-06T05:45:26.510Z",
       "online": true,
-      "latencyMs": 44,
+      "latencyMs": 715,
       "error": null,
       "apiOk": false,
       "pricingOk": false,
@@ -713,9 +752,9 @@
     },
     {
       "id": "hcnsec",
-      "checkedAt": "2026-09-06T03:16:02.843Z",
+      "checkedAt": "2026-09-06T05:45:26.524Z",
       "online": true,
-      "latencyMs": 2281,
+      "latencyMs": 134,
       "error": null,
       "apiOk": true,
       "pricingOk": false,
@@ -732,6 +771,11 @@
       "quotaPerUnit": 500000,
       "announcements": [
         {
+          "id": 43,
+          "date": null,
+          "text": "免费用户glm-5.3-flash模型无法识别图片问题我们正在进行处理，近期很多人反应该问题，我们进行测试后确认免费用户的模型确实存在该问题，svip不存在，由于免费用户的glm-5.3是第三方低价服务商非官方服务商，我们正在跟上游服务商进行沟通处理."
+        },
+        {
           "id": 42,
           "date": null,
           "text": "longcat-2.0模型是全国产化的一个挺好用的模型，现在免费用户可以使用，调用一次仅需一元，速度较快"
@@ -740,11 +784,6 @@
           "id": 41,
           "date": null,
           "text": "目前，免费用户的比较好的模型可用率极低，无法使用的时候建议切换到auto ，step，qwen3.8 27b模型，付费用户不受此影响"
-        },
-        {
-          "id": 40,
-          "date": null,
-          "text": "尊敬的顾客您好，由于kat-coder-pro-v2.5该模型为快手出品，由于快手官方业务调整，该模型将在8月30日左右进行下架处理，还请您更换其他模型使用，例如：step-explore 模型，支持1m上下文能力比肩deepseek模型"
         }
       ],
       "models": null,
@@ -755,9 +794,9 @@
     },
     {
       "id": "vyceai",
-      "checkedAt": "2026-09-06T03:16:03.039Z",
+      "checkedAt": "2026-09-06T05:45:26.860Z",
       "online": true,
-      "latencyMs": 339,
+      "latencyMs": 1965,
       "error": null,
       "apiOk": false,
       "pricingOk": false,
@@ -775,6 +814,30 @@
       "mirrors": [],
       "dataStale": false,
       "staleFrom": null
+    },
+    {
+      "id": "arena-hero",
+      "checkedAt": "2026-09-06T05:45:27.230Z",
+      "online": true,
+      "latencyMs": 1198,
+      "error": null,
+      "apiOk": false,
+      "pricingOk": false,
+      "systemName": null,
+      "version": null,
+      "registerOpen": null,
+      "passwordRegister": null,
+      "checkinEnabled": null,
+      "loginMethods": [],
+      "topupEnabled": null,
+      "quotaPerUnit": null,
+      "announcements": [],
+      "models": null,
+      "modelsCount": null,
+      "mirrors": [],
+      "dataStale": false,
+      "staleFrom": null,
+      "staleFields": []
     }
   ]
 }

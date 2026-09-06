@@ -100,6 +100,17 @@ function buildReadme() {
   const detailRows = data.sites.map(readmeSiteRow).join('\n');
   const genLine = generatedAt ? `> 数据快照：${generatedAt.replace('T', ' ').slice(0, 16)} UTC，由 GitHub Actions 自动抓取更新。` : '> 尚无实时快照，先运行 `npm run refresh`。';
 
+  const arenaHero = data.sites.find((s) => s.id === 'arena-hero');
+  const arenaHeroSection = arenaHero ? `
+## 🎮 Arena Hero:玩出 Core 资源,白嫖公益站注册码
+
+Arena Hero 不是 AI 额度站,而是个会一直运行的网格世界 AI Agent 游戏:Agent 读取视野内的世界状态,每 Tick(约 15 秒)提交一份计划控制 Core 与各单位行动,玩得越久积累的 **Core 资源**越多。攒下的 Core 可到 [LinuxDO 对接的兑换站](https://linuxdoshop.arenahero.io/) 兑换各 AI 公益站的**注册码 / 兑换码**(库存有限,部分商品售罄,兑换成功后在账户页复制)。
+
+- 🕹️ 直接玩:[app.arenahero.io/arena](${arenaHero.signupUrl})
+- 📖 中文文档:[doc.arenahero.io/zh-Hans/](${arenaHero.docsUrl || 'https://doc.arenahero.io/zh-Hans/'}),Skill / Python SDK / OpenAPI 一应俱全
+- 💱 兑换站:[linuxdoshop.arenahero.io](https://linuxdoshop.arenahero.io/) —— 实测在售:随时跑路 / ArkHub / Lanln 注册码;Wong、黑与白、Nhh、薄荷 已售罄(以兑换站实时库存为准)
+` : '';
+
   // ---------- 官方免费 API 分区（itsfree.ai 整理） ----------
   const providersTable = freeApis?.providers?.length
     ? freeApis.providers.map((p) => `| [${p.name}](${p.url}) | ${p.freeTier} | ${p.context} | ${p.signup} | ${p.models} | \`${p.baseUrl}\` |`).join('\n')
@@ -137,6 +148,7 @@ ${genLine}
 | 站点 | 状态 | 首日可得 | 额度构成 | 每日签到 | 协议 | 模型数 |
 |---|---|---|---|---|---|---|
 ${detailRows}
+${arenaHeroSection}
 
 ## 📚 站点速览
 
