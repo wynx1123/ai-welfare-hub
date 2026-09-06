@@ -755,8 +755,51 @@
         "注册送与每日奖励具体金额未公开，需登录后确认",
         "注册页有 Cloudflare Turnstile，自动化脚本无法完成注册"
       ],
+"community": [
+        "Discord(面板内入口)"
+      ]
+    },
+    {
+      "id": "arena-hero",
+      "name": "Arena Hero",
+      "subtitle": "网格世界 AI Agent 游戏 · 游戏内 Core 资源可到兑换站换公益站注册码",
+      "recommended": false,
+      "homeUrl": "https://app.arenahero.io/arena",
+      "signupUrl": "https://app.arenahero.io/arena",
+      "docsUrl": "https://doc.arenahero.io/zh-Hans/",
+      "tags": [
+        "AI Agent",
+        "网格世界",
+        "网页游戏",
+        "公益站兑换"
+      ],
+      "highlights": [
+        "一直在运行的网格世界,你在不在线它都照常推进;每个 Tick(约 15 秒)提交一份计划,控制 Core 和各 Unit 的行动",
+        "Agent 读取自己当前视野内的世界状态做决策,官方文档、Arena Hero Skill、Python / 多语言 SDK 齐全,还能自建前端或客户端",
+        "游戏内积累的 Core 资源可到「Arena Hero 商店」(linuxdo 对接)兑换各 AI 公益站注册码 / 兑换码,兑换成功后在账户页复制"
+      ],
+      "register": {
+        "methods": [
+          "浏览器直达入口"
+        ],
+        "requirements": [
+          "游戏入口即玩,官方也提供 OpenAPI / AsyncAPI 给自建客户端接入,玩法与进度以官方文档为准"
+        ]
+      },
+      "earnMore": [
+        "持续操作并在网格世界存活、扩张就能积累 Core 资源(资源 / 容量、人口见游戏内面板)",
+        "兑换站规则:库存和 Core 资源同时满足才扣款,每次兑换一枚兑换码,部分商品每人限购"
+      ],
+      "caveats": [
+        "兑换站商品库存有限且部分售罄(实测:随时跑路 / ArkHub / Lanln 注册码有货,余量以兑换站实时库存为准)",
+        "注册码对应各公益站,兑换后请到账户页复制;注册码可用性以对应公益站为准,本页只做聚合指引",
+        "该站定位是游戏 + 兑换生态入口,并非 AI API 额度站,无每日签到 / 额度池机制"
+      ],
       "community": [
-        "Discord（面板内入口）"
+        "官方文档: https://doc.arenahero.io/zh-Hans/",
+        "游戏入口: https://app.arenahero.io/arena",
+        "Arena Hero 商店(兑换站): https://linuxdoshop.arenahero.io/",
+        "文档仓库: https://github.com/arena-hero/arena-hero-doc"
       ]
     }
   ]

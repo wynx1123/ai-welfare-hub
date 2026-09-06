@@ -7,7 +7,7 @@
 
 > 数据快照：2026-09-06 03:16 UTC，由 GitHub Actions 自动抓取更新。
 
-**当前收录 15 个站点**，美元计价站全部注册首日合计约 **$967** 额度。
+**当前收录 16 个站点**，美元计价站全部注册首日合计约 **$967** 额度。
 
 **搜到这的你可能在找**：Claude Code 免费额度 / 公益站 / New API 中转 / Codex 白嫖 / Cursor 免费用 / AI API 公益站导航 / claude-opus 免费 / gpt 免费接口 —— 这里全都有，而且每 6 小时自动探活，不会点进去才发现站挂了。
 
@@ -30,6 +30,7 @@
 | [TrueSOTA](https://true-sota.com/register?aff=8DTJUTUBJNE3) | 🟢 在线 | $20 | 注册 $0 + 邀请 $20 + 签到 $0 | ✅ | openai | — |
 | [幻城网安](https://api.hcnsec.cn/sign-up?aff=zDqY) | 🟢 在线 | — | — | — | anthropic / openai | — |
 | [Vyce AI](https://vyceai.com/signup?ref=VYCE_HZ3N7M) | 🟢 在线 | ~$10 | 邀请 $10 | — | openai | — |
+| [Arena Hero](https://app.arenahero.io/arena) | ⚪ 未知 | — | — | — | — | — |
 
 ## 📚 站点速览
 
@@ -50,6 +51,7 @@
 | [TrueSOTA](https://true-sota.com/register?aff=8DTJUTUBJNE3) | AI API 网关 · 免费额度靠邀请：每邀请 1 人得 $20，每周上限 10 人 |
 | [幻城网安](https://api.hcnsec.cn/sign-up?aff=zDqY) | 新疆幻城网安科技公益大模型安全网关 · 注册开放，每日签到，余额可兑 SVIP |
 | [Vyce AI](https://vyceai.com/signup?ref=VYCE_HZ3N7M) | AI API 代理 · 邀请注册双方各得 $10，Claude/GPT/Gemini/Grok 旗舰齐全 |
+| [Arena Hero](https://app.arenahero.io/arena) | 网格世界 AI Agent 游戏 · 游戏内 Core 资源可到兑换站换公益站注册码 |
 
 ## 🏢 官方免费 API（公益站之外的保底方案）
 
