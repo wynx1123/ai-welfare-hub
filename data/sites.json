@@ -8,6 +8,7 @@
       "Codex 公益站",
       "Claude Code 中转",
       "AI API 中转站",
+      "Conduit AI API",
       "公益站",
       "免费 API 额度",
       "New API",
@@ -198,7 +199,7 @@
           "邮箱注册"
         ],
         "requirements": [
-          "务必从本页邀请链接进入注册（带 ?i=MaVP1），否则拿不到邀请奖励",
+          "如需领取邀请奖励，务必保留本页注册链接中的邀请参数进入注册；邀请码可能调整，以当前链接实际参数为准",
           "目前只开放邮箱注册，没有 GitHub / Google 登录入口",
           "注册登录后要在控制台点一次「领取 Codex 权益」，每日额度才会生效"
         ]
@@ -270,7 +271,7 @@
           "邮箱 + 密码"
         ],
         "requirements": [
-          "务必从本页邀请链接进入注册（带 inviteCode），奖励仅对新用户首次注册有效，否则 600 积分不发放",
+          "通过邀请活动注册时，请在注册流程确认邀请关系已成功绑定；奖励仅对新用户首次注册有效，否则 600 积分不发放",
           "被邀请者注册即得 600 获赠积分，不要求先实名；2,000 积分的实名奖励要自己去钱包页领取",
           "同一用户 / 同一实名主体只能领一次实名奖励；异常注册、重复绑定邀请关系不发奖"
         ]
@@ -334,7 +335,7 @@
           "GitHub OAuth"
         ],
         "requirements": [
-          "务必从本页邀请链接进入注册（带 ?aff=EQIT），$20 在注册那一刻结算，事后补不上",
+          "务必保留本页注册链接中的 aff 参数进入注册，$20 在注册时结算，事后通常无法补发；邀请码可能调整，以当前链接实际参数为准",
           "已关闭账号密码注册，只能用 GitHub 授权；注册完成后可以再设密码用于登录",
           "注册页有 Cloudflare Turnstile 人机校验，需要能正常加载 Cloudflare 脚本"
         ]
@@ -755,8 +756,202 @@
         "注册送与每日奖励具体金额未公开，需登录后确认",
         "注册页有 Cloudflare Turnstile，自动化脚本无法完成注册"
       ],
-"community": [
+      "community": [
         "Discord(面板内入口)"
+      ]
+    },
+    {
+      "id": "chatanywhere",
+      "name": "ChatAnywhere",
+      "subtitle": "公益 API 中转站 · GitHub 用户个人免费额度，兼容 OpenAI 与 Anthropic 协议",
+      "recommended": false,
+      "credits": {},
+      "signupUrl": "https://chatanywhere.tech/",
+      "homeUrl": "https://chatanywhere.tech/",
+      "docsUrl": "https://docs.chatanywhere.tech/",
+      "statusApi": null,
+      "pricingApi": "https://chatanywhere.tech/pricing",
+      "mirrors": [],
+      "tags": [
+        "公益站",
+        "免费额度",
+        "OpenAI 兼容",
+        "Anthropic 兼容",
+        "GitHub 登录"
+      ],
+      "highlights": [
+        "注册并绑定 GitHub 后可使用个人免费版，免费点数按周刷新，并另设每日请求次数限制",
+        "国内和海外分别提供 API 域名，接口兼容 OpenAI 标准",
+        "Claude 模型另支持 Anthropic Messages 协议，可接入 Claude Code",
+        "免费层明确覆盖 DeepSeek、GPT-3.5 Turbo、Embedding、GPT-4o 系列和 GPT-5 系列"
+      ],
+      "endpoints": {
+        "openai": "https://api.chatanywhere.tech/v1",
+        "anthropic": "https://api.chatanywhere.tech"
+      },
+      "register": {
+        "methods": [
+          "GitHub 账号注册与绑定"
+        ],
+        "requirements": [
+          "免费 API Key 仅限个人非商业、教育和非营利科研用途",
+          "每日请求限制同时受 IP 与 Key 约束，多个 Key 共用同一 IP 或同一 Key 跨 IP 使用仍可能合并计数",
+          "实际免费点数、请求次数和可用模型应以账户控制台及最新官方 README 为准"
+        ]
+      },
+      "earnMore": [
+        "个人免费版点数按周刷新",
+        "付费套餐可增加额度并解锁更多模型或线路"
+      ],
+      "modelsNote": "免费层明确列出 DeepSeek、GPT-3.5 Turbo、Embedding、GPT-4o 系列和 GPT-5 系列；平台还展示 Claude、Gemini、Grok、Qwen、Kimi、MiniMax、GLM 等模型，但不能据此认定它们全部属于免费层。",
+      "setup": {
+        "client": "OpenAI SDK / Claude Code",
+        "note": "先在官网注册并获取 ChatAnywhere API Key；OpenAI 兼容客户端使用 /v1 地址，Claude Code 使用 Anthropic 根地址。",
+        "steps": [
+          "打开 https://chatanywhere.tech/，使用 GitHub 账号注册并绑定",
+          "在账户页面创建或复制 API Key",
+          "OpenAI 兼容客户端将 Base URL 设为 https://api.chatanywhere.tech/v1",
+          "Claude Code 将 ANTHROPIC_BASE_URL 设为 https://api.chatanywhere.tech，并把 Key 配置为 ANTHROPIC_AUTH_TOKEN",
+          "调用前查看状态页和账户控制台，确认当前免费额度及模型可用性"
+        ],
+        "dashboardUrl": "https://chatanywhere.tech/"
+      },
+      "caveats": [
+        "官方 README 对每日免费请求限制存在 100 次与 200 次两种口径，不能在额度字段中登记为确定数值",
+        "免费 Key 禁止商业使用和大规模商业模型训练，滥用可能导致封号",
+        "服务方称系统仅供内部评估测试使用，不应依赖其承担生产 SLA",
+        "部分模型来自第三方线路或逆向渠道，可能出现速度慢、报错、地区限制或稳定性下降",
+        "隐私与不留存声明属于运营方自述，发送生产密钥、隐私数据或企业代码前仍应自行评估"
+      ],
+      "community": [
+        "GitHub: https://github.com/chatanywhere/GPT_API_free",
+        "状态页: https://status.chatanywhere.tech/",
+        "API 文档: https://docs.chatanywhere.tech/"
+      ]
+    },
+    {
+      "id": "long-ai",
+      "name": "Long的AI",
+      "subtitle": "New API 中转站 · 白嫖分组免额度调主流模型，支持邀请与公共池",
+      "recommended": false,
+      "credits": {
+        "signup": 5,
+        "invite": null,
+        "dailyCheckin": null,
+        "approx": false
+      },
+      "signupUrl": "https://aaawinn.xyz/sign-up?aff=cspn",
+      "homeUrl": "https://aaawinn.xyz/",
+      "docsUrl": "https://www.yuque.com/riyeqiaodaimadelong/bk54gx",
+      "statusApi": "https://aaawinn.xyz/api/status",
+      "pricingApi": null,
+      "mirrors": [],
+      "tags": [
+        "New API",
+        "公益站",
+        "免费额度",
+        "白嫖分组",
+        "DeepSeek",
+        "Gemini",
+        "OpenAI 兼容",
+        "Anthropic 兼容"
+      ],
+      "highlights": [
+        "带有站内邀请码注册可领取  体验额度，白嫖分组模型（免额度/0元调用）永久开放使用",
+        "白嫖及基础可用模型丰富：deepseek-v4-flash、deepseek-v4-pro、deepseek-v4.1-flash、gemini-3.5-flash、gemini-3.8-flash-high、gpt-5.3-codex、grok-4.5、kimi-k3 等",
+        "提供 OpenAI 与 Anthropic 兼容端点直连各类客户端；白嫖分组 GPT 系列推荐使用 Anthropic 协议接入",
+        "提供完善的第三方客户端快速配置（Cherry Studio、CC Switch、AionUI、DeepChat 等）"
+      ],
+      "endpoints": {
+        "openai": "https://aaawinn.xyz/v1",
+        "anthropic": "https://aaawinn.xyz"
+      },
+      "modelsNote": "实测可用/白嫖展示模型 8+ 个（含 deepseek-v4-flash/pro/v4.1-flash、gemini-3.5-flash、gemini-3.8-flash-high、gpt-5.3-codex、grok-4.5、kimi-k3），输入/输出均为 /usr/bin/bash/1M 动态计费，部分模型支持按量或特定分组",
+      "register": {
+        "methods": [
+          "GitHub OAuth 授权注册"
+        ],
+        "requirements": [
+          "必须使用 GitHub 授权登录/注册，要求 GitHub 账号注册满 120 天，防脚本刷号",
+          "从本页专属邀请链接进入注册带 aff=cspn 即可领取  体验额度，若额度未自动到账可联系站长手动补发"
+        ]
+      },
+      "earnMore": [
+        "携带邀请码注册即享额度",
+        "白嫖分组模型永久开放免费调用",
+        "联系站长领取新用户体验试用额度，或参与拉新兑换活动"
+      ],
+      "caveats": [
+        "GitHub 账号需满 120 天方可注册；未开放账密直接注册",
+        "白嫖分组的 GPT 模型测试下仅支持 Anthropic 协议对接（OpenAI 兼容协议可能存在兼容性差异）",
+        "默认普通分组倍率较高以防滥用，白嫖分组模型维护频次由站方根据公共号池资源动态调整",
+        "属于 New API 中转与公共池聚合，不保证生产 SLA，重要数据请勿上传"
+      ],
+      "community": [
+        "文档: https://www.yuque.com/riyeqiaodaimadelong/bk54gx",
+        "站长微信: SuperLong1129",
+        "QQ联系: 1171999840"
+      ]
+    },
+    {
+      "id": "conduit",
+      "name": "Conduit",
+      "subtitle": "多模型 AI API 网关 · OpenAI / Anthropic 兼容，公开目录列出 59 个模型",
+      "recommended": false,
+      "credits": {
+        "signup": 500,
+        "approx": false
+      },
+      "signupUrl": "https://t.me/conduitoff_bot?start=ref_6939669896",
+      "homeUrl": "https://conduit.ozdoev.net",
+      "docsUrl": "https://conduit.ozdoev.net/#docs-page",
+      "tags": [
+        "AI API 网关",
+        "多模型",
+        "免费模型",
+        "OpenAI 兼容",
+        "Anthropic 兼容",
+        "Claude Code",
+        "Codex"
+      ],
+      "highlights": [
+        "免费计划当前仪表盘显示可用余额 $500；余额型免费模型会从这笔余额扣除",
+        "兼容 OpenAI Chat Completions 与 Anthropic Messages，分别使用 /v1 和 /v1/messages 接口",
+        "公开模型目录列出 59 个模型标识符，涵盖 Claude、GPT、Gemini、Grok、DeepSeek、Qwen 等系列",
+        "免费计划可用 5 个标记为 Free 的模型，其中 2 个不扣余额；具体权限以账户目录为准"
+      ],
+      "endpoints": {
+        "openai": "https://conduit.ozdoev.net/v1",
+        "anthropic": "https://conduit.ozdoev.net"
+      },
+      "modelsNote": "官方目录共列出 59 个模型标识符。免费计划可用：claude-fable-5、gpt-5.6、gpt-5.6-sol（Free by balance · unlimited on Elite+，会消耗余额）；deepseek-v4-flash、minimax-m3（Free · no balance charge，不扣余额）。其它模型按目录标明的计划等级开放。",
+      "register": {
+        "methods": [
+          "Telegram Bot"
+        ],
+        "requirements": [
+          "通过本页 Telegram 邀请链接启动 @conduitoff_bot；注册流程及邀请奖励以机器人内说明为准"
+        ]
+      },
+      "setup": {
+        "client": "OpenAI SDK / Claude Code",
+        "note": "先通过 Telegram Bot 注册并在控制台创建 API Key；基础地址和模型访问权限以官方文档与账户计划为准。",
+        "steps": [
+          "打开本页 Telegram 邀请链接并启动 @conduitoff_bot，按机器人指引完成注册",
+          "登录 https://conduit.ozdoev.net/#app，在 API 密钥与端点页面管理 API Key",
+          "OpenAI 兼容客户端使用 https://conduit.ozdoev.net/v1；Anthropic 客户端使用 https://conduit.ozdoev.net",
+          "调用前在控制台核对模型权限、套餐和当前额度"
+        ],
+        "dashboardUrl": "https://conduit.ozdoev.net/#app"
+      },
+      "caveats": [
+        "当前登录仪表盘显示免费计划可用余额 $500；这是面板实时余额，不代表所有账号都一定获得同额赠送",
+        "Free by balance 模型会消耗余额，只有 Free · no balance charge 模型明确不扣余额",
+        "公开目录包含不同计划等级的模型；免费通道和模型可用性可能调整，以登录后的目录为准",
+        "未找到公开 SLA 承诺，重要数据与生产工作负载请先评估服务条款和隐私政策"
+      ],
+      "community": [
+        "Telegram Bot: https://t.me/conduitoff_bot"
       ]
     },
     {

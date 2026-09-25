@@ -95,6 +95,21 @@ for (const site of data.sites) {
   }
   if (site.register && !Array.isArray(site.register.methods)) warnings.push(`${site.id}: register.methods 建议填数组（GitHub OAuth / 邮箱注册 等）`);
   if (site.register?.methods?.some((v) => typeof v !== 'string')) errors.push(`${site.id}: register.methods 必须全是字符串`);
+  if (site.register?.requirements != null && (!Array.isArray(site.register.requirements) || site.register.requirements.some((v) => typeof v !== 'string'))) {
+    errors.push(`${site.id}: register.requirements 必须是字符串数组`);
+  }
+  if (site.modelsNote != null && typeof site.modelsNote !== 'string') errors.push(`${site.id}: modelsNote 必须是字符串`);
+  if (site.setup != null) {
+    if (typeof site.setup !== 'object' || Array.isArray(site.setup)) errors.push(`${site.id}: setup 必须是对象`);
+    else {
+      if (site.setup.client != null && typeof site.setup.client !== 'string') errors.push(`${site.id}: setup.client 必须是字符串`);
+      if (site.setup.note != null && typeof site.setup.note !== 'string') errors.push(`${site.id}: setup.note 必须是字符串`);
+      if (site.setup.steps != null && (!Array.isArray(site.setup.steps) || site.setup.steps.some((v) => typeof v !== 'string'))) {
+        errors.push(`${site.id}: setup.steps 必须是字符串数组`);
+      }
+      if (site.setup.dashboardUrl != null) checkUrl({ id: `${site.id} setup` }, 'dashboardUrl');
+    }
+  }
 }
 
 for (const w of warnings) console.warn(`⚠ ${w}`);

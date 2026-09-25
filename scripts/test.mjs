@@ -55,6 +55,15 @@ await t('所有站点 id 唯一', async () => {
   const ids = d.sites.map((s) => s.id);
   assert.equal(new Set(ids).size, ids.length);
 });
+await t('每个站点都有可生成政策说明的核心字段', async () => {
+  const d = JSON.parse(await readFile(`${ROOT}/data/sites.json`, 'utf8'));
+  for (const site of d.sites) {
+    assert.equal(typeof site.name, 'string', `${site.id}: name`);
+    assert.equal(typeof site.subtitle, 'string', `${site.id}: subtitle`);
+    assert.ok(Array.isArray(site.highlights) && site.highlights.length > 0, `${site.id}: highlights`);
+    assert.ok(Array.isArray(site.caveats) && site.caveats.length > 0, `${site.id}: caveats`);
+  }
+});
 
 console.log(`\n${failed ? `✗ ${failed} 个用例失败` : `✓ 全部 ${passed} 个用例通过`}`);
 process.exit(failed ? 1 : 0);

@@ -42,6 +42,41 @@ function fmtUsd(n) {
   return `$${r % 1 === 0 ? r.toFixed(0) : r.toFixed(2)}`;
 }
 
+function fmtAmount(n, unit = 'usd') {
+  if (n == null) return '—';
+  const r = Math.round(n * 100) / 100;
+  const value = r % 1 === 0 ? r.toFixed(0) : r.toFixed(2);
+  return unit === 'point' ? `${value} 积分` : `$${value}`;
+}
+
+function creditParts(site) {
+  const c = site.credits ?? {};
+  const unit = c.unit === 'point' ? 'point' : 'usd';
+  const fields = [
+    ['signup', '注册赠送'],
+    ['invite', '邀请奖励'],
+    ['dailyCheckin', '每日签到'],
+    ['dailyQuota', '每日额度池'],
+  ];
+  return fields
+    .filter(([field]) => typeof c[field] === 'number')
+    .map(([field, label]) => `${label} ${fmtAmount(c[field], unit)}`);
+}
+
+function firstDayLabel(site) {
+  const c = site.credits ?? {};
+  if (c.unit === 'point') {
+    const values = ['signup', 'invite', 'dailyCheckin']
+      .map((field) => c[field])
+      .filter((value) => typeof value === 'number');
+    if (!values.length) return '—';
+    const total = values.reduce((a, b) => a + b, 0);
+    return `${c.approx ? '~' : ''}${fmtAmount(total, 'point')}`;
+  }
+  const fc = firstDayCredits(site);
+  return fc ? `${fc.approx ? '~' : ''}${fmtUsd(fc.total)}` : '—';
+}
+
 // ---------- 供浏览器端渲染的精简数据 ----------
 const pageData = data.sites.map((site) => {
   const lv = liveById.get(site.id) ?? {};
@@ -79,17 +114,96 @@ const pageData = data.sites.map((site) => {
 // ---------- README ----------
 function readmeSiteRow(site) {
   const lv = liveById.get(site.id) ?? {};
-  const fc = firstDayCredits(site);
   const c = site.credits ?? {};
-  const parts = [];
-  if (typeof c.signup === 'number') parts.push(`注册 ${fmtUsd(c.signup)}`);
-  if (typeof c.invite === 'number') parts.push(`邀请 ${fmtUsd(c.invite)}`);
-  if (typeof c.dailyCheckin === 'number') parts.push(`签到 ${fmtUsd(c.dailyCheckin)}`);
-  if (typeof c.dailyQuota === 'number') parts.push(`每日池 ${fmtUsd(c.dailyQuota)}`);
+  const parts = creditParts(site);
   const status = lv.online === true ? '🟢 在线' : lv.online === false ? '🔴 离线' : '⚪ 未知';
   const protocols = Object.entries(site.endpoints ?? {}).filter(([, v]) => v).map(([k]) => k).join(' / ') || '—';
-  const totalUsd = data.sites.reduce((acc, s) => { const f = firstDayCredits(s); return acc + (f ? f.total : 0); }, 0);
-  return `| [${site.name}](${site.signupUrl}) | ${status} | ${fc ? `${fc.approx ? '~' : ''}${fmtUsd(fc.total)}` : c.unit === 'point' ? `${c.invite ?? ''} 积分` : '—'} | ${parts.join(' + ') || '—'} | ${c.dailyCheckin != null ? '✅' : '—'} | ${protocols} | ${Array.isArray(lv.models) ? lv.models.length : '—'} |`;
+  const checkin = c.dailyCheckin != null
+    ? `✅ ${fmtAmount(c.dailyCheckin, c.unit)}`
+    : lv.checkinEnabled === true ? '✅ 金额待确认' : lv.checkinEnabled === false ? '❌' : '—';
+  return `| [${site.name}](${site.signupUrl}) | ${status} | ${firstDayLabel(site)} | ${parts.join(' + ') || '—'} | ${checkin} | ${protocols} | ${Array.isArray(lv.models) ? lv.models.length : '—'} |`;
+}
+
+function mdBullets(items, fallback) {
+  if (!Array.isArray(items) || items.length === 0) return `- ${fallback}`;
+  return items.map((item) => `- ${item}`).join('\n');
+}
+
+function narrativeSummary(site) {
+  const c = site.credits ?? {};
+  const highlights = Array.isArray(site.highlights) ? site.highlights : [];
+  const protocols = Object.keys(site.endpoints ?? {}).filter((key) => site.endpoints[key]);
+  const credit = creditParts(site);
+  const opening = `${site.name} 是${site.subtitle || '一个提供 AI 服务的站点'}。`;
+  const benefit = highlights.slice(0, 2).join('；');
+  const creditLine = credit.length ? `当前登记的福利是${credit.join('、')}。` : '';
+  const protocolLine = protocols.length ? `接入方面提供 ${protocols.join(' / ')} 协议${protocols.length === 1 ? '' : '入口'}，具体 Base URL 和模型以登录后的控制台为准。` : '';
+  const riskLine = Array.isArray(site.caveats) && site.caveats.length ? `先说清楚一个容易踩的坑：${site.caveats[0]}。` : '额度、模型和可用性仍应以站内最新公告为准。';
+  return `${opening}${benefit ? `${benefit}。` : ''}${creditLine}${protocolLine}${riskLine}`;
+}
+function policyDetail(site, index) {
+  const c = site.credits ?? {};
+  const methods = site.register?.methods ?? [];
+  const requirements = site.register?.requirements ?? [];
+  const protocols = Object.entries(site.endpoints ?? {}).filter(([, value]) => value);
+  const links = [
+    `[注册入口](${site.signupUrl})`,
+    `[站点首页](${site.homeUrl})`,
+    site.docsUrl ? `[文档](${site.docsUrl})` : null,
+    ...(site.mirrors ?? []).map((mirror) => `[${mirror.label || '备用入口'}](${mirror.signupUrl || mirror.homeUrl})`),
+  ].filter(Boolean).join(' · ');
+  const creditText = creditParts(site);
+  const creditNotes = creditText.length
+    ? [
+        creditText.join('；') + '。',
+        c.unit === 'point'
+          ? '这是站内积分口径，未有官方换算时不折算为美元，也不计入全站美元合计。'
+          : '表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。',
+      ]
+    : ['仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。'];
+  const protocolText = protocols.length
+    ? protocols.map(([name, value]) => `- **${name}**：\`${value}\``).join('\n')
+    : '- 仓库未登记可公开直填的 Base URL；可能需要登录后台领取，或该站并非通用 API 中转服务。';
+  const setup = site.setup
+    ? `\n\n**接入步骤（${site.setup.client || '站内指引'}）**\n\n${site.setup.note ? `${site.setup.note}\n\n` : ''}${mdBullets(site.setup.steps, '按站内文档完成配置。')}${site.setup.dashboardUrl ? `\n- [打开相关控制台](${site.setup.dashboardUrl})` : ''}`
+    : '';
+  const models = site.modelsNote ? `\n- ${site.modelsNote}` : '';
+  const community = Array.isArray(site.community) && site.community.length
+    ? `\n\n**官方社区与联系**\n\n${mdBullets(site.community, '')}`
+    : '';
+
+  return `### ${index + 1}. ${site.name}
+
+> ${site.subtitle || '站点定位以首页最新说明为准。'}
+
+**白嫖式摘要**
+
+${narrativeSummary(site)}
+
+**服务与特点**
+
+${mdBullets(site.highlights, '暂无更多公开说明；请先查看站点首页、文档和公告。')}
+
+**注册与领取政策**
+
+- 注册方式：${methods.length ? methods.join(' / ') : '仓库尚未确认，按注册页当前提供的方式为准'}
+${requirements.length ? mdBullets(requirements, '') : '- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。'}
+
+**免费额度与续领政策**
+
+${mdBullets(creditNotes, '')}
+${Array.isArray(site.earnMore) && site.earnMore.length ? `\n可继续获取额度的方式：\n\n${mdBullets(site.earnMore, '')}` : '\n仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。'}
+
+**接口、模型与接入政策**
+
+${protocolText}${models}${setup}
+
+**限制与风险提示**
+
+${mdBullets(site.caveats, '未登记特殊限制；模型、价格、并发、限速和内容审查仍以站内实时规则为准。')}
+
+**入口**：${links}
+${community}`;
 }
 
 function buildReadme() {
@@ -98,17 +212,18 @@ function buildReadme() {
     .map((s) => `| [${s.name}](${s.signupUrl}) | ${s.subtitle ?? ''} |`)
     .join('\n');
   const detailRows = data.sites.map(readmeSiteRow).join('\n');
-  const genLine = generatedAt ? `> 数据快照：${generatedAt.replace('T', ' ').slice(0, 16)} UTC，由 GitHub Actions 自动抓取更新。` : '> 尚无实时快照，先运行 `npm run refresh`。';
+  const policySections = data.sites.map(policyDetail).join('\n\n---\n\n');
+  const genLine = generatedAt ? `> 数据快照：${generatedAt.replace('T', ' ').slice(0, 16)} UTC，由 GitHub Actions 自动抓取更新。` : '> 尚无实时快照，先运行 npm run refresh。';
 
   const arenaHero = data.sites.find((s) => s.id === 'arena-hero');
   const arenaHeroSection = arenaHero ? `
-## 🎮 Arena Hero:玩出 Core 资源,白嫖公益站注册码
+## 🎮 Arena Hero：用 Core 资源兑换公益站注册码
 
-Arena Hero 不是 AI 额度站,而是个会一直运行的网格世界 AI Agent 游戏:Agent 读取视野内的世界状态,每 Tick(约 15 秒)提交一份计划控制 Core 与各单位行动,玩得越久积累的 **Core 资源**越多。攒下的 Core 可到 [LinuxDO 对接的兑换站](https://linuxdoshop.arenahero.io/) 兑换各 AI 公益站的**注册码 / 兑换码**(库存有限,部分商品售罄,兑换成功后在账户页复制)。
+Arena Hero 不是 AI 额度站，而是持续运行的网格世界 AI Agent 游戏：Agent 读取视野内的世界状态，每 Tick（约 15 秒）提交计划，控制 Core 与各单位行动。积累的 **Core 资源**可以到 [LinuxDO 对接的兑换站](https://linuxdoshop.arenahero.io/) 换取部分 AI 公益站的注册码或兑换码；库存、价格与限购规则以兑换站实时页面为准。
 
-- 🕹️ 直接玩:[app.arenahero.io/arena](${arenaHero.signupUrl})
-- 📖 中文文档:[doc.arenahero.io/zh-Hans/](${arenaHero.docsUrl || 'https://doc.arenahero.io/zh-Hans/'}),Skill / Python SDK / OpenAPI 一应俱全
-- 💱 兑换站:[linuxdoshop.arenahero.io](https://linuxdoshop.arenahero.io/) —— 实测在售:随时跑路 / ArkHub / Lanln 注册码;Wong、黑与白、Nhh、薄荷 已售罄(以兑换站实时库存为准)
+- 🕹️ 直接玩：[app.arenahero.io/arena](${arenaHero.signupUrl})
+- 📖 中文文档：[doc.arenahero.io/zh-Hans/](${arenaHero.docsUrl || 'https://doc.arenahero.io/zh-Hans/'})，含 Skill、Python SDK 与 OpenAPI
+- 💱 兑换站：[linuxdoshop.arenahero.io](https://linuxdoshop.arenahero.io/)，商品可能随时补货或售罄
 ` : '';
 
   // ---------- 官方免费 API 分区（itsfree.ai 整理） ----------
@@ -139,13 +254,22 @@ ${moreLine}
 
 ${genLine}
 
-**当前收录 ${data.sites.length} 个站点**，美元计价站全部注册首日合计约 **${fmtUsd(totalUsd)}** 额度。
+**当前收录 ${data.sites.length} 个站点**。按“注册奖励 + 邀请奖励 + 当日签到”的登记口径，美元计价站首日理论上限合计约 **${fmtUsd(totalUsd)}**；它不是无条件到账金额，也不代表可提现现金。
 
-**搜到这的你可能在找**：Claude Code 免费额度 / 公益站 / New API 中转 / Codex 白嫖 / Cursor 免费用 / AI API 公益站导航 / claude-opus 免费 / gpt 免费接口 —— 这里全都有，而且每 6 小时自动探活，不会点进去才发现站挂了。
+本项目面向正在寻找 Claude Code、Codex、Cursor、OpenAI 兼容接口或免费 API 体验额度的用户。站点每 6 小时自动探活，但“在线”只代表探测时入口或公开接口可访问，不保证注册、模型调用、余额发放和上游线路均正常。
+
+## 🧭 阅读前先看：额度与政策口径
+
+- **首日理论上限**：把登记的注册奖励、邀请奖励和当日签到相加。邀请奖励通常要求从带参数的链接注册，部分奖励还要求你再邀请他人；签到也需要手动完成，因此不等于注册即到账。
+- **美元与积分**：美元符号是站内美元计价额度，不能提现；“积分”按原单位展示，没有官方换算关系时绝不折算为美元。
+- **每日额度池**：当天重置、过期清零的额度单独列出，不并入首日美元合计。
+- **状态与模型数**：来自公开接口的自动快照，可能被 Cloudflare/WAF、登录墙或临时维护影响。红色或未知不必然等于永久停站。
+- **邀请链接披露**：部分注册链接包含 aff、ref、code、i 等邀请参数，注册者与仓库维护者可能获得奖励；不愿使用邀请关系时，可从站点首页自行注册，但相应邀请赠送也可能消失。
+- **政策时效**：以下内容是仓库数据快照，不是站点服务条款。额度、倍率、模型、充值、封禁和实名规则均可能随时变化，使用前应再看站内公告。
 
 ## 🚀 快速上车
 
-| 站点 | 状态 | 首日可得 | 额度构成 | 每日签到 | 协议 | 模型数 |
+| 站点 | 状态 | 首日理论上限 | 登记的额度构成 | 每日签到 | 协议 | 模型数 |
 |---|---|---|---|---|---|---|
 ${detailRows}
 ${arenaHeroSection}
@@ -155,6 +279,12 @@ ${arenaHeroSection}
 | 站点 | 定位 |
 |---|---|
 ${sitesTable}
+
+## 📖 各站政策详解
+
+以下逐站说明根据 data/sites.json 生成，重点区分注册门槛、奖励条件、接口协议和风险限制。未登记不等于不存在；遇到“待确认”时，以站内首页、控制台和公告为准。
+
+${policySections}
 ${freeApiSection}
 ## 🧰 仓库结构
 
@@ -194,7 +324,13 @@ ${freeApiSection}
   "tags": ["公益站", "免费额度"],
   "highlights": ["卖点 1", "卖点 2"],
   "endpoints": { "anthropic": "https://...", "openai": "https://.../v1" },
-  "register": { "methods": ["GitHub OAuth"] },
+  "register": {
+    "methods": ["GitHub OAuth"],
+    "requirements": ["账号年龄、邀请参数或实名等领取条件"]
+  },
+  "earnMore": ["签到、邀请或活动等续领方式"],
+  "modelsNote": "模型范围、计费方式与公开程度",
+  "setup": { "client": "Codex CLI", "note": "接入说明", "steps": ["步骤 1"] },
   "caveats": ["注意事项"],
   "community": ["Discord: https://..."]
 }

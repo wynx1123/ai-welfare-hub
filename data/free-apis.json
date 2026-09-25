@@ -1,10 +1,10 @@
 {
   "meta": {
-    "source": "itsfree.ai",
+    "source": "itsfree.ai + 服务官方资料",
     "sourceUrl": "https://itsfree.ai/",
     "author": "@midudev",
-    "note": "官方免费 API 目录：平台官方提供的免费层（非公益中转站），注册即用、长期稳定，适合作为公益站之外的保底方案。数据整理自 itsfree.ai（2026-09 验证），完整目录含 25 家 provider、463 个免费模型、9 种本地运行时。",
-    "verifiedAt": "2026-09-03"
+    "note": "官方免费 API 目录：平台官方提供的免费层（非公益中转站），适合作为公益站之外的保底方案。现有条目参考 itsfree.ai，并通过各服务官方文档复核；免费政策和模型目录可能调整，请以服务方最新说明为准。",
+    "verifiedAt": "2026-09-10"
   },
   "providers": [
     {
@@ -138,6 +138,17 @@
       "models": 4,
       "highlight": "GLM 4.7 / 4.6 / 4.5 Flash 永久免费，国内直连",
       "envKey": "ZHIPU_API_KEY"
+    },
+    {
+      "name": "Kilo AI Gateway",
+      "url": "https://kilo.ai/docs/gateway/models-and-providers",
+      "baseUrl": "https://api.kilo.ai/api/gateway",
+      "freeTier": "免费模型 200 请求/小时/IP",
+      "context": "最高 2M",
+      "signup": "免费模型无需注册",
+      "models": 500,
+      "highlight": "官方 OpenAI 兼容网关，提供 500+ 模型；免费路由可匿名调用，具体模型动态变化，请勿提交敏感数据",
+      "envKey": "KILO_API_KEY"
     }
   ],
   "more": [
