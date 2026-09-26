@@ -5,7 +5,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/wynx1123/ai-welfare-hub?style=social)](https://github.com/wynx1123/ai-welfare-hub/stargazers)
 [![Live Status](https://img.shields.io/badge/%E6%8E%A2%E6%B4%BB-%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0-brightgreen)](https://wynx1123.github.io/ai-welfare-hub/)
 
-> 数据快照：2026-09-26 03:51 UTC，由 GitHub Actions 自动抓取更新。
+> 数据快照：2026-09-26 10:55 UTC，由 GitHub Actions 自动抓取更新。
 
 **当前收录 19 个站点**。按“注册奖励 + 邀请奖励 + 当日签到”的登记口径，美元计价站首日理论上限合计约 **$1472**；它不是无条件到账金额，也不代表可提现现金。
 
