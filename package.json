@@ -1,0 +1,18 @@
+{
+  "name": "ai-welfare-hub",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AI Coding 公益站 / 中转站聚合导航 —— 数据驱动的静态站点，自动探活 + 健康检查",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "refresh": "node scripts/refresh.mjs",
+    "check": "node scripts/check.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node scripts/test.mjs",
+    "all": "node scripts/validate.mjs && node scripts/refresh.mjs && node scripts/build.mjs && node scripts/check.mjs"
+  },
+  "engines": {
+    "node": ">=18.17"
+  }
+}

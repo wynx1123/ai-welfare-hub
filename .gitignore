@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# mimosa 本地扫描会话状态，不入库
+.mimosa/
