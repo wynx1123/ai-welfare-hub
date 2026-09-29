@@ -585,7 +585,7 @@
         {
           "name": "[opencode]deepseek-v4-flash",
           "protocols": [],
-          "inputPerMTok": 0.000025
+          "inputPerMTok": 2.5e-05
         },
         {
           "name": "deepseek-v4.1-flash-api",
@@ -903,6 +903,30 @@
       "mirrors": [],
       "dataStale": false,
       "staleFrom": null
+    },
+    {
+      "id": "dshapi",
+      "checkedAt": "2026-09-29T16:36:18.178Z",
+      "online": true,
+      "latencyMs": 620,
+      "error": null,
+      "apiOk": false,
+      "pricingOk": false,
+      "systemName": null,
+      "version": null,
+      "registerOpen": null,
+      "passwordRegister": null,
+      "checkinEnabled": null,
+      "loginMethods": [],
+      "topupEnabled": null,
+      "quotaPerUnit": null,
+      "announcements": [],
+      "models": null,
+      "modelsCount": null,
+      "mirrors": [],
+      "dataStale": false,
+      "staleFrom": null,
+      "staleFields": []
     }
   ]
 }
