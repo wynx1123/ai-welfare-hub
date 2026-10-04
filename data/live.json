@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-04T11:52:15.162Z",
+  "generatedAt": "2026-10-04T16:31:56.033Z",
   "sites": [
     {
       "id": "agentrouter",
-      "checkedAt": "2026-10-04T11:52:06.682Z",
+      "checkedAt": "2026-10-04T16:31:40.340Z",
       "online": true,
-      "latencyMs": 912,
+      "latencyMs": 840,
       "error": null,
       "apiOk": true,
       "pricingOk": false,
@@ -24,7 +24,7 @@
         {
           "label": "大陆备用域名",
           "online": true,
-          "latencyMs": 981
+          "latencyMs": 931
         }
       ],
       "dataStale": false,
@@ -32,9 +32,9 @@
     },
     {
       "id": "justdowork",
-      "checkedAt": "2026-10-04T11:52:06.685Z",
+      "checkedAt": "2026-10-04T16:31:40.346Z",
       "online": true,
-      "latencyMs": 768,
+      "latencyMs": 520,
       "error": null,
       "apiOk": true,
       "pricingOk": false,
@@ -58,9 +58,9 @@
     },
     {
       "id": "rawchat",
-      "checkedAt": "2026-10-04T11:52:06.685Z",
+      "checkedAt": "2026-10-04T16:31:40.346Z",
       "online": true,
-      "latencyMs": 474,
+      "latencyMs": 300,
       "error": null,
       "apiOk": true,
       "pricingOk": false,
@@ -81,9 +81,9 @@
     },
     {
       "id": "matrix",
-      "checkedAt": "2026-10-04T11:52:06.685Z",
+      "checkedAt": "2026-10-04T16:31:40.346Z",
       "online": true,
-      "latencyMs": 1285,
+      "latencyMs": 1426,
       "error": null,
       "apiOk": true,
       "pricingOk": false,
@@ -104,7 +104,7 @@
     },
     {
       "id": "tabitoken",
-      "checkedAt": "2026-10-04T11:52:07.392Z",
+      "checkedAt": "2026-10-04T16:31:40.763Z",
       "online": false,
       "latencyMs": null,
       "error": "HTTP 521",
@@ -127,10 +127,10 @@
     },
     {
       "id": "gorouter",
-      "checkedAt": "2026-10-04T11:52:07.506Z",
+      "checkedAt": "2026-10-04T16:31:40.929Z",
       "online": false,
       "latencyMs": null,
-      "error": "HTTP 502",
+      "error": "timeout",
       "apiOk": false,
       "pricingOk": false,
       "systemName": null,
@@ -150,9 +150,9 @@
     },
     {
       "id": "supxh",
-      "checkedAt": "2026-10-04T11:52:07.579Z",
+      "checkedAt": "2026-10-04T16:31:41.067Z",
       "online": true,
-      "latencyMs": 471,
+      "latencyMs": 142,
       "error": null,
       "apiOk": true,
       "pricingOk": false,
@@ -173,9 +173,9 @@
     },
     {
       "id": "seekai",
-      "checkedAt": "2026-10-04T11:52:08.281Z",
+      "checkedAt": "2026-10-04T16:31:41.478Z",
       "online": true,
-      "latencyMs": 943,
+      "latencyMs": 59,
       "error": null,
       "apiOk": false,
       "pricingOk": false,
@@ -196,9 +196,9 @@
     },
     {
       "id": "nofx",
-      "checkedAt": "2026-10-04T11:52:08.422Z",
+      "checkedAt": "2026-10-04T16:31:41.592Z",
       "online": true,
-      "latencyMs": 1471,
+      "latencyMs": 1248,
       "error": null,
       "apiOk": false,
       "pricingOk": false,
@@ -219,9 +219,9 @@
     },
     {
       "id": "kktoken",
-      "checkedAt": "2026-10-04T11:52:08.995Z",
+      "checkedAt": "2026-10-04T16:31:42.583Z",
       "online": true,
-      "latencyMs": 477,
+      "latencyMs": 217,
       "error": null,
       "apiOk": false,
       "pricingOk": false,
@@ -242,9 +242,9 @@
     },
     {
       "id": "vsllm",
-      "checkedAt": "2026-10-04T11:52:09.405Z",
+      "checkedAt": "2026-10-04T16:31:42.866Z",
       "online": true,
-      "latencyMs": 136,
+      "latencyMs": 73,
       "error": null,
       "apiOk": true,
       "pricingOk": true,
@@ -278,139 +278,9 @@
       ],
       "models": [
         {
-          "name": "deepseek-v4.1-flash",
-          "protocols": [],
-          "inputPerMTok": 0.0001
-        },
-        {
-          "name": "gemini-3.7-flash-api",
-          "protocols": [],
-          "inputPerMTok": 0.001
-        },
-        {
-          "name": "gemini-3.8-flash",
-          "protocols": [],
-          "inputPerMTok": 0.001
-        },
-        {
-          "name": "glm-4.7-flash",
-          "protocols": [],
-          "inputPerMTok": null
-        },
-        {
-          "name": "glm-5.2-fast",
-          "protocols": [],
-          "inputPerMTok": 0.025
-        },
-        {
-          "name": "glm-4.7-flash-free",
-          "protocols": [],
-          "inputPerMTok": 0.0001
-        },
-        {
-          "name": "[opencode]deepseek-v4-pro",
-          "protocols": [],
-          "inputPerMTok": 0.0025
-        },
-        {
           "name": "deepseek-v4-pro",
           "protocols": [],
           "inputPerMTok": 0.005
-        },
-        {
-          "name": "gemini-3-flash-preview-request",
-          "protocols": [],
-          "inputPerMTok": null
-        },
-        {
-          "name": "gemini-3.7-flash",
-          "protocols": [],
-          "inputPerMTok": 0.001
-        },
-        {
-          "name": "gpt-5.6-luna",
-          "protocols": [],
-          "inputPerMTok": 0.001
-        },
-        {
-          "name": "kimi-k3",
-          "protocols": [],
-          "inputPerMTok": 0.005
-        },
-        {
-          "name": "gemini-3.1-flash-lite",
-          "protocols": [],
-          "inputPerMTok": 0.0005
-        },
-        {
-          "name": "gemini-3.8-flash-antigravity",
-          "protocols": [],
-          "inputPerMTok": 0.001
-        },
-        {
-          "name": "gemini-3.8-flash-api",
-          "protocols": [],
-          "inputPerMTok": 0.001
-        },
-        {
-          "name": "glm",
-          "protocols": [],
-          "inputPerMTok": 1
-        },
-        {
-          "name": "MiniMax-M2.5",
-          "protocols": [],
-          "inputPerMTok": null
-        },
-        {
-          "name": "claude-opus-4-6-antigravity",
-          "protocols": [],
-          "inputPerMTok": 0.005
-        },
-        {
-          "name": "codex-auto-review",
-          "protocols": [],
-          "inputPerMTok": 0.001
-        },
-        {
-          "name": "gemini-3.1-pro-request-antigravity",
-          "protocols": [],
-          "inputPerMTok": 0.005
-        },
-        {
-          "name": "gemini-3.5-flash",
-          "protocols": [],
-          "inputPerMTok": 0.0025
-        },
-        {
-          "name": "glm-5.3-api",
-          "protocols": [],
-          "inputPerMTok": 0.001
-        },
-        {
-          "name": "glm-5.3-flash",
-          "protocols": [],
-          "inputPerMTok": 0.001
-        },
-        {
-          "name": "gpt-5.3-codex-spark",
-          "protocols": [],
-          "inputPerMTok": 0.0005
-        },
-        {
-          "name": "gpt-5.4-mini",
-          "protocols": [],
-          "inputPerMTok": 0.001
-        },
-        {
-          "name": "claude-haiku-4-5-20251001",
-          "protocols": [],
-          "inputPerMTok": 0.001
-        },
-        {
-          "name": "claude-opus-5",
-          "protocols": [],
-          "inputPerMTok": 0.01
         },
         {
           "name": "gemini-3.1-pro-request",
@@ -418,14 +288,9 @@
           "inputPerMTok": null
         },
         {
-          "name": "glm-4.6v-flash",
+          "name": "glm-5.2",
           "protocols": [],
-          "inputPerMTok": null
-        },
-        {
-          "name": "glm-5.3",
-          "protocols": [],
-          "inputPerMTok": 0.0025
+          "inputPerMTok": 0.005
         },
         {
           "name": "gpt-5.6-sol",
@@ -433,12 +298,52 @@
           "inputPerMTok": 0.015
         },
         {
-          "name": "grok-composer-2.5-fast",
+          "name": "grok-4.7",
           "protocols": [],
-          "inputPerMTok": 0.015
+          "inputPerMTok": 0.005
         },
         {
-          "name": "claude-opus-5-5",
+          "name": "glm-4.6v-flash",
+          "protocols": [],
+          "inputPerMTok": null
+        },
+        {
+          "name": "claude-sonnet-5",
+          "protocols": [],
+          "inputPerMTok": 0.0025
+        },
+        {
+          "name": "gemini-3.1-pro-request-antigravity",
+          "protocols": [],
+          "inputPerMTok": 0.005
+        },
+        {
+          "name": "gemini-3.7-flash",
+          "protocols": [],
+          "inputPerMTok": 0.001
+        },
+        {
+          "name": "qwen3.8-max-0902",
+          "protocols": [],
+          "inputPerMTok": 0.001
+        },
+        {
+          "name": "glm-4.6v-flash-free",
+          "protocols": [],
+          "inputPerMTok": null
+        },
+        {
+          "name": "claude-fable-5",
+          "protocols": [],
+          "inputPerMTok": 0.025
+        },
+        {
+          "name": "claude-opus-4-5-20251101",
+          "protocols": [],
+          "inputPerMTok": 0.01
+        },
+        {
+          "name": "claude-opus-4-6",
           "protocols": [],
           "inputPerMTok": 0.01
         },
@@ -448,9 +353,39 @@
           "inputPerMTok": 0.0005
         },
         {
+          "name": "gemini-3-flash-preview",
+          "protocols": [],
+          "inputPerMTok": null
+        },
+        {
           "name": "gemini-3.5-flash-lite",
           "protocols": [],
           "inputPerMTok": 0.0005
+        },
+        {
+          "name": "glm-5.3-max",
+          "protocols": [],
+          "inputPerMTok": 0.0025
+        },
+        {
+          "name": "deepseek-v4-flash",
+          "protocols": [],
+          "inputPerMTok": 0.0025
+        },
+        {
+          "name": "glm-5.3",
+          "protocols": [],
+          "inputPerMTok": 0.0025
+        },
+        {
+          "name": "grok-4.6",
+          "protocols": [],
+          "inputPerMTok": 0.005
+        },
+        {
+          "name": "claude-opus-4-8",
+          "protocols": [],
+          "inputPerMTok": 0.01
         },
         {
           "name": "glm-5.3-anthropic",
@@ -458,12 +393,17 @@
           "inputPerMTok": 0.01
         },
         {
-          "name": "gpt-5.4-openai-compact",
+          "name": "deepseek-v4.1-flash",
           "protocols": [],
-          "inputPerMTok": 0.05
+          "inputPerMTok": 0.0001
         },
         {
-          "name": "qwen3.6-flash",
+          "name": "deepseek-v4.1-flash-api",
+          "protocols": [],
+          "inputPerMTok": 0.0001
+        },
+        {
+          "name": "gemini-3.8-flash-antigravity",
           "protocols": [],
           "inputPerMTok": 0.001
         },
@@ -473,17 +413,87 @@
           "inputPerMTok": 0.001
         },
         {
-          "name": "auto-gemini",
+          "name": "glm-5.3-flash-max",
           "protocols": [],
           "inputPerMTok": 0.0005
         },
         {
-          "name": "claude-sonnet-5-5",
+          "name": "gpt-5.3-codex-spark",
+          "protocols": [],
+          "inputPerMTok": 0.0005
+        },
+        {
+          "name": "gpt-5.5",
+          "protocols": [],
+          "inputPerMTok": 0.005
+        },
+        {
+          "name": "kimi-k3-api",
+          "protocols": [],
+          "inputPerMTok": 0.015
+        },
+        {
+          "name": "qwen3.7-max",
+          "protocols": [],
+          "inputPerMTok": null
+        },
+        {
+          "name": "claude-opus-5",
+          "protocols": [],
+          "inputPerMTok": 0.01
+        },
+        {
+          "name": "deepseek-v4.1-flash-官方",
+          "protocols": [],
+          "inputPerMTok": 0.0005
+        },
+        {
+          "name": "gemini-2.5-pro",
+          "protocols": [],
+          "inputPerMTok": null
+        },
+        {
+          "name": "gemini-3.1-flash-lite-preview",
+          "protocols": [],
+          "inputPerMTok": null
+        },
+        {
+          "name": "glm-5.3-flash",
+          "protocols": [],
+          "inputPerMTok": 0.001
+        },
+        {
+          "name": "gpt-5.4-openai-compact",
+          "protocols": [],
+          "inputPerMTok": 0.05
+        },
+        {
+          "name": "qwen3.8-max",
+          "protocols": [],
+          "inputPerMTok": 0.015
+        },
+        {
+          "name": "claude-opus-4-6-antigravity",
+          "protocols": [],
+          "inputPerMTok": 0.005
+        },
+        {
+          "name": "gemini-3.5-flash",
           "protocols": [],
           "inputPerMTok": 0.0025
         },
         {
-          "name": "gpt-5.5",
+          "name": "glm-5.2-fast",
+          "protocols": [],
+          "inputPerMTok": 0.025
+        },
+        {
+          "name": "grok-build-0.1",
+          "protocols": [],
+          "inputPerMTok": 0.015
+        },
+        {
+          "name": "kimi-k3",
           "protocols": [],
           "inputPerMTok": 0.005
         },
@@ -493,9 +503,9 @@
           "inputPerMTok": 0.0015
         },
         {
-          "name": "MiniMax-M3",
+          "name": "glm-4.7-flash",
           "protocols": [],
-          "inputPerMTok": 0.0001
+          "inputPerMTok": null
         },
         {
           "name": "auto-claude",
@@ -503,39 +513,9 @@
           "inputPerMTok": 0.0025
         },
         {
-          "name": "claude-sonnet-5",
+          "name": "codex-auto-review",
           "protocols": [],
-          "inputPerMTok": 0.0025
-        },
-        {
-          "name": "glm-5.2",
-          "protocols": [],
-          "inputPerMTok": 0.005
-        },
-        {
-          "name": "gpt-5.6-terra",
-          "protocols": [],
-          "inputPerMTok": 0.005
-        },
-        {
-          "name": "qwen3.7-max",
-          "protocols": [],
-          "inputPerMTok": null
-        },
-        {
-          "name": "qwen3.8-max",
-          "protocols": [],
-          "inputPerMTok": 0.015
-        },
-        {
-          "name": "claude-opus-4-5-20251101",
-          "protocols": [],
-          "inputPerMTok": 0.01
-        },
-        {
-          "name": "gemini-3-flash-preview",
-          "protocols": [],
-          "inputPerMTok": null
+          "inputPerMTok": 0.001
         },
         {
           "name": "gemini-3.6-flash-high",
@@ -543,69 +523,24 @@
           "inputPerMTok": 0.0025
         },
         {
+          "name": "glm",
+          "protocols": [],
+          "inputPerMTok": 1
+        },
+        {
           "name": "gpt-5.4",
           "protocols": [],
           "inputPerMTok": 0.005
         },
         {
-          "name": "gpt-5.5-openai-compact",
+          "name": "gpt-5.4-mini",
           "protocols": [],
-          "inputPerMTok": 0.05
+          "inputPerMTok": 0.001
         },
         {
-          "name": "grok-4.6",
-          "protocols": [],
-          "inputPerMTok": 0.005
-        },
-        {
-          "name": "[opencode]deepseek-v4-flash",
-          "protocols": [],
-          "inputPerMTok": 0.000025
-        },
-        {
-          "name": "claude-fable-5",
-          "protocols": [],
-          "inputPerMTok": 0.025
-        },
-        {
-          "name": "claude-opus-4-8",
+          "name": "claude-opus-5-5",
           "protocols": [],
           "inputPerMTok": 0.01
-        },
-        {
-          "name": "grok-4.5",
-          "protocols": [],
-          "inputPerMTok": 0.005
-        },
-        {
-          "name": "grok-4.7",
-          "protocols": [],
-          "inputPerMTok": 0.005
-        },
-        {
-          "name": "glm-4.6v-flash-free",
-          "protocols": [],
-          "inputPerMTok": null
-        },
-        {
-          "name": "deepseek-v4.1-flash-官方",
-          "protocols": [],
-          "inputPerMTok": 0.0005
-        },
-        {
-          "name": "glm-5.3-flash-max",
-          "protocols": [],
-          "inputPerMTok": 0.0005
-        },
-        {
-          "name": "grok-build-0.1",
-          "protocols": [],
-          "inputPerMTok": 0.015
-        },
-        {
-          "name": "kimi-k3-api",
-          "protocols": [],
-          "inputPerMTok": 0.015
         },
         {
           "name": "claude-sonnet-4-6",
@@ -613,22 +548,72 @@
           "inputPerMTok": 0.0025
         },
         {
-          "name": "gemini-3.1-pro-preview",
+          "name": "gpt-5.5-openai-compact",
+          "protocols": [],
+          "inputPerMTok": 0.05
+        },
+        {
+          "name": "gpt-5.6-luna",
+          "protocols": [],
+          "inputPerMTok": 0.001
+        },
+        {
+          "name": "auto-gemini",
+          "protocols": [],
+          "inputPerMTok": 0.0005
+        },
+        {
+          "name": "gemini-3-flash-preview-request",
           "protocols": [],
           "inputPerMTok": null
         },
         {
-          "name": "deepseek-v4-flash",
+          "name": "gemini-3.8-flash-api",
+          "protocols": [],
+          "inputPerMTok": 0.001
+        },
+        {
+          "name": "glm-5.3-api",
+          "protocols": [],
+          "inputPerMTok": 0.001
+        },
+        {
+          "name": "gpt-5.6-terra",
+          "protocols": [],
+          "inputPerMTok": 0.005
+        },
+        {
+          "name": "grok-composer-2.5-fast",
+          "protocols": [],
+          "inputPerMTok": 0.015
+        },
+        {
+          "name": "[opencode]deepseek-v4-pro",
           "protocols": [],
           "inputPerMTok": 0.0025
         },
         {
-          "name": "deepseek-v4.1-flash-api",
+          "name": "gemini-3.1-flash-lite",
+          "protocols": [],
+          "inputPerMTok": 0.0005
+        },
+        {
+          "name": "gemini-embedding-001",
+          "protocols": [],
+          "inputPerMTok": null
+        },
+        {
+          "name": "MiniMax-M3",
           "protocols": [],
           "inputPerMTok": 0.0001
         },
         {
-          "name": "gemini-3.1-flash-lite-preview",
+          "name": "glm-4.7-flash-free",
+          "protocols": [],
+          "inputPerMTok": 0.0001
+        },
+        {
+          "name": "MiniMax-M2.5",
           "protocols": [],
           "inputPerMTok": null
         },
@@ -638,27 +623,42 @@
           "inputPerMTok": null
         },
         {
-          "name": "qwen3.8-max-0902",
+          "name": "claude-haiku-4-5-20251001",
           "protocols": [],
           "inputPerMTok": 0.001
         },
         {
-          "name": "claude-opus-4-6",
+          "name": "gemini-3.7-flash-api",
           "protocols": [],
-          "inputPerMTok": 0.01
+          "inputPerMTok": 0.001
         },
         {
-          "name": "gemini-2.5-pro",
+          "name": "qwen3.6-flash",
+          "protocols": [],
+          "inputPerMTok": 0.001
+        },
+        {
+          "name": "gemini-3.1-pro-preview",
           "protocols": [],
           "inputPerMTok": null
         },
         {
-          "name": "gemini-embedding-001",
+          "name": "gemini-3.8-flash",
           "protocols": [],
-          "inputPerMTok": null
+          "inputPerMTok": 0.001
         },
         {
-          "name": "glm-5.3-max",
+          "name": "grok-4.5",
+          "protocols": [],
+          "inputPerMTok": 0.005
+        },
+        {
+          "name": "[opencode]deepseek-v4-flash",
+          "protocols": [],
+          "inputPerMTok": 0.000025
+        },
+        {
+          "name": "claude-sonnet-5-5",
           "protocols": [],
           "inputPerMTok": 0.0025
         }
@@ -670,9 +670,9 @@
     },
     {
       "id": "docode",
-      "checkedAt": "2026-10-04T11:52:09.652Z",
+      "checkedAt": "2026-10-04T16:31:42.885Z",
       "online": true,
-      "latencyMs": 1010,
+      "latencyMs": 1142,
       "error": null,
       "apiOk": true,
       "pricingOk": false,
@@ -712,9 +712,9 @@
     },
     {
       "id": "true-sota",
-      "checkedAt": "2026-10-04T11:52:09.724Z",
+      "checkedAt": "2026-10-04T16:31:42.929Z",
       "online": true,
-      "latencyMs": 127,
+      "latencyMs": 110,
       "error": null,
       "apiOk": false,
       "pricingOk": false,
@@ -735,9 +735,9 @@
     },
     {
       "id": "hcnsec",
-      "checkedAt": "2026-10-04T11:52:09.901Z",
+      "checkedAt": "2026-10-04T16:31:43.086Z",
       "online": true,
-      "latencyMs": 3343,
+      "latencyMs": 950,
       "error": null,
       "apiOk": true,
       "pricingOk": false,
@@ -777,9 +777,9 @@
     },
     {
       "id": "vyceai",
-      "checkedAt": "2026-10-04T11:52:09.926Z",
+      "checkedAt": "2026-10-04T16:31:43.115Z",
       "online": true,
-      "latencyMs": 1137,
+      "latencyMs": 537,
       "error": null,
       "apiOk": false,
       "pricingOk": false,
@@ -800,9 +800,9 @@
     },
     {
       "id": "chatanywhere",
-      "checkedAt": "2026-10-04T11:52:09.958Z",
+      "checkedAt": "2026-10-04T16:31:44.086Z",
       "online": true,
-      "latencyMs": 540,
+      "latencyMs": 433,
       "error": null,
       "apiOk": false,
       "pricingOk": false,
@@ -823,9 +823,9 @@
     },
     {
       "id": "long-ai",
-      "checkedAt": "2026-10-04T11:52:11.239Z",
+      "checkedAt": "2026-10-04T16:31:44.992Z",
       "online": true,
-      "latencyMs": 252,
+      "latencyMs": 321,
       "error": null,
       "apiOk": true,
       "pricingOk": false,
@@ -865,9 +865,9 @@
     },
     {
       "id": "conduit",
-      "checkedAt": "2026-10-04T11:52:11.263Z",
+      "checkedAt": "2026-10-04T16:31:45.001Z",
       "online": true,
-      "latencyMs": 1843,
+      "latencyMs": 1810,
       "error": null,
       "apiOk": false,
       "pricingOk": false,
@@ -888,9 +888,9 @@
     },
     {
       "id": "arena-hero",
-      "checkedAt": "2026-10-04T11:52:11.389Z",
+      "checkedAt": "2026-10-04T16:31:45.456Z",
       "online": true,
-      "latencyMs": 536,
+      "latencyMs": 506,
       "error": null,
       "apiOk": false,
       "pricingOk": false,
