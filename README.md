@@ -43,7 +43,7 @@
 | [Long的AI](https://aaawinn.xyz/sign-up?aff=cspn) | 🟢 在线 | $5 | 注册赠送 $5 | ❌ | openai / anthropic | — |
 | [Conduit](https://t.me/conduitoff_bot?start=ref_6939669896) | 🟢 在线 | $500 | 注册赠送 $500 | — | openai / anthropic | — |
 | [Arena Hero](https://app.arenahero.io/arena) | 🟢 在线 | — | — | — | — | — |
-| [DSH API](https://your-endpoint.example.com/r/T8KiaeGU) | 🟢 在线 | — | — | — | — | — |
+| [removed](https://your-endpoint.example.com/r/T8KiaeGU) | 🟢 在线 | — | — | — | — | — |
 
 ## 🎮 Arena Hero：用 Core 资源兑换公益站注册码
 
@@ -77,7 +77,7 @@ Arena Hero 不是 AI 额度站，而是持续运行的网格世界 AI Agent 游�
 | [Long的AI](https://aaawinn.xyz/sign-up?aff=cspn) | New API 中转站 · 白嫖分组免额度调主流模型，支持邀请与公共池 |
 | [Conduit](https://t.me/conduitoff_bot?start=ref_6939669896) | 多模型 AI API 网关 · OpenAI / Anthropic 兼容，公开目录列出 59 个模型 |
 | [Arena Hero](https://app.arenahero.io/arena) | 网格世界 AI Agent 游戏 · 游戏内 Core 资源可到兑换站换公益站注册码 |
-| [DSH API](https://your-endpoint.example.com/r/T8KiaeGU) | 中转聚合站 · 国模分组 0.08x（官网价 8%），同一个 base URL 同时吃 OpenAI 与 Anthropic |
+| [removed](https://your-endpoint.example.com/r/T8KiaeGU) | 中转聚合站 · 国模分组 0.08x（官网价 8%），同一个 base URL 同时吃 OpenAI 与 Anthropic |
 
 ## 📖 各站政策详解
 
@@ -1001,13 +1001,13 @@ Arena Hero 是网格世界 AI Agent 游戏 · 游戏内 Core 资源可到兑换�
 
 ---
 
-### 20. DSH API
+### 20. removed
 
 > 中转聚合站 · 国模分组 0.08x（官网价 8%），同一个 base URL 同时吃 OpenAI 与 Anthropic
 
 **白嫖式摘要**
 
-DSH API 是中转聚合站 · 国模分组 0.08x（官网价 8%），同一个 base URL 同时吃 OpenAI 与 Anthropic。国模分组 0.08x，就是官网定价的 8%；open ai pro 分组 0.22x —— 这比常见的 0.1x 还要低一档；同一个 base URL 同时挂 OpenAI（/v1/models、/v1/chat/completions、/v1/responses）与 Anthropic（/v1/messages）两套协议，Claude Code 和 Codex CLI 不改代码都能直连，这是本页多数站做不到的。先说清楚一个容易踩的坑：按量计费而非免费额度：注册不送额度，需充值后使用 —— 放这个分类是因为它的费率比多数公益站的免费额度更划算，不是因为它免费。
+removed 是中转聚合站 · 国模分组 0.08x（官网价 8%），同一个 base URL 同时吃 OpenAI 与 Anthropic。国模分组 0.08x，就是官网定价的 8%；open ai pro 分组 0.22x —— 这比常见的 0.1x 还要低一档；同一个 base URL 同时挂 OpenAI（/v1/models、/v1/chat/completions、/v1/responses）与 Anthropic（/v1/messages）两套协议，Claude Code 和 Codex CLI 不改代码都能直连，这是本页多数站做不到的。先说清楚一个容易踩的坑：按量计费而非免费额度：注册不送额度，需充值后使用 —— 放这个分类是因为它的费率比多数公益站的免费额度更划算，不是因为它免费。
 
 **服务与特点**
 
