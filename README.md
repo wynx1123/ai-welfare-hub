@@ -10,9 +10,9 @@
 
 > ### 🔗 本站作者自用的中转站
 >
-> **[Sample Gateway](https://your-endpoint.example.com/)** — 一个 [OI] 兼容端点统管 Claude / GPT / Gemini / Grok。
+> **[Sample Gateway]()** — 一个 [OI] 兼容端点统管 Claude / GPT / Gemini / Grok。
 > 注册只需 QQ 邮箱，无需邀请码、无需外币卡；按量计费，输入输出分开计价，倍率在控制台公开。
-> [[CC] 改两行环境变量即可接入 →](https://your-endpoint.example.com/)
+> [[CC] 改两行环境变量即可接入 →]()
 
 
 **当前收录 20 个站点**。按“注册奖励 + 邀请奖励 + 当日签到”的登记口径，美元计价站首日理论上限合计约 **$1472**；它不是无条件到账金额，也不代表可提现现金。
@@ -51,7 +51,7 @@
 | [Long的AI](https://aaawinn.xyz/sign-up?aff=cspn) | 🟢 在线 | $5 | 注册赠送 $5 | ❌ | openai / anthropic | — |
 | [Conduit](https://t.me/conduitoff_bot?start=ref_6939669896) | 🟢 在线 | $500 | 注册赠送 $500 | — | openai / anthropic | — |
 | [Arena Hero](https://app.arenahero.io/arena) | 🟢 在线 | — | — | — | — | — |
-| [removed](https://your-endpoint.example.com/) | 🟢 在线 | — | — | — | — | — |
+| [removed]() | 🟢 在线 | — | — | — | — | — |
 
 ## 🎮 Arena Hero：用 Core 资源兑换公益站注册码
 
@@ -85,7 +85,7 @@ Arena Hero 不是 AI 额度站，而是持续运行的网格世界 AI Agent 游�
 | [Long的AI](https://aaawinn.xyz/sign-up?aff=cspn) | New API 中转站 · 白嫖分组免额度调主流模型，支持邀请与公共池 |
 | [Conduit](https://t.me/conduitoff_bot?start=ref_6939669896) | 多模型 AI API 网关 · OpenAI / Anthropic 兼容，公开目录列出 59 个模型 |
 | [Arena Hero](https://app.arenahero.io/arena) | 网格世界 AI Agent 游戏 · 游戏内 Core 资源可到兑换站换公益站注册码 |
-| [removed](https://your-endpoint.example.com/) | 中转聚合站 · 国模分组 0.08x（官网价 8%），同一个 base URL 同时吃 OpenAI 与 Anthropic |
+| [removed]() | 中转聚合站 · 国模分组 0.08x（官网价 8%），同一个 base URL 同时吃 OpenAI 与 Anthropic |
 
 ## 📖 各站政策详解
 
@@ -1052,7 +1052,7 @@ removed 是中转聚合站 · 国模分组 0.08x（官网价 8%），同一个 b
 - 面板不开放公开的 /api/status，本页只探 robots 放行的 /v1/models（不带 key 回 401 即为存活证据），拿不到模型清单与实时价格
 - 速率与稳定性以实测为准，建议先小额充值试跑
 
-**入口**：[注册入口](https://your-endpoint.example.com/) · [站点首页](https://your-endpoint.example.com)
+**入口**：[注册入口]() · [站点首页](https://your-endpoint.example.com)
 
 
 ## 🏢 官方免费 API（公益站之外的保底方案）
@@ -1147,7 +1147,7 @@ MIT License
 
 ### 关于本站作者使用的中转站
 
-本站整理的中转站里，我长期自用的是 **[Sample Gateway](https://your-endpoint.example.com/)**：
+本站整理的中转站里，我长期自用的是 **[Sample Gateway]()**：
 
 - **双协议兼容** — [OI] 与 Anthropic 同时支持，[CC] / Codex 零改造
 - **注册门槛低** — QQ 邮箱即可，无需邀请码、无需手机号、无需外币卡
