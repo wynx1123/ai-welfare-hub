@@ -1003,7 +1003,7 @@
       "subtitle": "中转聚合站 · 国模分组 0.08x（官网价 8%），同一个 base URL 同时吃 OpenAI 与 Anthropic",
       "recommended": false,
       "homeUrl": "https://your-endpoint.example.com",
-      "signupUrl": "https://your-endpoint.example.com/r/T8KiaeGU",
+      "signupUrl": "",
       "docsUrl": null,
       "tags": [
         "中转站",
