@@ -2,18 +2,10 @@
 
 > 公益站 + New API 中转站合集：注册送额度、每日签到、免费调 Claude / GPT / Gemini，自动探活实时更新
 
-[![GitHub Stars](https://img.shields.io/github/stars/wynx1123/ai-welfare-hub?style=social)](https://github.com/wynx1123/ai-welfare-hub/stargazers)
-[![Live Status](https://img.shields.io/badge/%E6%8E%A2%E6%B4%BB-%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0-brightgreen)](https://wynx1123.github.io/ai-welfare-hub/)
+[![GitHub Stars](https://img.shields.io/github/stars/1261398983/ai-welfare-hub?style=social)](https://github.com/1261398983/ai-welfare-hub/stargazers)
+[![Live Status](https://img.shields.io/badge/%E6%8E%A2%E6%B4%BB-%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0-brightgreen)](https://1261398983.github.io/ai-welfare-hub/)
 
 > 数据快照：2026-09-29 12:15 UTC，由 GitHub Actions 自动抓取更新。
-
-
-> ### 🔗 本站作者自用的中转站
->
-> **[Sample Gateway]()** — 一个 [OI] 兼容端点统管 Claude / GPT / Gemini / Grok。
-> 注册只需 QQ 邮箱，无需邀请码、无需外币卡；按量计费，输入输出分开计价，倍率在控制台公开。
-> [[CC] 改两行环境变量即可接入 →]()
-
 
 **当前收录 20 个站点**。按“注册奖励 + 邀请奖励 + 当日签到”的登记口径，美元计价站首日理论上限合计约 **$1472**；它不是无条件到账金额，也不代表可提现现金。
 
@@ -1142,20 +1134,3 @@ removed 是中转聚合站 · 国模分组 0.08x（官网价 8%），同一个 b
 ---
 
 MIT License
-
----
-
-### 关于本站作者使用的中转站
-
-本站整理的中转站里，我长期自用的是 **[Sample Gateway]()**：
-
-- **双协议兼容** — [OI] 与 Anthropic 同时支持，[CC] / Codex 零改造
-- **注册门槛低** — QQ 邮箱即可，无需邀请码、无需手机号、无需外币卡
-- **计费透明** — 按量计费，输入输出分开计价，分组与模型倍率在控制台公开
-- **可审计** — 基于开源 Sub2API 面板，每笔调用扣费可明细查询
-- **起充低** — 人民币 10 元起，可以先小额试
-
-👉 **https://your-endpoint.example.com/**
-
-> 说明：个人部署的第三方 API 转发服务，非上游厂商官方产品。建议按实际用量充值，避免一次性大额预付；重要业务请自备备份线路。
-

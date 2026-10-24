@@ -249,8 +249,8 @@ ${moreLine}
 
 > ${data.meta.tagline}
 
-[![GitHub Stars](https://img.shields.io/github/stars/wynx1123/ai-welfare-hub?style=social)](https://github.com/wynx1123/ai-welfare-hub/stargazers)
-[![Live Status](https://img.shields.io/badge/%E6%8E%A2%E6%B4%BB-%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0-brightgreen)](${data.meta.pagesUrl || 'https://wynx1123.github.io/ai-welfare-hub/'})
+[![GitHub Stars](https://img.shields.io/github/stars/1261398983/ai-welfare-hub?style=social)](https://github.com/1261398983/ai-welfare-hub/stargazers)
+[![Live Status](https://img.shields.io/badge/%E6%8E%A2%E6%B4%BB-%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0-brightgreen)](${data.meta.pagesUrl || 'https://1261398983.github.io/ai-welfare-hub/'})
 
 ${genLine}
 
@@ -598,5 +598,6 @@ ${freeApiJson ? `<script id="free-api-data" type="application/json">${freeApiJso
 
 await mkdir(`${ROOT}/docs`, { recursive: true });
 await writeFile(`${ROOT}/README.md`, buildReadme(), 'utf8');
-await writeFile(`${ROOT}/docs/index.html`, buildHtml(), 'utf8');
+// 根目录才是 Pages 发布源；docs/index.html 只是重复副本，加 noindex 避免被当成两个页面
+await writeFile(`${ROOT}/docs/index.html`, buildHtml().replace('<head>', '<head>\n<meta name="robots" content="noindex,follow">'), 'utf8');
 console.log(`✓ build 完成：README.md + docs/index.html（${data.sites.length} 个站点${generatedAt ? '，快照 ' + generatedAt : '，无实时数据'}）`);
