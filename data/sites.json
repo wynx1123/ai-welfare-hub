@@ -996,6 +996,61 @@
         "Arena Hero 商店(兑换站): https://linuxdoshop.arenahero.io/",
         "文档仓库: https://github.com/arena-hero/arena-hero-doc"
       ]
+    },
+    {
+      "id": "linkagi",
+      "name": "LinkAGI",
+      "subtitle": "按量付费 API 中转站 · 进 QQ 群领 3 元体验额度",
+      "recommended": false,
+      "homeUrl": "https://api.linktoagi.com",
+      "signupUrl": "https://api.linktoagi.com/sign-up?utm_source=ai-welfare-hub&utm_medium=directory&utm_campaign=trial_20261029",
+      "docsUrl": "https://docs.linktoagi.com/codex-api.html",
+      "statusApi": "https://api.linktoagi.com/api/status",
+      "pricingApi": "https://api.linktoagi.com/api/pricing",
+      "tags": [
+        "免费体验额度",
+        "按量付费",
+        "Codex",
+        "OpenAI 兼容"
+      ],
+      "highlights": [
+        "注册后加入 QQ 群 342205412，可向管理员领取 3 元站内体验额度",
+        "提供 Codex 接入教程和独立配置示例，按实际用量计费",
+        "价格页公开模型与分组信息，可先查看单价再创建令牌"
+      ],
+      "endpoints": {
+        "openai": "https://api.linktoagi.com/v1"
+      },
+      "register": {
+        "methods": [
+          "邮箱验证 + 密码",
+          "LinuxDO OAuth"
+        ],
+        "requirements": [
+          "3 元体验额度由群管理员发放，注册不会自动到账；不要求先充值"
+        ]
+      },
+      "modelsNote": "公开价格目录包含 GPT、Claude、Gemini 等模型。Codex 使用 Responses 接口；其他模型的协议支持与可用分组需分别核对，不代表目录中每个模型都支持 Responses。",
+      "setup": {
+        "client": "Codex CLI",
+        "note": "独立配置示例：https://github.com/16871233/linkagi-api-starter/releases/tag/codex-starter-20261028",
+        "steps": [
+          "注册后进群领取 3 元体验额度",
+          "在控制台创建令牌，按接入教程选择模型和分组",
+          "接入后先完成一个小任务，再到日志查看实际消耗"
+        ]
+      },
+      "caveats": [
+        "这是有试用活动的商业中转站；3 元为人民币计价的站内调用额度，不是 3 美元，不折现",
+        "没有承诺每日续领或永久免费；体验额度用完后按站内价格付费",
+        "供给包含第三方转售及号池渠道，模型可用性随线路变化"
+      ],
+      "community": [
+        "QQ 群：342205412",
+        "加群入口：https://qm.qq.com/q/E968hOM5Ka",
+        "群二维码：https://api.linktoagi.com/api-home/community-20261016/qq-group-342205412.webp",
+        "公开业务邮箱：linktoagi@163.com"
+      ]
     }
   ]
 }
