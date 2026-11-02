@@ -5,7 +5,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/1261398983/ai-welfare-hub?style=social)](https://github.com/1261398983/ai-welfare-hub/stargazers)
 [![Live Status](https://img.shields.io/badge/%E6%8E%A2%E6%B4%BB-%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0-brightgreen)](https://1261398983.github.io/ai-welfare-hub/)
 
-> 数据快照：2026-11-01 21:49 UTC，由 GitHub Actions 自动抓取更新。
+> 数据快照：2026-11-02 04:59 UTC，由 GitHub Actions 自动抓取更新。
 
 **当前收录 20 个站点**。按“注册奖励 + 邀请奖励 + 当日签到”的登记口径，美元计价站首日理论上限合计约 **$1472**；它不是无条件到账金额，也不代表可提现现金。
 
@@ -25,7 +25,7 @@
 | 站点 | 状态 | 首日理论上限 | 登记的额度构成 | 每日签到 | 协议 | 模型数 |
 |---|---|---|---|---|---|---|
 | [AgentRouter](https://agentrouter.org/register?aff=NARV) | 🟢 在线 | $175 | 注册赠送 $100 + 邀请奖励 $50 + 每日签到 $25 | ✅ $25 | anthropic / openai | — |
-| [JustDoWork](https://api.justwoker.icu/register?aff=Q9bp) | 🟢 在线 | ~$92 | 注册赠送 $70 + 每日签到 $22 | ✅ $22 | anthropic / openai | — |
+| [JustDoWork](https://api.justwoker.icu/register?aff=Q9bp) | 🔴 离线 | ~$92 | 注册赠送 $70 + 每日签到 $22 | ✅ $22 | anthropic / openai | — |
 | [RawChat 公益站](https://new.sharedchat.cc/list/#/register?i=cx8IE) | 🟢 在线 | — | 每日额度池 $50 | — | — | — |
 | [Matrix](https://matrix.mzsjai.com/login) | 🟢 在线 | 600 积分 | 邀请奖励 600 积分 | — | — | — |
 | [TaBiAI](https://tabitoken.com/sign-up?aff=5yhK) | 🟢 在线 | $120 | 注册赠送 $100 + 邀请奖励 $20 | — | anthropic / openai | — |
