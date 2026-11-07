@@ -2,7 +2,7 @@ name: refresh
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # 每 6 小时抓一次实时数据并重新发布
+    - cron: '0 18 * * *' # 每 24 小时（UTC 18:00 / 北京时间凌晨 2 点）抓一次实时数据并重新发布
   push:
     branches: [main]
   workflow_dispatch:
