@@ -836,29 +836,6 @@
       "mirrors": [],
       "dataStale": false,
       "staleFrom": null
-    },
-    {
-      "id": "removed",
-      "checkedAt": "2026-11-07T05:09:51.357Z",
-      "online": true,
-      "latencyMs": 134,
-      "error": null,
-      "apiOk": false,
-      "pricingOk": false,
-      "systemName": null,
-      "version": null,
-      "registerOpen": null,
-      "passwordRegister": null,
-      "checkinEnabled": null,
-      "loginMethods": [],
-      "topupEnabled": null,
-      "quotaPerUnit": null,
-      "announcements": [],
-      "models": null,
-      "modelsCount": null,
-      "mirrors": [],
-      "dataStale": false,
-      "staleFrom": null
     }
   ]
 }
