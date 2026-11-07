@@ -2436,7 +2436,7 @@
     {
       "id": "novai",
       "name": "NovAI",
-      "subtitle": "国产模型聚合网关：109 个模型一个 OpenAI 兼容端点，5 个模型永久免费",
+      "subtitle": "国产模型聚合网关：109 个模型一个兼容端点；5 个免费模型转发智谱 Flash 额度",
       "recommended": false,
       "credits": {
         "signup": 2,
@@ -2473,10 +2473,10 @@
       "earnMore": [
         "注册赠送 $2（14 天有效，不含图片/视频模型）"
       ],
-      "modelsNote": "免费模型为智谱 Flash 系列：GLM-4.7-Flash、GLM-4.6V-Flash、GLM-4.1V-Thinking-Flash（文本/视觉）、CogView-3-Flash（图）、CogVideoX-Flash（视频）；其余 106 个模型按量计费",
+      "modelsNote": "5 个标为免费的模型在上游属于智谱（/v1/models 里 owned_by 均为 zhipu），NovAI 转发并自行承担成本，不是第一方免费层；额度由上游决定",
       "caveats": [
-        "免费层每天 10 次、每分钟 5 次；充值后这 5 个模型不再限次",
-        "注册赠送的 $2 不含图片与视频模型"
+        "免费层每天 10 次、每分钟 5 次；充值后这 5 个模型不限次",
+        "免费额度源自上游智谱，随时可能调整"
       ],
       "community": []
     }
