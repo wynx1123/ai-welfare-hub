@@ -5,7 +5,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/wynx1123/ai-welfare-hub?style=social)](https://github.com/wynx1123/ai-welfare-hub/stargazers)
 [![Live Status](https://img.shields.io/badge/%E6%8E%A2%E6%B4%BB-%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0-brightgreen)](https://wynx1123.github.io/ai-welfare-hub/)
 
-> 数据快照：2026-11-07 14:44 UTC，由 GitHub Actions 自动抓取更新。
+> 数据快照：2026-11-07 15:48 UTC，由 GitHub Actions 自动抓取更新。
 
 **当前收录 58 个站点**。按“注册奖励 + 邀请奖励 + 当日签到”的登记口径，美元计价站首日理论上限合计约 **$4106.50**；它不是无条件到账金额，也不代表可提现现金。
 
@@ -31,9 +31,9 @@
 | [NOFX](https://nofx.one/zh-CN/sign-in?ref=1B51CYR5) | 🟢 在线 | 30 积分 | 注册赠送 20 积分 + 邀请奖励 5 积分 + 每日签到 5 积分 | ✅ 5 积分 | — | — |
 | [维云](https://vsllm.com/register?aff=Aci9) | 🟢 在线 | — | — | ✅ 金额待确认 | anthropic / openai | 63 |
 | [DoCode](https://docode.cc/register?aff=7bWb) | 🟢 在线 | ~$360 | 注册赠送 $300 + 邀请奖励 $60 | ❌ | anthropic / openai | — |
-| [TrueSOTA](https://true-sota.com/register?aff=8DTJUTUBJNE3) | 🔴 离线 | $20 | 注册赠送 $0 + 邀请奖励 $20 + 每日签到 $0 | ✅ $0 | openai | — |
+| [TrueSOTA](https://true-sota.com/register?aff=8DTJUTUBJNE3) | 🟢 在线 | $20 | 注册赠送 $0 + 邀请奖励 $20 + 每日签到 $0 | ✅ $0 | openai | — |
 | [幻城网安](https://api.hcnsec.cn/sign-up?aff=zDqY) | 🟢 在线 | — | — | ✅ 金额待确认 | anthropic / openai | — |
-| [Vyce AI](https://vyceai.com/signup?ref=VYCE_HZ3N7M) | 🟢 在线 | ~$10 | 邀请奖励 $10 | — | openai | — |
+| [Vyce AI](https://vyceai.com/signup?ref=VYCE_HZ3N7M) | 🔴 离线 | ~$10 | 邀请奖励 $10 | — | openai | — |
 | [ChatAnywhere](https://chatanywhere.tech/) | 🟢 在线 | — | — | — | openai / anthropic | — |
 | [Long的AI](https://aaawinn.xyz/sign-up?aff=cspn) | 🟢 在线 | $5 | 注册赠送 $5 | ❌ | openai / anthropic | — |
 | [Conduit](https://t.me/conduitoff_bot?start=ref_6939669896) | 🟢 在线 | $500 | 注册赠送 $500 | — | openai / anthropic | — |
