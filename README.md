@@ -1010,14 +1010,14 @@ Arena Hero 是网格世界 AI Agent 游戏 · 游戏内 Core 资源可到兑换�
 - 国模分组 0.08x，就是官网定价的 8%；open ai pro 分组 0.22x —— 这比常见的 0.1x 还要低一档
 - 同一个 base URL 同时挂 OpenAI（/v1/models、/v1/chat/completions、/v1/responses）与 Anthropic（/v1/messages）两套协议，Claude Code 和 Codex CLI 不改代码都能直连，这是本页多数站做不到的
 - 十一个可用模型：deepseek-v4-flash / v4.1-flash / pro、glm-5.2 / 5.3 / 5.3-flash、kimi-k2.8 / k3、minimax-m3、hy3 / hy4
-- QQ 邮箱注册，支付宝 / 微信充值，余额不过期，国内直连不需代理
+- 邮箱注册，支付宝 / 微信充值，余额不过期，国内直连不需代理
 - 四个端点实测全通：/v1/models 1.61s、/v1/chat/completions 2.19s、/v1/responses 2.37s、/v1/messages 3.94s
 
 **注册与领取政策**
 
 - 注册方式：邮箱注册
 - 从本页邀请链接进入注册，邀请关系在注册那一刻绑定，事后补不上
-- QQ 邮箱即可，不需要海外手机号或外币卡
+- 邮箱即可，不需要海外手机号或外币卡
 - 登录后到「API 密钥」页建 key，到「可用渠道」页看分组倍率
 
 **免费额度与续领政策**
@@ -1026,7 +1026,7 @@ Arena Hero 是网格世界 AI Agent 游戏 · 游戏内 Core 资源可到兑换�
 
 可继续获取额度的方式：
 
-- 邀请返佣 10%，不冻结、无上限、无每日发放上限
+-  10%，不冻结、无上限、无每日发放上限
 - 充值送额活动以站内公告为准
 
 **接口、模型与接入政策**
