@@ -2436,7 +2436,7 @@
     {
       "id": "novai",
       "name": "NovAI",
-      "subtitle": "国产模型聚合网关：111 个模型一个 OpenAI 兼容端点，5 个模型永久免费",
+      "subtitle": "国产模型聚合网关：109 个模型一个 OpenAI 兼容端点，5 个模型永久免费",
       "recommended": false,
       "credits": {
         "signup": 2,
@@ -2455,7 +2455,7 @@
       ],
       "highlights": [
         "5 个模型永久免费：每天 10 次、每分钟 5 次，充值任意金额后这 5 个模型不限次数",
-        "111 个国产模型（DeepSeek / Qwen / GLM / Kimi / MiniMax / 豆包 / 混元）一个 OpenAI 兼容端点",
+        "109 个国产模型（DeepSeek / Qwen / GLM / Kimi / MiniMax / 豆包 / 混元）一个 OpenAI 兼容端点",
         "0% 平台加价，逐模型价格表公开"
       ],
       "endpoints": {
