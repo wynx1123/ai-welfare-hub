@@ -5,9 +5,9 @@
 [![GitHub Stars](https://img.shields.io/github/stars/wynx1123/ai-welfare-hub?style=social)](https://github.com/wynx1123/ai-welfare-hub/stargazers)
 [![Live Status](https://img.shields.io/badge/%E6%8E%A2%E6%B4%BB-%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0-brightgreen)](https://wynx1123.github.io/ai-welfare-hub/)
 
-> 数据快照：2026-11-05 05:27 UTC，由 GitHub Actions 自动抓取更新。
+> 数据快照：2026-11-07 14:44 UTC，由 GitHub Actions 自动抓取更新。
 
-**当前收录 19 个站点**。按“注册奖励 + 邀请奖励 + 当日签到”的登记口径，美元计价站首日理论上限合计约 **$1472**；它不是无条件到账金额，也不代表可提现现金。
+**当前收录 58 个站点**。按“注册奖励 + 邀请奖励 + 当日签到”的登记口径，美元计价站首日理论上限合计约 **$4106.50**；它不是无条件到账金额，也不代表可提现现金。
 
 本项目面向正在寻找 Claude Code、Codex、Cursor、OpenAI 兼容接口或免费 API 体验额度的用户。站点每 6 小时自动探活，但“在线”只代表探测时入口或公开接口可访问，不保证注册、模型调用、余额发放和上游线路均正常。
 
@@ -24,25 +24,64 @@
 
 | 站点 | 状态 | 首日理论上限 | 登记的额度构成 | 每日签到 | 协议 | 模型数 |
 |---|---|---|---|---|---|---|
-| [AgentRouter](https://agentrouter.org/register?aff=NARV) | 🟢 在线 | $175 | 注册赠送 $100 + 邀请奖励 $50 + 每日签到 $25 | ✅ $25 | anthropic / openai | — |
-| [JustDoWork](https://api.justwoker.icu/register?aff=Q9bp) | 🔴 离线 | ~$92 | 注册赠送 $70 + 每日签到 $22 | ✅ $22 | anthropic / openai | — |
-| [RawChat 公益站](https://new.sharedchat.cc/list/#/register?i=cx8IE) | 🟢 在线 | — | 每日额度池 $50 | — | — | — |
+| [AgentRouter](https://agentrouter.org/register?aff=NARV) | 🟢 在线 | $175 | 注册赠送 $100 + 邀请奖励 $50 + 每日签到 $25 | ✅ $25 | anthropic / openai | 1 |
 | [Matrix](https://matrix.mzsjai.com/login) | 🟢 在线 | 600 积分 | 邀请奖励 600 积分 | — | — | — |
-| [TaBiAI](https://tabitoken.com/sign-up?aff=5yhK) | 🔴 离线 | $120 | 注册赠送 $100 + 邀请奖励 $20 | — | anthropic / openai | — |
-| [GoRouter](https://gorouter.app/sign-up?aff=Vo1d) | 🔴 离线 | $70 | 注册赠送 $50 + 邀请奖励 $20 | — | anthropic / openai | — |
 | [肖恩Ai](https://free.supxh.xin/register?code=FKGTEA) | 🟢 在线 | ~7000 积分 | 注册赠送 5000 积分 + 每日签到 2000 积分 | ✅ 2000 积分 | — | — |
 | [SeekAI](https://seekai.cc/sign-up?aff=jVlv) | 🔴 离线 | — | — | — | — | — |
 | [NOFX](https://nofx.one/zh-CN/sign-in?ref=1B51CYR5) | 🟢 在线 | 30 积分 | 注册赠送 20 积分 + 邀请奖励 5 积分 + 每日签到 5 积分 | ✅ 5 积分 | — | — |
-| [kktoken](https://kktoken.cc/sign-up?aff=tWv1) | 🟢 在线 | $120 | 注册赠送 $100 + 每日签到 $20 | ✅ $20 | — | — |
 | [维云](https://vsllm.com/register?aff=Aci9) | 🟢 在线 | — | — | ✅ 金额待确认 | anthropic / openai | 63 |
 | [DoCode](https://docode.cc/register?aff=7bWb) | 🟢 在线 | ~$360 | 注册赠送 $300 + 邀请奖励 $60 | ❌ | anthropic / openai | — |
-| [TrueSOTA](https://true-sota.com/register?aff=8DTJUTUBJNE3) | 🟢 在线 | $20 | 注册赠送 $0 + 邀请奖励 $20 + 每日签到 $0 | ✅ $0 | openai | — |
+| [TrueSOTA](https://true-sota.com/register?aff=8DTJUTUBJNE3) | 🔴 离线 | $20 | 注册赠送 $0 + 邀请奖励 $20 + 每日签到 $0 | ✅ $0 | openai | — |
 | [幻城网安](https://api.hcnsec.cn/sign-up?aff=zDqY) | 🟢 在线 | — | — | ✅ 金额待确认 | anthropic / openai | — |
-| [Vyce AI](https://vyceai.com/signup?ref=VYCE_HZ3N7M) | 🔴 离线 | ~$10 | 邀请奖励 $10 | — | openai | — |
+| [Vyce AI](https://vyceai.com/signup?ref=VYCE_HZ3N7M) | 🟢 在线 | ~$10 | 邀请奖励 $10 | — | openai | — |
 | [ChatAnywhere](https://chatanywhere.tech/) | 🟢 在线 | — | — | — | openai / anthropic | — |
 | [Long的AI](https://aaawinn.xyz/sign-up?aff=cspn) | 🟢 在线 | $5 | 注册赠送 $5 | ❌ | openai / anthropic | — |
 | [Conduit](https://t.me/conduitoff_bot?start=ref_6939669896) | 🟢 在线 | $500 | 注册赠送 $500 | — | openai / anthropic | — |
 | [Arena Hero](https://app.arenahero.io/arena) | 🟢 在线 | — | — | — | — | — |
+| [LiveLove AI](https://livelove.dev/register) | 🟢 在线 | $1 | 注册赠送 $1 | — | openai / anthropic | — |
+| [大白饭公益站](https://newapi.hkkkj.qzz.io/sign-up) | 🟢 在线 | $3 | 注册赠送 $2 + 每日签到 $1 | ✅ $1 | openai / anthropic | 48 |
+| [Tokeness](https://tokeness.ai/sign-up) | 🟢 在线 | ~$0.50 | 每日签到 $0.50 | ✅ $0.50 | openai / anthropic | 47 |
+| [iamhc 公益站](https://api.iamhc.cn/) | 🟢 在线 | ~$2000 | 注册赠送 $2000 | — | openai | — |
+| [星见雅 API](https://new.xinjianya.top/sign-up) | 🟢 在线 | ~$20 | 注册赠送 $20 | ✅ 金额待确认 | openai / anthropic | 25 |
+| [白嫖福利站](https://ai.baipiao.co/) | 🟢 在线 | — | — | — | — | — |
+| [DeadlySignal API](https://myapi.creitingameplays.com/register) | 🟢 在线 | — | — | ❌ | openai / anthropic | 80 |
+| [莱斯超级API](https://laisiai.tw.cpolar.io/register) | 🟢 在线 | — | — | ✅ 金额待确认 | openai / anthropic | 19 |
+| [Future Hub](https://api.futureppo.top/register) | 🟢 在线 | ~$20 | 每日签到 $20 | ✅ $20 | openai / anthropic | 25 |
+| [Liminality](https://beizhi.dedyn.io/register) | 🟢 在线 | ~100 积分 | 每日签到 100 积分 | ✅ 100 积分 | openai / anthropic | 31 |
+| [初叶 Furry API](https://ai.chuyel.top/sign-up) | 🟢 在线 | ~10 积分 | 每日签到 10 积分 | ✅ 10 积分 | openai / anthropic | 80 |
+| [KiosAPI](https://kiosapi.com/sign-up) | 🟢 在线 | — | — | ❌ | openai / anthropic | — |
+| [君の公益](https://muyuan.do/) | 🟢 在线 | — | — | — | openai | — |
+| [S3AI API](https://ai.furry.vg/register) | 🟢 在线 | — | — | ❌ | openai / anthropic | 80 |
+| [免费 ChatGPT API](https://free.v36.cm/register) | 🟢 在线 | — | — | — | openai / anthropic | — |
+| [bmapi 公益站](https://bmapi.020212.xyz/) | 🟢 在线 | 100 积分 | 每日签到 100 积分 | ✅ 100 积分 | openai / anthropic | — |
+| [Grox](https://www.mcgrox.top/register) | 🟢 在线 | ~$100 | 注册赠送 $100 | — | openai | — |
+| [启源星](https://chuan.sylu.cc/register) | 🟢 在线 | $100 | 邀请奖励 $50 + 每日签到 $50 | ✅ $50 | openai / anthropic | 8 |
+| [哈基猫API](https://hjmapi.923578.xyz/register) | 🟢 在线 | — | — | ✅ 金额待确认 | openai / anthropic | 32 |
+| [黑与白公益站](https://ai.hybgzs.com/) | 🟢 在线 | — | — | — | openai / anthropic | — |
+| [年华 API](https://newapi.makelove.cloud/register) | 🟢 在线 | $2 | 每日签到 $2 | ✅ $2 | openai / anthropic | 72 |
+| [小欢公益站](https://free-llm.cups.moe) | 🟢 在线 | — | — | — | — | — |
+| [Lunora API](https://www.uselunora.com/register) | 🟢 在线 | — | — | — | openai / anthropic | — |
+| [橘子API](https://api.juziai.cc/register) | 🟢 在线 | $50 | 注册赠送 $50 | ✅ 金额待确认 | openai / anthropic | 80 |
+| [薄荷公益站](https://x666.me/) | 🟢 在线 | $50 | 注册赠送 $25 + 邀请奖励 $25 | ❌ | openai / anthropic | 6 |
+| [小米 MiMo 公益站](https://fufu.iqach.top/) | 🟢 在线 | — | — | — | openai / anthropic | — |
+| [xxzl 公益站](https://ai.1tim.com/register) | 🟢 在线 | $3 | 每日签到 $3 | ✅ $3 | openai / anthropic | 5 |
+| [88888 AI](https://88888.qzz.io/) | 🟢 在线 | $100 | 注册赠送 $100 | — | openai | — |
+| [ShareLLM](https://sharellm.net/register) | 🟢 在线 | ~$120 | 注册赠送 $120 | ❌ | openai / anthropic | — |
+| [Ultra Router](https://ultrarouter.org/register) | 🟢 在线 | ~$28 | 每日签到 $28 | ✅ $28 | openai / anthropic | 6 |
+| [熊猫API](https://api520.pro/register) | 🟢 在线 | ~$200 | 注册赠送 $200 | ❌ | openai / anthropic | 80 |
+| [DGB 公益站](https://freeapi.dgbmc.top/register) | 🟢 在线 | — | — | ✅ 金额待确认 | openai / anthropic | 6 |
+| [V-API 公益站](https://v-api.de5.net/register) | 🟢 在线 | — | — | ❌ | openai / anthropic | — |
+| [聚合 API（aiyiwei）](https://aiyiwei.vip/register) | 🟢 在线 | — | — | ✅ 金额待确认 | openai / anthropic | 0 |
+| [api456 公益站](https://api456.me/register) | 🟢 在线 | 20 积分 | 注册赠送 20 积分 | ✅ 金额待确认 | openai / anthropic | 37 |
+| [100xLabs](https://sub.100xlabs.space/) | 🟢 在线 | $200 | 每日签到 $200 | ✅ $200 | anthropic | — |
+| [露娜](https://freeapi.site/register) | 🟢 在线 | — | — | — | openai / anthropic | — |
+| [词元枢阁 Token Nexus](https://api.aisz.mom/register) | 🟢 在线 | — | — | ❌ | openai / anthropic | 26 |
+| [cheap](https://api.cheapcodex.online/register) | 🟢 在线 | $20 | 注册赠送 $20 | — | openai | — |
+| [HLOOL API](https://api.hlool.top/register) | 🟢 在线 | — | — | ✅ 金额待确认 | openai / anthropic | 23 |
+| [Huainova](https://ai.huaibao.top/register) | 🟢 在线 | — | — | ✅ 金额待确认 | openai / anthropic | 0 |
+| [BudsAI](https://apichat.budsin.dev/register) | 🟢 在线 | ~$19 | 注册赠送 $15 + 每日签到 $4 | ✅ $4 | openai / anthropic | 80 |
+| [Moyuu AI 公益站](https://moyuu.cc/register) | 🟢 在线 | — | — | ❌ | openai / anthropic | 46 |
+| [GGBOOM 公益站](https://ai.qaq.al/) | 🟢 在线 | — | — | — | — | — |
 
 ## 🎮 Arena Hero：用 Core 资源兑换公益站注册码
 
@@ -58,15 +97,10 @@ Arena Hero 不是 AI 额度站，而是持续运行的网格世界 AI Agent 游�
 | 站点 | 定位 |
 |---|---|
 | [AgentRouter](https://agentrouter.org/register?aff=NARV) | AI Coding 公益站 · 注册即送额度，签到每日续命 |
-| [JustDoWork](https://api.justwoker.icu/register?aff=Q9bp) | New API 中转站 · GitHub 一键登录，支持签到与绘图 |
-| [RawChat 公益站](https://new.sharedchat.cc/list/#/register?i=cx8IE) | Codex 公益站 · 每日 $50 额度池，0 点自动重置 |
 | [Matrix](https://matrix.mzsjai.com/login) | 统一 API 网关 + 开源应用商店 · 邀请注册送 600 积分，实名再送 2000 |
-| [TaBiAI](https://tabitoken.com/sign-up?aff=5yhK) | New API 中转站 · 注册送 $100，本页邀请码再加 $20，专供 Claude Opus |
-| [GoRouter](https://gorouter.app/sign-up?aff=Vo1d) | New API 中转站 · 注册送 $50，本页邀请码再加 $20，按次计费里最便宜的一档 |
 | [肖恩Ai](https://free.supxh.xin/register?code=FKGTEA) | 公益站 · 注册送 5000 点，签到 1000~3000 点/日（社区反馈存活率低） |
 | [SeekAI](https://seekai.cc/sign-up?aff=jVlv) | 中转站 · Cloudflare 防护较严，需浏览器注册 |
 | [NOFX](https://nofx.one/zh-CN/sign-in?ref=1B51CYR5) | 任务型积分站 · 注册送 20 积分，签到 5/日，做 AI APP 体验任务领积分 |
-| [kktoken](https://kktoken.cc/sign-up?aff=tWv1) | 中转站 · 注册送 $100，每日签到 $20，专供 Claude Opus 全家桶（4.8/5 含 thinking 版） |
 | [维云](https://vsllm.com/register?aff=Aci9) | 维云模型开放平台 · GitHub/OIDC 登录，67+ 模型，签到暂未开放 |
 | [DoCode](https://docode.cc/register?aff=7bWb) | 公益站 · 注册到账 $300、邀请 $60（本页邀请码另有 $250 活动加赠） |
 | [TrueSOTA](https://true-sota.com/register?aff=8DTJUTUBJNE3) | AI API 网关 · 免费额度靠邀请：每邀请 1 人得 $20，每周上限 10 人 |
@@ -76,6 +110,50 @@ Arena Hero 不是 AI 额度站，而是持续运行的网格世界 AI Agent 游�
 | [Long的AI](https://aaawinn.xyz/sign-up?aff=cspn) | New API 中转站 · 白嫖分组免额度调主流模型，支持邀请与公共池 |
 | [Conduit](https://t.me/conduitoff_bot?start=ref_6939669896) | 多模型 AI API 网关 · OpenAI / Anthropic 兼容，公开目录列出 59 个模型 |
 | [Arena Hero](https://app.arenahero.io/arena) | 网格世界 AI Agent 游戏 · 游戏内 Core 资源可到兑换站换公益站注册码 |
+| [LiveLove AI](https://livelove.dev/register) | Antigravity / Claude 系分组公益站 · 分组倍率低至 0.05，注册送 $1 |
+| [大白饭公益站](https://newapi.hkkkj.qzz.io/sign-up) | 分组低价公益中转 · default 组 0.08 倍率，注册送 $2 + 每日签到 |
+| [Tokeness](https://tokeness.ai/sign-up) | 老牌中转新域迁移 · tokeness/free 分组有免费模型，每日签到 +$0.5 |
+| [iamhc 公益站](https://api.iamhc.cn/) | 注册送 $2000 的免费 API 站 · 域名即接口，签到每日随机再加 |
+| [星见雅 API](https://new.xinjianya.top/sign-up) | 银狮计价公益站 · 注册送 200 银狮（约 $20），签到随机爆送 |
+| [白嫖福利站](https://ai.baipiao.co/) | 白嫖 BaiPiao 官方福利站 · 每日签到随机 $1–$100，账号密码即注 |
+| [DeadlySignal API](https://myapi.creitingameplays.com/register) | 每日签到补额度的公益 API 站 · New API 系面板 |
+| [莱斯超级API](https://laisiai.tw.cpolar.io/register) | 注册送 6.6M 输入 token · 每日签到再补 2.3M，Mistral / Gemini / DeepSeek 系可用 |
+| [Future Hub](https://api.futureppo.top/register) | 签到日发约 $20 的开源旗舰限免站 · GitHub / 教育邮箱 / LinuxDO 一键进门 |
+| [Liminality](https://beizhi.dedyn.io/register) | 橘子积分签到站 · 单次签到最高 100 橘子，面板型网关 |
+| [初叶 Furry API](https://ai.chuyel.top/sign-up) | 按「次」计费的公益站 · 每日签到发代币，约可换 50–200 次调用 |
+| [KiosAPI](https://kiosapi.com/sign-up) | Free 分组倍率 0 直调 34+ 模型 · Telegram 机器人验证制 |
+| [君の公益](https://muyuan.do/) | LinuxDo 个人公益网关 · 只认 Codex CLI / Claude Code CLI，签到看资源 |
+| [S3AI API](https://ai.furry.vg/register) | NIM 分组倍率 0 免费不限速 · free 分组 0.001 近乎白送 |
+| [免费 ChatGPT API](https://free.v36.cm/register) | free.v36.cm 公益站 · GitHub 开源项目同源，面板 FREE GPT API |
+| [bmapi 公益站](https://bmapi.020212.xyz/) | 会员号池公益站 · Claude Max / ChatGPT Pro / Gemini 号池，签到日送 100 积分 |
+| [Grox](https://www.mcgrox.top/register) | TG 群绑定发 $100 日卡 · OpenAI 兼容公益站 |
+| [启源星](https://chuan.sylu.cc/register) | 签到最高送 $50 · 每日 1 万美元共享额度池，用完即止 |
+| [哈基猫API](https://hjmapi.923578.xyz/register) | 超低分组倍率公益站 · kimi-k3 组 0.0101 倍率，登录送钱签到续 |
+| [黑与白公益站](https://ai.hybgzs.com/) | 福利站大转盘 + 盲盒 + 农场攒额度 · 主站 API 网关 |
+| [年华 API](https://newapi.makelove.cloud/register) | 签到日补 $2 的稳态中转 · 综合倍率 0.05–1，支持生图 |
+| [小欢公益站](https://free-llm.cups.moe) | 博主个人后院免费大模型 API · 登录即送 200 次，评论区留言补量 |
+| [Lunora API](https://www.uselunora.com/register) | 订阅制中转 · 进 QQ 群领约 $10 GPT Pro 订阅，每日签到领小额 |
+| [橘子API](https://api.juziai.cc/register) | 注册送 $50 + 每日签到的公益聚合站 |
+| [薄荷公益站](https://x666.me/) | LinuxDo 授权注册送 25 点 · 转盘签到续额度，附 Gemini Antigravity 渠道 |
+| [小米 MiMo 公益站](https://fufu.iqach.top/) | 专供小米 MiMo 全套模型 · LinuxDo L1+ 授权，OpenAI + Anthropic 双端点 |
+| [xxzl 公益站](https://ai.1tim.com/register) | 邀请注册送 50 额度 · 每日签到 +3 的 New API 站 |
+| [88888 AI](https://88888.qzz.io/) | 注册送 $100 支持临时邮箱 · 按次计费近免费，国产模型一条龙 |
+| [ShareLLM](https://sharellm.net/register) | 注册送 120/5小时 + 600/周双档额度 · 双域名公益站 |
+| [Ultra Router](https://ultrarouter.org/register) | 艺の公益站 · 每日签到送 $28 额度 |
+| [熊猫API](https://api520.pro/register) | 注册送 200 额度（活动口径）的公益 API 站 |
+| [DGB 公益站](https://freeapi.dgbmc.top/register) | 注册随机送 $1–$50 · 支持临时邮箱，签到续额度 |
+| [V-API 公益站](https://v-api.de5.net/register) | 每日随机签到额度 + LDC 积分兑换的公益站 |
+| [聚合 API（aiyiwei）](https://aiyiwei.vip/register) | 签到日送约 $0.3 · 综合倍率 0.2–0.8 的聚合中转 |
+| [api456 公益站](https://api456.me/register) | 「硬币」计量的公益中转 · 注册送 20 硬币，签到日续 |
+| [100xLabs](https://sub.100xlabs.space/) | 百倍公益站 · 签到日 $200 递增至 $888，专供 Claude Opus 系 |
+| [露娜](https://freeapi.site/register) | 签到日随机 1–999 额度的聚合网关 · 邮箱白名单制 |
+| [词元枢阁 Token Nexus](https://api.aisz.mom/register) | GPT / Gemini / Grok chat 模型长期免费 · 综合倍率 0.1 |
+| [cheap](https://api.cheapcodex.online/register) | 注册送 $20 + 签到再领 $20 的轻量公益线路 |
+| [HLOOL API](https://api.hlool.top/register) | LDC 3 积分 = $1 充值兑换 · Codex 0.5x / Claude CC 2x 分组公益站 |
+| [Huainova](https://ai.huaibao.top/register) | 注册送起步额度 · 签到 + 游戏玩法 + 深夜定点抽奖的公益站 |
+| [BudsAI](https://apichat.budsin.dev/register) | 邀请注册送 $15 · 签到日领 $4+ 的公益站，免费档双限流 |
+| [Moyuu AI 公益站](https://moyuu.cc/register) | Moyuu 公益站 · 赠送以控制台实际为准，面板每日更新 |
+| [GGBOOM 公益站](https://ai.qaq.al/) | Codex 系免费网关 · sign.qaq.al 过 PoW 签到领分发余额 |
 
 ## 📖 各站政策详解
 
@@ -135,115 +213,7 @@ AgentRouter 是AI Coding 公益站 · 注册即送额度，签到每日续命。
 
 ---
 
-### 2. JustDoWork
-
-> New API 中转站 · GitHub 一键登录，支持签到与绘图
-
-**白嫖式摘要**
-
-JustDoWork 是New API 中转站 · GitHub 一键登录，支持签到与绘图。注册即得约 $70 额度，GitHub 一键登录，不用充值；基于开源 New API 面板，控制台熟悉、日志与用量一目了然。当前登记的福利是注册赠送 $70、每日签到 $22。接入方面提供 anthropic / openai 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：模型清单与价格需要登录后台才能查看，本页不做承诺。
-
-**服务与特点**
-
-- 注册即得约 $70 额度，GitHub 一键登录，不用充值
-- 基于开源 New API 面板，控制台熟悉、日志与用量一目了然
-- 每日签到再领约 $22，首日合计约 $92
-- 支持对话之外的绘图 / 异步任务接口
-- 一键把 Key 推送到 Cherry Studio、DeepChat、CC Switch 等客户端
-
-**注册与领取政策**
-
-- 注册方式：GitHub OAuth
-- 已关闭账号密码注册，只能用 GitHub 授权登录
-- GitHub 账号注册满 365 天才允许绑定，小号会被拒绝
-- 注册页有 Turnstile 人机校验，需要能正常加载 Cloudflare 脚本
-- 务必从本页邀请链接进入，注册后邀请额度才会算到位
-
-**免费额度与续领政策**
-
-- 注册赠送 $70；每日签到 $22。
-- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
-
-可继续获取额度的方式：
-
-- 每日签到领约 $22
-- 关注站点公告获取活动兑换码
-
-**接口、模型与接入政策**
-
-- **anthropic**：`https://api.justwoker.icu`
-- **openai**：`https://api.justwoker.icu/v1`
-
-**限制与风险提示**
-
-- 模型清单与价格需要登录后台才能查看，本页不做承诺
-- 中转站上游随时可能调整，请以站内实际价格与可用模型为准
-
-**入口**：[注册入口](https://api.justwoker.icu/register?aff=Q9bp) · [站点首页](https://api.justwoker.icu) · [文档](https://api.justwoker.icu/dashboard/overview)
-
-
----
-
-### 3. RawChat 公益站
-
-> Codex 公益站 · 每日 $50 额度池，0 点自动重置
-
-**白嫖式摘要**
-
-RawChat 公益站 是Codex 公益站 · 每日 $50 额度池，0 点自动重置。每日 $50 额度池，每天 0 点自动重置，不用签到、不用充值；专供 Codex：后台「使用教程」直接复制一键安装脚本，自动装依赖并写好环境变量。当前登记的福利是每日额度池 $50。先说清楚一个容易踩的坑：baipiao.org 提示该站「旧转发链路已关闭」，接入前务必先在浏览器确认服务是否恢复。
-
-**服务与特点**
-
-- 每日 $50 额度池，每天 0 点自动重置，不用签到、不用充值
-- 专供 Codex：后台「使用教程」直接复制一键安装脚本，自动装依赖并写好环境变量
-- 邮箱注册即可，没有 GitHub 账号年龄门槛，也没有人机校验
-- 按额度计费 + 3 小时滚动窗口，日常 vibe coding 基本够用
-
-**注册与领取政策**
-
-- 注册方式：邮箱注册
-- 如需领取邀请奖励，务必保留本页注册链接中的邀请参数进入注册；邀请码可能调整，以当前链接实际参数为准
-- 目前只开放邮箱注册，没有 GitHub / Google 登录入口
-- 注册登录后要在控制台点一次「领取 Codex 权益」，每日额度才会生效
-
-**免费额度与续领政策**
-
-- 每日额度池 $50。
-- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
-
-可继续获取额度的方式：
-
-- 每天 0 点额度自动重置，不需要签到
-- 后台「邀请奖励」邀请他人注册可拿额外奖励
-
-**接口、模型与接入政策**
-
-- 仓库未登记可公开直填的 Base URL；可能需要登录后台领取，或该站并非通用 API 中转服务。
-- 该站走 Codex 官方客户端 + 上游号池，不单独公示模型清单与价格，用量直接从每日 $50 的额度池里扣。
-
-**接入步骤（Codex CLI）**
-
-Base URL 与 API Key 登录后才由后台下发，本页不做猜测；控制台「使用教程」里选 Codex 就能复制对应平台的一键安装脚本。
-
-- 从本页邀请链接注册并登录 → 控制台「当前套餐」点一次『领取 Codex 权益』
-- 打开「使用教程」→ 选择 Codex → 复制对应平台（macOS / Linux / Windows）的安装脚本
-- 在终端执行脚本，它会装好依赖并写入 Base URL / Key 等环境变量，重开终端后直接跑 codex
-- [打开相关控制台](https://new.sharedchat.cc/list/#/vibe-code/dashboard)
-
-**限制与风险提示**
-
-- baipiao.org 提示该站「旧转发链路已关闭」，接入前务必先在浏览器确认服务是否恢复
-- $50 是每日重置的额度池，当天用不完会清零，不会累积到第二天
-- 额度按 3 小时滚动窗口限速，且全站共用上游号池，高峰期会显示「已触发限速」，等窗口刷新即可
-- 当前只开放 Codex 方向，要用 Claude Code 请走本页其它站点
-- 站内挂着付费站推广位，注意区分免费公益入口与付费站入口
-
-**入口**：[注册入口](https://new.sharedchat.cc/list/#/register?i=cx8IE) · [站点首页](https://new.sharedchat.cc/list/)
-
-
----
-
-### 4. Matrix
+### 2. Matrix
 
 > 统一 API 网关 + 开源应用商店 · 邀请注册送 600 积分，实名再送 2000
 
@@ -311,105 +281,7 @@ Matrix 是统一 API 网关 + 开源应用商店 · 邀请注册送 600 积分�
 
 ---
 
-### 5. TaBiAI
-
-> New API 中转站 · 注册送 $100，本页邀请码再加 $20，专供 Claude Opus
-
-**白嫖式摘要**
-
-TaBiAI 是New API 中转站 · 注册送 $100，本页邀请码再加 $20，专供 Claude Opus。新用户注册送 $100，从本页邀请链接进入再加 $20，首日 $120（2026-08-30 实测到账）；Anthropic 与 OpenAI 两种协议都开着，Claude Code 填个 Base URL 就能直连。当前登记的福利是注册赠送 $100、邀请奖励 $20。接入方面提供 anthropic / openai 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：按次计费而不是按 token：claude-opus-5 / -thinking 每次 $0.8，claude-opus-4-8 系每次 $0.5。首日 $120 约等于 150 次 opus-5 请求，Claude Code 里一问一答就算一次，比按 token 的站消耗快得多。
-
-**服务与特点**
-
-- 新用户注册送 $100，从本页邀请链接进入再加 $20，首日 $120（2026-08-30 实测到账）
-- Anthropic 与 OpenAI 两种协议都开着，Claude Code 填个 Base URL 就能直连
-- 只放 Claude Opus 四个型号（opus-5 / opus-5-thinking / opus-4-8 / 4-8-thinking），定价接口公开可查
-- 面板开着每日签到，可以持续领额度
-
-**注册与领取政策**
-
-- 注册方式：GitHub OAuth
-- 务必保留本页注册链接中的 aff 参数进入注册，$20 在注册时结算，事后通常无法补发；邀请码可能调整，以当前链接实际参数为准
-- 已关闭账号密码注册，只能用 GitHub 授权；注册完成后可以再设密码用于登录
-- 注册页有 Cloudflare Turnstile 人机校验，需要能正常加载 Cloudflare 脚本
-
-**免费额度与续领政策**
-
-- 注册赠送 $100；邀请奖励 $20。
-- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
-
-可继续获取额度的方式：
-
-- 面板已开启每日签到，登录后台点签到即可（每次给多少站点没公示，以站内为准）
-- 邀请他人注册也有奖励，金额站点未公开，登录后台「邀请」页确认
-
-**接口、模型与接入政策**
-
-- **anthropic**：`https://tabitoken.com`
-- **openai**：`https://tabitoken.com/v1`
-
-**限制与风险提示**
-
-- 按次计费而不是按 token：claude-opus-5 / -thinking 每次 $0.8，claude-opus-4-8 系每次 $0.5。首日 $120 约等于 150 次 opus-5 请求，Claude Code 里一问一答就算一次，比按 token 的站消耗快得多
-- 只有 Claude Opus 四个模型，没有 GPT / Gemini；OpenAI 兼容协议虽然开着，但能填的模型名只有 claude-*（下面 Codex CLI 示例就是这么配的），想拿它跑 GPT / Codex 原生模型是不行的
-- 站点支持在线充值（站内公示 $1 ≈ ¥7.3，Stripe 通道 ¥8），是中转站不是纯公益站，免费额度用完要付费才能续
-- 模型分 default / vip 两个分组，同一模型在不同分组的可用性可能不同，以站内为准
-- 站点前面挂着 Cloudflare，机房 IP 容易被拦，本页的自动探测偶尔会标「被 WAF 拦下」，不代表站点对你不可用
-
-**入口**：[注册入口](https://tabitoken.com/sign-up?aff=5yhK) · [站点首页](https://tabitoken.com)
-
-
----
-
-### 6. GoRouter
-
-> New API 中转站 · 注册送 $50，本页邀请码再加 $20，按次计费里最便宜的一档
-
-**白嫖式摘要**
-
-GoRouter 是New API 中转站 · 注册送 $50，本页邀请码再加 $20，按次计费里最便宜的一档。新用户注册送 $50，从本页邀请链接进入再加 $20，首日 $70（2026-08-11 实测到账）；按次计费里单价最低的一档：claude-opus-5 每次 $0.3，opus-4-8 每次 $0.2，首日 $70 够跑两百多次。当前登记的福利是注册赠送 $50、邀请奖励 $20。接入方面提供 anthropic / openai 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：按次计费而不是按 token：claude-opus-5 / -thinking 每次 $0.3，claude-opus-4-8 系每次 $0.2。首日 $70 约等于 233 次 opus-5 请求，Claude Code 里一问一答就算一次，与按 token 的站没法直接比。
-
-**服务与特点**
-
-- 新用户注册送 $50，从本页邀请链接进入再加 $20，首日 $70（2026-08-11 实测到账）
-- 按次计费里单价最低的一档：claude-opus-5 每次 $0.3，opus-4-8 每次 $0.2，首日 $70 够跑两百多次
-- Anthropic 与 OpenAI 两种协议都开着，Claude Code 填个 Base URL 就能直连
-- 面板开着每日签到，可以持续领额度
-
-**注册与领取政策**
-
-- 注册方式：GitHub OAuth
-- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
-
-**免费额度与续领政策**
-
-- 注册赠送 $50；邀请奖励 $20。
-- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
-
-可继续获取额度的方式：
-
-- 面板已开启每日签到，登录后台点签到即可（每次给多少站点没公示，以站内为准）
-- 邀请他人注册：每成功邀请一人到账 $40（2026-08-11 实测两笔；站点公开接口没公示这个数字）
-
-**接口、模型与接入政策**
-
-- **anthropic**：`https://gorouter.app`
-- **openai**：`https://gorouter.app/v1`
-
-**限制与风险提示**
-
-- 按次计费而不是按 token：claude-opus-5 / -thinking 每次 $0.3，claude-opus-4-8 系每次 $0.2。首日 $70 约等于 233 次 opus-5 请求，Claude Code 里一问一答就算一次，与按 token 的站没法直接比
-- 只有 Claude Opus 四个模型，没有 GPT / Gemini；OpenAI 兼容协议虽然开着，但能填的模型名只有 claude-*（下面 Codex CLI 示例就是这么配的），想拿它跑 GPT / Codex 原生模型是不行的
-- 只有一个 default 分组，没有 vip 分组可切，遇到上游拥塞只能等
-- 站点支持在线充值（站内公示 $1 ≈ ¥7.3，Stripe 通道 ¥8），是中转站不是纯公益站，免费额度用完要付费才能续
-- 站点前面挂着 Cloudflare，机房 IP 容易被拦，本页的自动探测偶尔会标「被 WAF 拦下」，不代表站点对你不可用
-
-**入口**：[注册入口](https://gorouter.app/sign-up?aff=Vo1d) · [站点首页](https://gorouter.app)
-
-
----
-
-### 7. 肖恩Ai
+### 3. 肖恩Ai
 
 > 公益站 · 注册送 5000 点，签到 1000~3000 点/日（社区反馈存活率低）
 
@@ -448,7 +320,7 @@ GoRouter 是New API 中转站 · 注册送 $50，本页邀请码再加 $20，按
 
 ---
 
-### 8. SeekAI
+### 4. SeekAI
 
 > 中转站 · Cloudflare 防护较严，需浏览器注册
 
@@ -485,7 +357,7 @@ SeekAI 是中转站 · Cloudflare 防护较严，需浏览器注册。对自动�
 
 ---
 
-### 9. NOFX
+### 5. NOFX
 
 > 任务型积分站 · 注册送 20 积分，签到 5/日，做 AI APP 体验任务领积分
 
@@ -524,46 +396,7 @@ NOFX 是任务型积分站 · 注册送 20 积分，签到 5/日，做 AI APP �
 
 ---
 
-### 10. kktoken
-
-> 中转站 · 注册送 $100，每日签到 $20，专供 Claude Opus 全家桶（4.8/5 含 thinking 版）
-
-**白嫖式摘要**
-
-kktoken 是中转站 · 注册送 $100，每日签到 $20，专供 Claude Opus 全家桶（4.8/5 含 thinking 版）。注册送 $100，每日签到再领 $20；专攻 Claude Opus 全家桶：claude-opus-4-8 / 4-8-thinking / 5 / 5-thinking 四款。当前登记的福利是注册赠送 $100、每日签到 $20。先说清楚一个容易踩的坑：公开接口全部有防护拦截，本页无法自动探活面板数据。
-
-**服务与特点**
-
-- 注册送 $100，每日签到再领 $20
-- 专攻 Claude Opus 全家桶：claude-opus-4-8 / 4-8-thinking / 5 / 5-thinking 四款
-- Cloudflare 防护较严，需浏览器注册
-
-**注册与领取政策**
-
-- 注册方式：仓库尚未确认，按注册页当前提供的方式为准
-- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
-
-**免费额度与续领政策**
-
-- 注册赠送 $100；每日签到 $20。
-- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
-
-仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
-
-**接口、模型与接入政策**
-
-- 仓库未登记可公开直填的 Base URL；可能需要登录后台领取，或该站并非通用 API 中转服务。
-
-**限制与风险提示**
-
-- 公开接口全部有防护拦截，本页无法自动探活面板数据
-
-**入口**：[注册入口](https://kktoken.cc/sign-up?aff=tWv1) · [站点首页](https://kktoken.cc)
-
-
----
-
-### 11. 维云
+### 6. 维云
 
 > 维云模型开放平台 · GitHub/OIDC 登录，67+ 模型，签到暂未开放
 
@@ -602,7 +435,7 @@ kktoken 是中转站 · 注册送 $100，每日签到 $20，专供 Claude Opus �
 
 ---
 
-### 12. DoCode
+### 7. DoCode
 
 > 公益站 · 注册到账 $300、邀请 $60（本页邀请码另有 $250 活动加赠）
 
@@ -643,7 +476,7 @@ DoCode 是公益站 · 注册到账 $300、邀请 $60（本页邀请码另有 $2
 
 ---
 
-### 13. TrueSOTA
+### 8. TrueSOTA
 
 > AI API 网关 · 免费额度靠邀请：每邀请 1 人得 $20，每周上限 10 人
 
@@ -682,7 +515,7 @@ TrueSOTA 是AI API 网关 · 免费额度靠邀请：每邀请 1 人得 $20，�
 
 ---
 
-### 14. 幻城网安
+### 9. 幻城网安
 
 > 新疆幻城网安科技公益大模型安全网关 · 注册开放，每日签到，余额可兑 SVIP
 
@@ -721,7 +554,7 @@ TrueSOTA 是AI API 网关 · 免费额度靠邀请：每邀请 1 人得 $20，�
 
 ---
 
-### 15. Vyce AI
+### 10. Vyce AI
 
 > AI API 代理 · 邀请注册双方各得 $10，Claude/GPT/Gemini/Grok 旗舰齐全
 
@@ -767,7 +600,7 @@ Vyce AI 是AI API 代理 · 邀请注册双方各得 $10，Claude/GPT/Gemini/Gro
 
 ---
 
-### 16. ChatAnywhere
+### 11. ChatAnywhere
 
 > 公益 API 中转站 · GitHub 用户个人免费额度，兼容 OpenAI 与 Anthropic 协议
 
@@ -823,7 +656,7 @@ ChatAnywhere 是公益 API 中转站 · GitHub 用户个人免费额度，兼容
 - 部分模型来自第三方线路或逆向渠道，可能出现速度慢、报错、地区限制或稳定性下降
 - 隐私与不留存声明属于运营方自述，发送生产密钥、隐私数据或企业代码前仍应自行评估
 
-**入口**：[注册入口](https://chatanywhere.tech/) · [站点首页](https://chatanywhere.tech/) · [文档](https://docs.chatanywhere.tech/)
+**入口**：[注册入口](https://chatanywhere.tech/) · [站点首页](https://chatanywhere.tech/) · [文档](https://docs.chatanywhere.tech/) · [海外线路域名](https://chatanywhere.tech/)
 
 
 **官方社区与联系**
@@ -834,7 +667,7 @@ ChatAnywhere 是公益 API 中转站 · GitHub 用户个人免费额度，兼容
 
 ---
 
-### 17. Long的AI
+### 12. Long的AI
 
 > New API 中转站 · 白嫖分组免额度调主流模型，支持邀请与公共池
 
@@ -890,7 +723,7 @@ Long的AI 是New API 中转站 · 白嫖分组免额度调主流模型，支持�
 
 ---
 
-### 18. Conduit
+### 13. Conduit
 
 > 多模型 AI API 网关 · OpenAI / Anthropic 兼容，公开目录列出 59 个模型
 
@@ -949,7 +782,7 @@ Conduit 是多模型 AI API 网关 · OpenAI / Anthropic 兼容，公开目录�
 
 ---
 
-### 19. Arena Hero
+### 14. Arena Hero
 
 > 网格世界 AI Agent 游戏 · 游戏内 Core 资源可到兑换站换公益站注册码
 
@@ -996,6 +829,1837 @@ Arena Hero 是网格世界 AI Agent 游戏 · 游戏内 Core 资源可到兑换�
 - 游戏入口: https://app.arenahero.io/arena
 - Arena Hero 商店(兑换站): https://linuxdoshop.arenahero.io/
 - 文档仓库: https://github.com/arena-hero/arena-hero-doc
+
+---
+
+### 15. LiveLove AI
+
+> Antigravity / Claude 系分组公益站 · 分组倍率低至 0.05，注册送 $1
+
+**白嫖式摘要**
+
+LiveLove AI 是Antigravity / Claude 系分组公益站 · 分组倍率低至 0.05，注册送 $1。注册送 $1 起步额度，Argon 与 opus-4.6 分组倍率 0.05、正价 kiro 全模型 0.08，低价位在公益站里少见；OpenAI 与 Anthropic 双协议端点均有提供，另有 api.livelove.dev/v1 备用接口地址。当前登记的福利是注册赠送 $1。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：Antigravity 分组只能按站内专用示例配置，不兼容 Chat Completions / Responses / Claude Code / Codex 客户端。
+
+**服务与特点**
+
+- 注册送 $1 起步额度，Argon 与 opus-4.6 分组倍率 0.05、正价 kiro 全模型 0.08，低价位在公益站里少见
+- OpenAI 与 Anthropic 双协议端点均有提供，另有 api.livelove.dev/v1 备用接口地址
+- 站点规则透明：额定额度、签到解锁条件、分组倍率全部写明
+
+**注册与领取政策**
+
+- 注册方式：邮箱注册
+- 仅接受 @qq.com 邮箱白名单注册，须过 Turnstile 人机验证并完成邮箱验证
+- 每日签到需先成功邀请 5 人或累计充值兑换达到门槛才解锁
+
+**免费额度与续领政策**
+
+- 注册赠送 $1。
+- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://livelove.dev/v1`
+- **anthropic**：`https://livelove.dev`
+
+**限制与风险提示**
+
+- Antigravity 分组只能按站内专用示例配置，不兼容 Chat Completions / Responses / Claude Code / Codex 客户端
+- 反重力账户池与 kiro 渠道依赖上游账号池，有货才可用，分组表需登录后查看
+- 无支付入口，签到解锁实际只能走邀请拉人路线
+
+**入口**：[注册入口](https://livelove.dev/register) · [站点首页](https://livelove.dev/)
+
+
+---
+
+### 16. 大白饭公益站
+
+> 分组低价公益中转 · default 组 0.08 倍率，注册送 $2 + 每日签到
+
+**白嫖式摘要**
+
+大白饭公益站 是分组低价公益中转 · default 组 0.08 倍率，注册送 $2 + 每日签到。注册送 $2，每日签到最高再领 $1，站内开着 checkin；default 组倍率 0.08、gemini 组 0.12、claude 组 0.75，另有一整组 NIM 模型倍率为 0 直接免费。当前登记的福利是注册赠送 $2、每日签到 $1。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：一把 key 只对应一个分组，建密钥时选错分组直接影响花费。
+
+**服务与特点**
+
+- 注册送 $2，每日签到最高再领 $1，站内开着 checkin
+- default 组倍率 0.08、gemini 组 0.12、claude 组 0.75，另有一整组 NIM 模型倍率为 0 直接免费
+- New API 系面板（v1.0.0-rc.48），deepseek 全系 / MiniMax / GLM / Qwen 都在 default 组里运行
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 注册须过 Turnstile 人机验证并完成邮箱验证，临时邮箱不可靠
+
+**免费额度与续领政策**
+
+- 注册赠送 $2；每日签到 $1。
+- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://newapi.hkkkj.qzz.io/v1`
+- **anthropic**：`https://newapi.hkkkj.qzz.io`
+
+**限制与风险提示**
+
+- 一把 key 只对应一个分组，建密钥时选错分组直接影响花费
+- default 组里 free 字样之外的多为阶梯计价模型，实际花费随上下文长度变化
+- 公益中转随时可能调整，勿压测、勿囤号
+
+**入口**：[注册入口](https://newapi.hkkkj.qzz.io/sign-up) · [站点首页](https://newapi.hkkkj.qzz.io/)
+
+
+---
+
+### 17. Tokeness
+
+> 老牌中转新域迁移 · tokeness/free 分组有免费模型，每日签到 +$0.5
+
+**白嫖式摘要**
+
+Tokeness 是老牌中转新域迁移 · tokeness/free 分组有免费模型，每日签到 +$0.5。tokeness/free 分组内 deepseek-v4-flash 直接免费调用，综合倍率仅 0.1，每日签到再补 $0.5；2026-08 品牌升级迁移到新域名 tokeness.ai，老域 tokeness.io 仍 301 跳转。当前登记的福利是每日签到 $0.50。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：主站直连大陆网络不稳定，API 调用建议使用官方公布的大陆 Base URL。
+
+**服务与特点**
+
+- tokeness/free 分组内 deepseek-v4-flash 直接免费调用，综合倍率仅 0.1，每日签到再补 $0.5
+- 2026-08 品牌升级迁移到新域名 tokeness.ai，老域 tokeness.io 仍 301 跳转
+- 官方公告明示大陆可用 Base URL：https://n.tokeness.dev/v1，另有 CloudFlare 与美国节点备用
+- 支持生图与视频生成模型分组，模型清单更新频繁
+
+**注册与领取政策**
+
+- 注册方式：GitHub OAuth / 邮箱 + 密码 / Passkey
+- 注册须过 Turnstile 并完成邮箱验证
+
+**免费额度与续领政策**
+
+- 每日签到 $0.50。
+- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://n.tokeness.dev/v1`
+- **anthropic**：`https://n.tokeness.dev`
+
+**限制与风险提示**
+
+- 主站直连大陆网络不稳定，API 调用建议使用官方公布的大陆 Base URL
+- DeepSeek 系列为官方价 60% 计费，其余按站内倍率
+- 支持充值与退款规则，属商业+公益混合模式
+
+**入口**：[注册入口](https://tokeness.ai/sign-up) · [站点首页](https://tokeness.ai/) · [文档](https://docs.tokeness.ai/)
+
+
+**官方社区与联系**
+
+- 邮箱: contact@tokeness.ai
+- 文档: https://docs.tokeness.ai/
+
+---
+
+### 18. iamhc 公益站
+
+> 注册送 $2000 的免费 API 站 · 域名即接口，签到每日随机再加
+
+**白嫖式摘要**
+
+iamhc 公益站 是注册送 $2000 的免费 API 站 · 域名即接口，签到每日随机再加。注册直接到账 $2000 高额起步，每日签到再随机补一笔（金额不固定）；模型覆盖 DeepSeek、GLM、Kimi、Qwen 与 Step 语音全家桶，OpenAI 兼容直连。当前登记的福利是注册赠送 $2000。接入方面提供 openai 协议，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：额度口径为站方登记，公益线路、上游共享，可用模型与余额以站内当下为准。
+
+**服务与特点**
+
+- 注册直接到账 $2000 高额起步，每日签到再随机补一笔（金额不固定）
+- 模型覆盖 DeepSeek、GLM、Kimi、Qwen 与 Step 语音全家桶，OpenAI 兼容直连
+- 主域同时就是请求端点，注册后建 key 即用
+
+**注册与领取政策**
+
+- 注册方式：邮箱注册
+- 须真实邮箱，不收一次性 / 临时邮箱
+
+**免费额度与续领政策**
+
+- 注册赠送 $2000。
+- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://api.iamhc.cn/v1`
+
+**限制与风险提示**
+
+- 额度口径为站方登记，公益线路、上游共享，可用模型与余额以站内当下为准
+- 高峰期个别热门模型排队偏慢
+
+**入口**：[注册入口](https://api.iamhc.cn/) · [站点首页](https://api.iamhc.cn/)
+
+
+---
+
+### 19. 星见雅 API
+
+> 银狮计价公益站 · 注册送 200 银狮（约 $20），签到随机爆送
+
+**白嫖式摘要**
+
+星见雅 API 是银狮计价公益站 · 注册送 200 银狮（约 $20），签到随机爆送。站内银狮计价，10 银狮 = 1 美元；注册送 200 银狮（约 $20）；每日签到随机发放，单次最高可到千位银狮级别。当前登记的福利是注册赠送 $20。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：签到金额随机波动大，不作为稳定收入预期。
+
+**服务与特点**
+
+- 站内银狮计价，10 银狮 = 1 美元；注册送 200 银狮（约 $20）
+- 每日签到随机发放，单次最高可到千位银狮级别
+- 支持多种第三方账号直接登录，没有自有邮箱也能注册
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码 / 第三方 OAuth
+- 邮箱注册不收临时邮箱
+
+**免费额度与续领政策**
+
+- 注册赠送 $20。
+- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://new.xinjianya.top/v1`
+- **anthropic**：`https://new.xinjianya.top`
+
+**限制与风险提示**
+
+- 签到金额随机波动大，不作为稳定收入预期
+- 公益线路、上游共享，模型与倍率以站内定价页为准
+
+**入口**：[注册入口](https://new.xinjianya.top/sign-up) · [站点首页](https://new.xinjianya.top/)
+
+
+---
+
+### 20. 白嫖福利站
+
+> 白嫖 BaiPiao 官方福利站 · 每日签到随机 $1–$100，账号密码即注
+
+**白嫖式摘要**
+
+白嫖福利站 是白嫖 BaiPiao 官方福利站 · 每日签到随机 $1–$100，账号密码即注。每天签到随机送 $1–$100，不定期在白嫖社区发兑换码；账号密码即可注册，当前无需邮箱验证。先说清楚一个容易踩的坑：公开菜单仅 6 个模型，后续增减和实际可调用状态以控制台为准。
+
+**服务与特点**
+
+- 每天签到随机送 $1–$100，不定期在白嫖社区发兑换码
+- 账号密码即可注册，当前无需邮箱验证
+- 公开模型菜单现有 6 个型号，覆盖 DeepSeek V4、MiniMax M3、Step 3.7、GLM 5.2、Grok 4.5
+
+**注册与领取政策**
+
+- 注册方式：账号 + 密码
+- 注册后需在控制台创建自己的 Key 才能调用
+
+**免费额度与续领政策**
+
+- 仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- 仓库未登记可公开直填的 Base URL；可能需要登录后台领取，或该站并非通用 API 中转服务。
+
+**限制与风险提示**
+
+- 公开菜单仅 6 个模型，后续增减和实际可调用状态以控制台为准
+- 接口走标准 OpenAI 兼容协议，但站点为自建系统、无公开状态接口
+
+**入口**：[注册入口](https://ai.baipiao.co/) · [站点首页](https://ai.baipiao.co/)
+
+
+**官方社区与联系**
+
+- 白嫖 BaiPiao: https://baipiao.org/
+
+---
+
+### 21. DeadlySignal API
+
+> 每日签到补额度的公益 API 站 · New API 系面板
+
+**白嫖式摘要**
+
+DeadlySignal API 是每日签到补额度的公益 API 站 · New API 系面板。站内已开启每日签到，通过签到补充额度（金额未公示，以控制台到账为准）；New API 系面板，注册开放，模型清单可从公开定价接口读取。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：注册赠送与签到金额均未在公开页面说明，以登录后控制台实际到账为准。
+
+**服务与特点**
+
+- 站内已开启每日签到，通过签到补充额度（金额未公示，以控制台到账为准）
+- New API 系面板，注册开放，模型清单可从公开定价接口读取
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://myapi.creitingameplays.com/v1`
+- **anthropic**：`https://myapi.creitingameplays.com`
+
+**限制与风险提示**
+
+- 注册赠送与签到金额均未在公开页面说明，以登录后控制台实际到账为准
+- 公益线路、上游共享，模型可用性可能随时调整
+
+**入口**：[注册入口](https://myapi.creitingameplays.com/register) · [站点首页](https://myapi.creitingameplays.com/)
+
+
+---
+
+### 22. 莱斯超级API
+
+> 注册送 6.6M 输入 token · 每日签到再补 2.3M，Mistral / Gemini / DeepSeek 系可用
+
+**白嫖式摘要**
+
+莱斯超级API 是注册送 6.6M 输入 token · 每日签到再补 2.3M，Mistral / Gemini / DeepSeek 系可用。注册赠送 6.6M 输入 + 4.4M 输出 token 额度，签到日均再补 2.3M 输入 + 1.5M 输出；模型覆盖 Mistral、GPT 5.4、Gemini 3.1 / 2.5、DeepSeek、千问系列。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：域名挂在 cpolar.io 内网穿透隧道上，域名与稳定性可能随时变化，以导航页最新入口为准。
+
+**服务与特点**
+
+- 注册赠送 6.6M 输入 + 4.4M 输出 token 额度，签到日均再补 2.3M 输入 + 1.5M 输出
+- 模型覆盖 Mistral、GPT 5.4、Gemini 3.1 / 2.5、DeepSeek、千问系列
+- New API 系面板，注册与签到均已开启
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://laisiai.tw.cpolar.io/v1`
+- **anthropic**：`https://laisiai.tw.cpolar.io`
+
+**限制与风险提示**
+
+- 域名挂在 cpolar.io 内网穿透隧道上，域名与稳定性可能随时变化，以导航页最新入口为准
+- 额度按 token 计而非美元，跨模型换算需自行核对定价倍率
+
+**入口**：[注册入口](https://laisiai.tw.cpolar.io/register) · [站点首页](https://laisiai.tw.cpolar.io/)
+
+
+---
+
+### 23. Future Hub
+
+> 签到日发约 $20 的开源旗舰限免站 · GitHub / 教育邮箱 / LinuxDO 一键进门
+
+**白嫖式摘要**
+
+Future Hub 是签到日发约 $20 的开源旗舰限免站 · GitHub / 教育邮箱 / LinuxDO 一键进门。每天签到随机发一笔、单发约二十美元量级，综合倍率 1 不玩花活；大量开源旗舰模型挂限免，免费区直接调不烧额度，部分模型支持生图。当前登记的福利是每日签到 $20。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：站点带 Cloudflare 防护，命令行直接访问可能被质询，浏览器打开正常。
+
+**服务与特点**
+
+- 每天签到随机发一笔、单发约二十美元量级，综合倍率 1 不玩花活
+- 大量开源旗舰模型挂限免，免费区直接调不烧额度，部分模型支持生图
+- GitHub / 教育邮箱 / Linux DO 三种一键注册，门槛低
+
+**注册与领取政策**
+
+- 注册方式：GitHub OAuth / LinuxDO OAuth / 教育邮箱
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 每日签到 $20。
+- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://api.futureppo.top/v1`
+- **anthropic**：`https://api.futureppo.top`
+
+**限制与风险提示**
+
+- 站点带 Cloudflare 防护，命令行直接访问可能被质询，浏览器打开正常
+- 签到金额与限免清单随站方策略波动，以站内当下为准
+
+**入口**：[注册入口](https://api.futureppo.top/register) · [站点首页](https://api.futureppo.top/)
+
+
+---
+
+### 24. Liminality
+
+> 橘子积分签到站 · 单次签到最高 100 橘子，面板型网关
+
+**白嫖式摘要**
+
+Liminality 是橘子积分签到站 · 单次签到最高 100 橘子，面板型网关。每日签到随机获得橘子积分，单次最高 100 橘子；Liminality 自维护面板（v0.9.0），注册与签到均开放，状态与定价接口公开。当前登记的福利是每日签到 100 积分。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：橘子为站内积分，与美元折算以站内规则为准。
+
+**服务与特点**
+
+- 每日签到随机获得橘子积分，单次最高 100 橘子
+- Liminality 自维护面板（v0.9.0），注册与签到均开放，状态与定价接口公开
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 每日签到 100 积分。
+- 这是站内积分口径，未有官方换算时不折算为美元，也不计入全站美元合计。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://beizhi.dedyn.io/v1`
+- **anthropic**：`https://beizhi.dedyn.io`
+
+**限制与风险提示**
+
+- 橘子为站内积分，与美元折算以站内规则为准
+- 域名托管在 dedyn.io 免费动态域名上，入口可能变化
+
+**入口**：[注册入口](https://beizhi.dedyn.io/register) · [站点首页](https://beizhi.dedyn.io/)
+
+
+---
+
+### 25. 初叶 Furry API
+
+> 按「次」计费的公益站 · 每日签到发代币，约可换 50–200 次调用
+
+**白嫖式摘要**
+
+初叶 Furry API 是按「次」计费的公益站 · 每日签到发代币，约可换 50–200 次调用。计费按次数不按 token：每天签到发 10 代币左右，约合 50–200 次调用，还能生图；New API 系面板（v1.0.0-rc.24），注册与签到均开放，支持生图模型。当前登记的福利是每日签到 10 积分。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：代币是站内计费单位，具体换算以站内说明为准。
+
+**服务与特点**
+
+- 计费按次数不按 token：每天签到发 10 代币左右，约合 50–200 次调用，还能生图
+- New API 系面板（v1.0.0-rc.24），注册与签到均开放，支持生图模型
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 每日签到 10 积分。
+- 这是站内积分口径，未有官方换算时不折算为美元，也不计入全站美元合计。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://ai.chuyel.top/v1`
+- **anthropic**：`https://ai.chuyel.top`
+
+**限制与风险提示**
+
+- 代币是站内计费单位，具体换算以站内说明为准
+- 公益线路、上游共享，模型与代币规则以站内当下为准
+
+**入口**：[注册入口](https://ai.chuyel.top/sign-up) · [站点首页](https://ai.chuyel.top/)
+
+
+---
+
+### 26. KiosAPI
+
+> Free 分组倍率 0 直调 34+ 模型 · Telegram 机器人验证制
+
+**白嫖式摘要**
+
+KiosAPI 是Free 分组倍率 0 直调 34+ 模型 · Telegram 机器人验证制。Free 分组倍率 0，kimi-k3、glm-5.3、qwen3.8 系列、deepseek-v4-flash、gemini-2.0-flash 等可直接白嫖；注册不送额度、无签到，免费就是免费分组本身。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：官方对 Free 组明示「Request stability is not guaranteed」，不适合生产或关键任务。
+
+**服务与特点**
+
+- Free 分组倍率 0，kimi-k3、glm-5.3、qwen3.8 系列、deepseek-v4-flash、gemini-2.0-flash 等可直接白嫖
+- 注册不送额度、无签到，免费就是免费分组本身
+- 官方维护 Mintlify 文档，接入方法和端点说明齐全
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 注册需邮箱验证 + Turnstile
+- 免费分组另需通过 Telegram 机器人验证并加入官方频道（防多开）
+
+**免费额度与续领政策**
+
+- 仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://kiosapi.com/v1`
+- **anthropic**：`https://kiosapi.com`
+
+**限制与风险提示**
+
+- 官方对 Free 组明示「Request stability is not guaranteed」，不适合生产或关键任务
+- 免费模型清单高频调整，别照旧帖找模型，以定价页当下为准
+- Claude / Gemini / Grok / Codex 归在付费分组（倍率 0.02–0.2），不在免费范围
+
+**入口**：[注册入口](https://kiosapi.com/sign-up) · [站点首页](https://kiosapi.com/) · [文档](https://kiosapi.mintlify.app)
+
+
+**官方社区与联系**
+
+- 官方文档: https://kiosapi.mintlify.app
+
+---
+
+### 27. 君の公益
+
+> LinuxDo 个人公益网关 · 只认 Codex CLI / Claude Code CLI，签到看资源
+
+**白嫖式摘要**
+
+君の公益 是LinuxDo 个人公益网关 · 只认 Codex CLI / Claude Code CLI，签到看资源。linux.do 老哥个人维护的 New API 网关，签到功能常开、额度按 USD 显示，数额随资源浮动；实测确认 OpenAI 兼容 /v1/chat/completions 可用，账号密码 / LinuxDO / Passkey 均可注册（门槛随资源调整）。接入方面提供 openai 协议，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：只允许 Codex CLI 或 Claude Code CLI 调用，不支持 SDK / 脚本裸连，网页聊天走不通。
+
+**服务与特点**
+
+- linux.do 老哥个人维护的 New API 网关，签到功能常开、额度按 USD 显示，数额随资源浮动
+- 实测确认 OpenAI 兼容 /v1/chat/completions 可用，账号密码 / LinuxDO / Passkey 均可注册（门槛随资源调整）
+- 额度不够可用 LinuxDo Connect 积分（LDC）充值
+
+**注册与领取政策**
+
+- 注册方式：邮箱验证 / LinuxDO OAuth / Passkey
+- 注册门槛（邮箱 / LinuxDo 信任等级 / Passkey）随资源状况反复调整，以站内当下为准
+
+**免费额度与续领政策**
+
+- 仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://muyuan.do/v1`
+
+**限制与风险提示**
+
+- 只允许 Codex CLI 或 Claude Code CLI 调用，不支持 SDK / 脚本裸连，网页聊天走不通
+- 单 IP 限速 100 次/分钟（历史执行值）
+- 站主声明无 QQ / TG 群组，只有官网一个入口，LDC 充值后需三天内用完
+
+**入口**：[注册入口](https://muyuan.do/) · [站点首页](https://muyuan.do/)
+
+
+---
+
+### 28. S3AI API
+
+> NIM 分组倍率 0 免费不限速 · free 分组 0.001 近乎白送
+
+**白嫖式摘要**
+
+S3AI API 是NIM 分组倍率 0 免费不限速 · free 分组 0.001 近乎白送。NIM 分组（NVIDIA NIM 渠道）倍率为 0、免费不限速，免费位长期挂着；free 分组倍率 0.001，几乎免费，不靠注册大额赠送的玩法。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：免费位模型由站方随成本动态调整，以站内模型广场实挂为准。
+
+**服务与特点**
+
+- NIM 分组（NVIDIA NIM 渠道）倍率为 0、免费不限速，免费位长期挂着
+- free 分组倍率 0.001，几乎免费，不靠注册大额赠送的玩法
+- New API 系面板，注册开放，状态与定价接口公开
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://ai.furry.vg/v1`
+- **anthropic**：`https://ai.furry.vg`
+
+**限制与风险提示**
+
+- 免费位模型由站方随成本动态调整，以站内模型广场实挂为准
+- 公益线路、上游共享，勿压测
+
+**入口**：[注册入口](https://ai.furry.vg/register) · [站点首页](https://ai.furry.vg/)
+
+
+---
+
+### 29. 免费 ChatGPT API
+
+> free.v36.cm 公益站 · GitHub 开源项目同源，面板 FREE GPT API
+
+**白嫖式摘要**
+
+免费 ChatGPT API 是free.v36.cm 公益站 · GitHub 开源项目同源，面板 FREE GPT API。GitHub 开源项目（v36 系）配套公益站，自建面板 system_name 为 FREE GPT API；状态与定价接口公开，支持程序化读取模型清单。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：公开接口未给出注册赠送的官方数字，以注册后控制台实际到账为准。
+
+**服务与特点**
+
+- GitHub 开源项目（v36 系）配套公益站，自建面板 system_name 为 FREE GPT API
+- 状态与定价接口公开，支持程序化读取模型清单
+- 免费点数与限速以站内当下为准（GitHub README 曾标注 RPM 96 上限）
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://free.v36.cm/v1`
+- **anthropic**：`https://free.v36.cm`
+
+**限制与风险提示**
+
+- 公开接口未给出注册赠送的官方数字，以注册后控制台实际到账为准
+- 公益线路、上游共享，勿压测
+
+**入口**：[注册入口](https://free.v36.cm/register) · [站点首页](https://free.v36.cm/)
+
+
+**官方社区与联系**
+
+- GitHub: https://github.com/wlhtea/
+
+---
+
+### 30. bmapi 公益站
+
+> 会员号池公益站 · Claude Max / ChatGPT Pro / Gemini 号池，签到日送 100 积分
+
+**白嫖式摘要**
+
+bmapi 公益站 是会员号池公益站 · Claude Max / ChatGPT Pro / Gemini 号池，签到日送 100 积分。号池聚合 Claude Max、ChatGPT Pro / Codex、Gemini 会员号，满血 opus-4-8 / gpt-5.5 / Gemini 3.1 Pro 在列；站内用「积分」计额度，每天签到送 100 积分。当前登记的福利是每日签到 100 积分。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：号池共享，可调模型与额度以站内当下为准。
+
+**服务与特点**
+
+- 号池聚合 Claude Max、ChatGPT Pro / Codex、Gemini 会员号，满血 opus-4-8 / gpt-5.5 / Gemini 3.1 Pro 在列
+- 站内用「积分」计额度，每天签到送 100 积分
+- 一个网关同时支持 OpenAI / Anthropic / Gemini 三种协议
+
+**注册与领取政策**
+
+- 注册方式：邮箱注册
+- 注册收真邮箱，临时邮箱不收
+
+**免费额度与续领政策**
+
+- 每日签到 100 积分。
+- 这是站内积分口径，未有官方换算时不折算为美元，也不计入全站美元合计。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://bmapi.020212.xyz/v1`
+- **anthropic**：`https://bmapi.020212.xyz`
+
+**限制与风险提示**
+
+- 号池共享，可调模型与额度以站内当下为准
+- 三个号池各自独立，建 key 时选对分组、key 只能调所属池的模型
+- 免费 gpt-5.5 pro 池属共享档，高峰会降级、偶尔不稳
+
+**入口**：[注册入口](https://bmapi.020212.xyz/) · [站点首页](https://bmapi.020212.xyz/)
+
+
+---
+
+### 31. Grox
+
+> TG 群绑定发 $100 日卡 · OpenAI 兼容公益站
+
+**白嫖式摘要**
+
+Grox 是TG 群绑定发 $100 日卡 · OpenAI 兼容公益站。注册并加入 Telegram 群组绑定账号后，自动发放 $100 日卡额度；支持主流 AI 模型调用，OpenAI 兼容接口。当前登记的福利是注册赠送 $100。接入方面提供 openai 协议，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：日卡额度有效期 3 天，发放规则与使用限制以官方群组公告为准。
+
+**服务与特点**
+
+- 注册并加入 Telegram 群组绑定账号后，自动发放 $100 日卡额度
+- 支持主流 AI 模型调用，OpenAI 兼容接口
+
+**注册与领取政策**
+
+- 注册方式：邮箱注册 / Telegram 群绑定
+- 须加入官方 Telegram 群并绑定账号后额度才发放
+
+**免费额度与续领政策**
+
+- 注册赠送 $100。
+- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://www.mcgrox.top/v1`
+
+**限制与风险提示**
+
+- 日卡额度有效期 3 天，发放规则与使用限制以官方群组公告为准
+- 必须保持在群内，退群会导致账号被删除、无法继续使用
+
+**入口**：[注册入口](https://www.mcgrox.top/register) · [站点首页](https://www.mcgrox.top/)
+
+
+---
+
+### 32. 启源星
+
+> 签到最高送 $50 · 每日 1 万美元共享额度池，用完即止
+
+**白嫖式摘要**
+
+启源星 是签到最高送 $50 · 每日 1 万美元共享额度池，用完即止。每日签到最高送 50 额度，邀请用户注册奖励 50 额度；站点每天开放 1 万共享额度，全站先到先得、用完即止。当前登记的福利是邀请奖励 $50、每日签到 $50。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：共享额度池用完当天即止，额度到账不稳定，别当主力用。
+
+**服务与特点**
+
+- 每日签到最高送 50 额度，邀请用户注册奖励 50 额度
+- 站点每天开放 1 万共享额度，全站先到先得、用完即止
+- Liminality 同源面板（v0.9.0-liminality），注册开放
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 邀请奖励 $50；每日签到 $50。
+- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://chuan.sylu.cc/v1`
+- **anthropic**：`https://chuan.sylu.cc`
+
+**限制与风险提示**
+
+- 共享额度池用完当天即止，额度到账不稳定，别当主力用
+- 公益线路、上游共享，模型与倍率以站内定价页为准
+
+**入口**：[注册入口](https://chuan.sylu.cc/register) · [站点首页](https://chuan.sylu.cc/)
+
+
+---
+
+### 33. 哈基猫API
+
+> 超低分组倍率公益站 · kimi-k3 组 0.0101 倍率，登录送钱签到续
+
+**白嫖式摘要**
+
+哈基猫API 是超低分组倍率公益站 · kimi-k3 组 0.0101 倍率，登录送钱签到续。kimi0.01 组倍率仅 0.0101（kimi-k3），openai低价 组 0.1（GPT-5.5/5.6/6 系），Claude 组 0.2；登录送 ¥0.2、每日签到再领 ¥0.01–0.2，配合低倍率能薅很久。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：赠送金额以人民币口径描述且数额较小，按量模型选择比价更重要。
+
+**服务与特点**
+
+- kimi0.01 组倍率仅 0.0101（kimi-k3），openai低价 组 0.1（GPT-5.5/5.6/6 系），Claude 组 0.2
+- 登录送 ¥0.2、每日签到再领 ¥0.01–0.2，配合低倍率能薅很久
+- 面板版本 v42-tokenplan，签到与注册均开放
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://hjmapi.923578.xyz/v1`
+- **anthropic**：`https://hjmapi.923578.xyz`
+
+**限制与风险提示**
+
+- 赠送金额以人民币口径描述且数额较小，按量模型选择比价更重要
+- 分组倍率随站内调整，建 key 时选对分组
+
+**入口**：[注册入口](https://hjmapi.923578.xyz/register) · [站点首页](https://hjmapi.923578.xyz/)
+
+
+---
+
+### 34. 黑与白公益站
+
+> 福利站大转盘 + 盲盒 + 农场攒额度 · 主站 API 网关
+
+**白嫖式摘要**
+
+黑与白公益站 是福利站大转盘 + 盲盒 + 农场攒额度 · 主站 API 网关。额度耗尽可到福利站 cdk.hybgzs.com 玩「每日签到 · 大转盘抽奖 · 集换式卡牌 · 惊喜盲盒 · 轻松农场」，攒够自动回流主站账户；另有 status.hybgzs.com 独立状态页。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：公益线路、额度靠游戏化任务攒，反诈骗声明原文：「本服务完全免费。任何充值请求均为诈骗」。
+
+**服务与特点**
+
+- 额度耗尽可到福利站 cdk.hybgzs.com 玩「每日签到 · 大转盘抽奖 · 集换式卡牌 · 惊喜盲盒 · 轻松农场」，攒够自动回流主站账户
+- 另有 status.hybgzs.com 独立状态页
+- 官方明示权益仅包含 RPM 提升与高优先级分组选择，不代表无限额度
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://ai.hybgzs.com/v1`
+- **anthropic**：`https://ai.hybgzs.com`
+
+**限制与风险提示**
+
+- 公益线路、额度靠游戏化任务攒，反诈骗声明原文：「本服务完全免费。任何充值请求均为诈骗」
+- 分组与模型以站内当下为准
+
+**入口**：[注册入口](https://ai.hybgzs.com/) · [站点首页](https://ai.hybgzs.com/)
+
+
+**官方社区与联系**
+
+- 福利站: https://cdk.hybgzs.com
+- 状态页: https://status.hybgzs.com
+
+---
+
+### 35. 年华 API
+
+> 签到日补 $2 的稳态中转 · 综合倍率 0.05–1，支持生图
+
+**白嫖式摘要**
+
+年华 API 是签到日补 $2 的稳态中转 · 综合倍率 0.05–1，支持生图。每天签到补 $2，综合倍率 0.05–1，便宜档很省；长期表现稳、可生图，适合闷声当主力备用。当前登记的福利是每日签到 $2。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：公益线路、上游共享，倍率与模型以站内定价页为准。
+
+**服务与特点**
+
+- 每天签到补 $2，综合倍率 0.05–1，便宜档很省
+- 长期表现稳、可生图，适合闷声当主力备用
+- 面板 v1.0.0-rc.46-nianhua-payguard 定制版，签到注册均开放
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 每日签到 $2。
+- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://newapi.makelove.cloud/v1`
+- **anthropic**：`https://newapi.makelove.cloud`
+
+**限制与风险提示**
+
+- 公益线路、上游共享，倍率与模型以站内定价页为准
+- 逐步转入 payguard 体系，规则可能继续调整
+
+**入口**：[注册入口](https://newapi.makelove.cloud/register) · [站点首页](https://newapi.makelove.cloud/)
+
+
+---
+
+### 36. 小欢公益站
+
+> 博主个人后院免费大模型 API · 登录即送 200 次，评论区留言补量
+
+**白嫖式摘要**
+
+小欢公益站 是博主个人后院免费大模型 API · 登录即送 200 次，评论区留言补量。Linux.do / GitHub 账号 OAuth 登录即送 200 次使用额度；额度见底可到博主《公益大模型API接口》博文评论区留言补充，一次固定加 200、可反复申请。先说清楚一个容易踩的坑：公益试运营线路，作者原话是「随时跑路」。
+
+**服务与特点**
+
+- Linux.do / GitHub 账号 OAuth 登录即送 200 次使用额度
+- 额度见底可到博主《公益大模型API接口》博文评论区留言补充，一次固定加 200、可反复申请
+- 纯个人维护，无邀请码、无充值入口
+
+**注册与领取政策**
+
+- 注册方式：LinuxDO OAuth / GitHub OAuth
+- 留言补量需附平台 ID，纯人工审核
+
+**免费额度与续领政策**
+
+- 仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- 仓库未登记可公开直填的 Base URL；可能需要登录后台领取，或该站并非通用 API 中转服务。
+
+**限制与风险提示**
+
+- 公益试运营线路，作者原话是「随时跑路」
+- Claude 系模型当前暂停新申请，GPT / Gemini 时不时因上游问题大面积不可用，能用哪个看站内状态
+- 每位用户 RPM 为 2，Sonnet 单次扣 2、Opus 单次扣 4 次额度
+
+**入口**：[注册入口](https://free-llm.cups.moe) · [站点首页](https://free-llm.cups.moe)
+
+
+**官方社区与联系**
+
+- 公益大模型 API 博文: https://www.cups.moe/archives/free-llm-api.html
+- 作者 GitHub: https://github.com/funnycups
+
+---
+
+### 37. Lunora API
+
+> 订阅制中转 · 进 QQ 群领约 $10 GPT Pro 订阅，每日签到领小额
+
+**白嫖式摘要**
+
+Lunora API 是订阅制中转 · 进 QQ 群领约 $10 GPT Pro 订阅，每日签到领小额。新人体验为一张约 $10 的 GPT Pro API 订阅（以订阅形式发放，不增加余额）；每日签到领小额（约 ¥0.1），连签有里程碑奖励。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：余额和订阅是两套独立权益，订阅只在对应分组和有效期内有效。
+
+**服务与特点**
+
+- 新人体验为一张约 $10 的 GPT Pro API 订阅（以订阅形式发放，不增加余额）
+- 每日签到领小额（约 ¥0.1），连签有里程碑奖励
+- 接口开得比一般站全：Chat Completions、Responses、图片生成与编辑、视频、Grok 系均可调用，帮助中心文档齐全
+
+**注册与领取政策**
+
+- 注册方式：邮箱注册
+- 仅 @qq.com 邮箱可注册
+- 领新人订阅须用注册邮箱对应的 QQ 进官方群，按群内要求验证
+
+**免费额度与续领政策**
+
+- 仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://api.uselunora.com/v1`
+- **anthropic**：`https://api.uselunora.com`
+
+**限制与风险提示**
+
+- 余额和订阅是两套独立权益，订阅只在对应分组和有效期内有效
+- 站点带访问防护脚本，命令行直达可能被拦，浏览器打开正常
+- 邀请返利按被邀请人有效充值计算，公益部分主要是那一张订阅
+
+**入口**：[注册入口](https://www.uselunora.com/register) · [站点首页](https://www.uselunora.com/) · [文档](https://help.uselunora.com)
+
+
+**官方社区与联系**
+
+- 帮助中心: https://help.uselunora.com
+
+---
+
+### 38. 橘子API
+
+> 注册送 $50 + 每日签到的公益聚合站
+
+**白嫖式摘要**
+
+橘子API 是注册送 $50 + 每日签到的公益聚合站。注册直接到账 $50（固定额度，非随机），按量计费；另有每日签到继续加额度，签到功能当前开放。当前登记的福利是注册赠送 $50。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：805 公益线路、上游共享，模型与倍率以站内定价页为准。
+
+**服务与特点**
+
+- 注册直接到账 $50（固定额度，非随机），按量计费
+- 另有每日签到继续加额度，签到功能当前开放
+- 面板定制版 custom-0819，模型覆盖面较广
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 注册赠送 $50。
+- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://api.juziai.cc/v1`
+- **anthropic**：`https://api.juziai.cc`
+
+**限制与风险提示**
+
+- 805 公益线路、上游共享，模型与倍率以站内定价页为准
+- 签到近期可能有 bug 在修，点不上时过几天再看
+
+**入口**：[注册入口](https://api.juziai.cc/register) · [站点首页](https://api.juziai.cc/)
+
+
+---
+
+### 39. 薄荷公益站
+
+> LinuxDo 授权注册送 25 点 · 转盘签到续额度，附 Gemini Antigravity 渠道
+
+**白嫖式摘要**
+
+薄荷公益站 是LinuxDo 授权注册送 25 点 · 转盘签到续额度，附 Gemini Antigravity 渠道。LinuxDo 授权注册直接到手 25 点，邀请注册则双方各 +25 点；每天 8 点在签到站 qd.x666.me 刷新转盘，转一次盘领额度；up.x666.me 可查星级与升级进度。当前登记的福利是注册赠送 $25、邀请奖励 $25。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：主站与签到站、星级站是三套联动入口，签到所得与主站额度联动以站内规则为准。
+
+**服务与特点**
+
+- LinuxDo 授权注册直接到手 25 点，邀请注册则双方各 +25 点
+- 每天 8 点在签到站 qd.x666.me 刷新转盘，转一次盘领额度；up.x666.me 可查星级与升级进度
+- 另有 jz.x666.me 社区众筹 Google OAuth 凭证渠道，跑 gemini-2.5-pro-1m / Antigravity
+
+**注册与领取政策**
+
+- 注册方式：LinuxDO OAuth
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 注册赠送 $25；邀请奖励 $25。
+- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://x666.me/v1`
+- **anthropic**：`https://x666.me`
+
+**限制与风险提示**
+
+- 主站与签到站、星级站是三套联动入口，签到所得与主站额度联动以站内规则为准
+- 公益线路、上游共享，勿压测
+
+**入口**：[注册入口](https://x666.me/) · [站点首页](https://x666.me/)
+
+
+**官方社区与联系**
+
+- 签到站: https://qd.x666.me
+- 星级站: https://up.x666.me
+
+---
+
+### 40. 小米 MiMo 公益站
+
+> 专供小米 MiMo 全套模型 · LinuxDo L1+ 授权，OpenAI + Anthropic 双端点
+
+**白嫖式摘要**
+
+小米 MiMo 公益站 是专供小米 MiMo 全套模型 · LinuxDo L1+ 授权，OpenAI + Anthropic 双端点。专开小米自家 MiMo 全套模型的公益站；一个网关同时提供 OpenAI 兼容 /v1 与 Anthropic 兼容 /anthropic 端点，Claude Code 可直接接。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：公益线路，可调模型与额度以站内为准。
+
+**服务与特点**
+
+- 专开小米自家 MiMo 全套模型的公益站
+- 一个网关同时提供 OpenAI 兼容 /v1 与 Anthropic 兼容 /anthropic 端点，Claude Code 可直接接
+- 登录后免费调用，具体型号与额度口径以站内当下为准
+
+**注册与领取政策**
+
+- 注册方式：LinuxDO OAuth
+- 需 LinuxDo（L 站）等级 1（基础用户）以上才放行，不开放邮箱注册
+
+**免费额度与续领政策**
+
+- 仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://fufu.iqach.top/v1`
+- **anthropic**：`https://fufu.iqach.top/anthropic`
+
+**限制与风险提示**
+
+- 公益线路，可调模型与额度以站内为准
+- 仅 MiMo 系模型，不要拿其它模型名硬调
+
+**入口**：[注册入口](https://fufu.iqach.top/) · [站点首页](https://fufu.iqach.top/)
+
+
+---
+
+### 41. xxzl 公益站
+
+> 邀请注册送 50 额度 · 每日签到 +3 的 New API 站
+
+**白嫖式摘要**
+
+xxzl 公益站 是邀请注册送 50 额度 · 每日签到 +3 的 New API 站。走邀请入口注册到账 50 额度，之后每日签到再领 3；额度按量扣，各家模型倍率不同，以站内定价页为准。当前登记的福利是每日签到 $3。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：邀请奖励需邀请码，具体活动规则以站内为准。
+
+**服务与特点**
+
+- 走邀请入口注册到账 50 额度，之后每日签到再领 3
+- 额度按量扣，各家模型倍率不同，以站内定价页为准
+- New API 定制版（contrib 混合构建），签到与注册均开放
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 裸注册（不带邀请码）初始额度为 0，初始额度来自邀请活动，以站内当下口径为准
+
+**免费额度与续领政策**
+
+- 每日签到 $3。
+- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://ai.1tim.com/v1`
+- **anthropic**：`https://ai.1tim.com`
+
+**限制与风险提示**
+
+- 邀请奖励需邀请码，具体活动规则以站内为准
+- 公益线路、上游共享，勿压测
+
+**入口**：[注册入口](https://ai.1tim.com/register) · [站点首页](https://ai.1tim.com/)
+
+
+---
+
+### 42. 88888 AI
+
+> 注册送 $100 支持临时邮箱 · 按次计费近免费，国产模型一条龙
+
+**白嫖式摘要**
+
+88888 AI 是注册送 $100 支持临时邮箱 · 按次计费近免费，国产模型一条龙。注册就送 $100，支持临时邮箱注册、门槛极低；模型按「次」计费、几乎免费：Deepseek-v4-flash / v4-pro $0.000/次（白送），GLM5.1、Kimi-k2.6、MiniMax-m3、Qwen-3.5、step-3.7-flash 均 $0.001/次。当前登记的福利是注册赠送 $100。接入方面提供 openai 协议，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：GLM4.7 / GLM5 上游已下线，调不通属于正常现象。
+
+**服务与特点**
+
+- 注册就送 $100，支持临时邮箱注册、门槛极低
+- 模型按「次」计费、几乎免费：Deepseek-v4-flash / v4-pro $0.000/次（白送），GLM5.1、Kimi-k2.6、MiniMax-m3、Qwen-3.5、step-3.7-flash 均 $0.001/次
+- OpenAI 兼容端点，主域即请求入口
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 支持临时邮箱，人机验证环节较宽松
+
+**免费额度与续领政策**
+
+- 注册赠送 $100。
+- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://88888.qzz.io/v1`
+
+**限制与风险提示**
+
+- GLM4.7 / GLM5 上游已下线，调不通属于正常现象
+- 公益免费线路，高峰期可能限流或排队，模型与计费以站内当下为准
+- Step-3.5-flash 按 token 计费，计价方式与按次模型不同，注意区分
+
+**入口**：[注册入口](https://88888.qzz.io/) · [站点首页](https://88888.qzz.io/)
+
+
+---
+
+### 43. ShareLLM
+
+> 注册送 120/5小时 + 600/周双档额度 · 双域名公益站
+
+**白嫖式摘要**
+
+ShareLLM 是注册送 120/5小时 + 600/周双档额度 · 双域名公益站。注册可得 120/5 小时与 600/周两档额度，具体重置时间和扣费以账户页面为准；状态与定价接口公开，可程序化读取模型清单。当前登记的福利是注册赠送 $120。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：站点带 Cloudflare 防护，命令行请求首页可能被拦（403），浏览器打开正常。
+
+**服务与特点**
+
+- 注册可得 120/5 小时与 600/周两档额度，具体重置时间和扣费以账户页面为准
+- 状态与定价接口公开，可程序化读取模型清单
+- 状态与定价接口公开，可程序化读取
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 注册赠送 $120。
+- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://sharellm.net/v1`
+- **anthropic**：`https://sharellm.net`
+
+**限制与风险提示**
+
+- 站点带 Cloudflare 防护，命令行请求首页可能被拦（403），浏览器打开正常
+- 公益线路、上游共享，勿压测
+
+**入口**：[注册入口](https://sharellm.net/register) · [站点首页](https://sharellm.net/)
+
+
+---
+
+### 44. Ultra Router
+
+> 艺の公益站 · 每日签到送 $28 额度
+
+**白嫖式摘要**
+
+Ultra Router 是艺の公益站 · 每日签到送 $28 额度。每天签到赠送 $28 额度，实际到账与活动持续时间以站内页面为准；签到与注册均开放，状态与定价接口公开。当前登记的福利是每日签到 $28。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：注册页偶发 502（源站重启/防护波动），重试即可。
+
+**服务与特点**
+
+- 每天签到赠送 $28 额度，实际到账与活动持续时间以站内页面为准
+- 签到与注册均开放，状态与定价接口公开
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 每日签到 $28。
+- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://ultrarouter.org/v1`
+- **anthropic**：`https://ultrarouter.org`
+
+**限制与风险提示**
+
+- 注册页偶发 502（源站重启/防护波动），重试即可
+- 公益线路、上游共享，勿压测
+
+**入口**：[注册入口](https://ultrarouter.org/register) · [站点首页](https://ultrarouter.org/)
+
+
+---
+
+### 45. 熊猫API
+
+> 注册送 200 额度（活动口径）的公益 API 站
+
+**白嫖式摘要**
+
+熊猫API 是注册送 200 额度（活动口径）的公益 API 站。按活动口径新人注册赠送 200 额度、邀请双方各得 100（站内公告显示注册 100 / 邀请各 100，以实际到账为准）；面板深度定制（5555 合并构建），注册开放。当前登记的福利是注册赠送 $200。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：活动赠送金额有 100 与 200 两种口径，以账户实际到账为准。
+
+**服务与特点**
+
+- 按活动口径新人注册赠送 200 额度、邀请双方各得 100（站内公告显示注册 100 / 邀请各 100，以实际到账为准）
+- 面板深度定制（5555 合并构建），注册开放
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 注册赠送 $200。
+- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://api520.pro/v1`
+- **anthropic**：`https://api520.pro`
+
+**限制与风险提示**
+
+- 活动赠送金额有 100 与 200 两种口径，以账户实际到账为准
+- 公益线路、上游共享，勿压测
+
+**入口**：[注册入口](https://api520.pro/register) · [站点首页](https://api520.pro/)
+
+
+---
+
+### 46. DGB 公益站
+
+> 注册随机送 $1–$50 · 支持临时邮箱，签到续额度
+
+**白嫖式摘要**
+
+DGB 公益站 是注册随机送 $1–$50 · 支持临时邮箱，签到续额度。注册随机送 $1–$50，支持临时邮箱注册、门槛极低；模型按量计费、便宜到接近免费，配随机余额能薅很久。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：随机注册额度波动大，以账户实际到账为准。
+
+**服务与特点**
+
+- 注册随机送 $1–$50，支持临时邮箱注册、门槛极低
+- 模型按量计费、便宜到接近免费，配随机余额能薅很久
+- 签到功能开启，每日可续
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://freeapi.dgbmc.top/v1`
+- **anthropic**：`https://freeapi.dgbmc.top`
+
+**限制与风险提示**
+
+- 随机注册额度波动大，以账户实际到账为准
+- 公益免费线路，高峰期可能限流或排队
+
+**入口**：[注册入口](https://freeapi.dgbmc.top/register) · [站点首页](https://freeapi.dgbmc.top/)
+
+
+---
+
+### 47. V-API 公益站
+
+> 每日随机签到额度 + LDC 积分兑换的公益站
+
+**白嫖式摘要**
+
+V-API 公益站 是每日随机签到额度 + LDC 积分兑换的公益站。每日进控制台签到领随机额度，具体数额以站内当下为准；额度不够可用站长挂的 LinuxDo 官方 CDK 兑换入口，把 L 站积分换成站内额度。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：default 组 1 倍率、vip 组 10 倍率，vip 获取方式站方未写明。
+
+**服务与特点**
+
+- 每日进控制台签到领随机额度，具体数额以站内当下为准
+- 额度不够可用站长挂的 LinuxDo 官方 CDK 兑换入口，把 L 站积分换成站内额度
+- 双域名运行：v-api.de5.net 与 vapi888.psce.pw
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://v-api.de5.net/v1`
+- **anthropic**：`https://v-api.de5.net`
+
+**限制与风险提示**
+
+- default 组 1 倍率、vip 组 10 倍率，vip 获取方式站方未写明
+- 公益线路、上游共享，勿压测
+
+**入口**：[注册入口](https://v-api.de5.net/register) · [站点首页](https://v-api.de5.net/) · [备用域名](https://vapi888.psce.pw)
+
+
+---
+
+### 48. 聚合 API（aiyiwei）
+
+> 签到日送约 $0.3 · 综合倍率 0.2–0.8 的聚合中转
+
+**白嫖式摘要**
+
+聚合 API（aiyiwei） 是签到日送约 $0.3 · 综合倍率 0.2–0.8 的聚合中转。每天签到发 $0.3 左右，积少成多；综合倍率 0.2–0.8，按量花比一般站省。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：签到金额小，适合按量低频用。
+
+**服务与特点**
+
+- 每天签到发 $0.3 左右，积少成多
+- 综合倍率 0.2–0.8，按量花比一般站省
+- 面板每日构建更新，模型覆盖较杂
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://aiyiwei.vip/v1`
+- **anthropic**：`https://aiyiwei.vip`
+
+**限制与风险提示**
+
+- 签到金额小，适合按量低频用
+- 公益线路、上游共享，勿压测
+
+**入口**：[注册入口](https://aiyiwei.vip/register) · [站点首页](https://aiyiwei.vip/)
+
+
+---
+
+### 49. api456 公益站
+
+> 「硬币」计量的公益中转 · 注册送 20 硬币，签到日续
+
+**白嫖式摘要**
+
+api456 公益站 是「硬币」计量的公益中转 · 注册送 20 硬币，签到日续。注册到账 20 个「硬币」，之后每天签到随机加一点（实测单次 1 个上下）；模型覆盖较杂，挑对便宜款省着用能薅挺久。当前登记的福利是注册赠送 20 积分。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：硬币是站内计量单位，具体折算与模型倍率以站内为准。
+
+**服务与特点**
+
+- 注册到账 20 个「硬币」，之后每天签到随机加一点（实测单次 1 个上下）
+- 模型覆盖较杂，挑对便宜款省着用能薅挺久
+- 可萌中转站定制版面板（rc.45），签到注册均开放
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 注册赠送 20 积分。
+- 这是站内积分口径，未有官方换算时不折算为美元，也不计入全站美元合计。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://api456.me/v1`
+- **anthropic**：`https://api456.me`
+
+**限制与风险提示**
+
+- 硬币是站内计量单位，具体折算与模型倍率以站内为准
+- 额度少、靠签到慢慢攒，不适合高频使用
+
+**入口**：[注册入口](https://api456.me/register) · [站点首页](https://api456.me/)
+
+
+---
+
+### 50. 100xLabs
+
+> 百倍公益站 · 签到日 $200 递增至 $888，专供 Claude Opus 系
+
+**白嫖式摘要**
+
+100xLabs 是百倍公益站 · 签到日 $200 递增至 $888，专供 Claude Opus 系。额度靠「每日签到 + 兑换码」领取：第 1 天 $200 逐日递增到第 7 天 $888（北京时间、7 天一轮）；端点走 Anthropic 兼容协议，填进 Claude Code 直接白嫖 Claude Opus 4.6 / 4.7 / 4.8。当前登记的福利是每日签到 $200。接入方面提供 anthropic 协议，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：无注册礼包，初始额度从首日签到开始。
+
+**服务与特点**
+
+- 额度靠「每日签到 + 兑换码」领取：第 1 天 $200 逐日递增到第 7 天 $888（北京时间、7 天一轮）
+- 端点走 Anthropic 兼容协议，填进 Claude Code 直接白嫖 Claude Opus 4.6 / 4.7 / 4.8
+- 密钥分组为 claude 1x（1 倍率）
+
+**注册与领取政策**
+
+- 注册方式：邮箱注册 / GitHub OAuth / LinuxDO OAuth
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 每日签到 $200。
+- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **anthropic**：`https://sub.100xlabs.space`
+
+**限制与风险提示**
+
+- 无注册礼包，初始额度从首日签到开始
+- 公益免费线路，高峰期可能限流或排队
+- 签到以北京时间统计，跨日请以站内为准
+
+**入口**：[注册入口](https://sub.100xlabs.space/) · [站点首页](https://sub.100xlabs.space/)
+
+
+---
+
+### 51. 露娜
+
+> 签到日随机 1–999 额度的聚合网关 · 邮箱白名单制
+
+**白嫖式摘要**
+
+露娜 是签到日随机 1–999 额度的聚合网关 · 邮箱白名单制。每日签到随机 1–999 额度，没有公开的注册赠送数字；OpenAI / Anthropic / Gemini / 图像接口路径齐全，登录建 key 后可跑多协议。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：登录协议写明「不为中国大陆服务」，大陆网络访问需自备网络条件，介意勿用。
+
+**服务与特点**
+
+- 每日签到随机 1–999 额度，没有公开的注册赠送数字
+- OpenAI / Anthropic / Gemini / 图像接口路径齐全，登录建 key 后可跑多协议
+- OpenAI 兼容 base_url 用 https://freeapi.site/v1，Anthropic 用根地址
+
+**注册与领取政策**
+
+- 注册方式：邮箱注册
+- 仅 @qq.com / @gmail.com / @outlook.com 白名单邮箱可注册，需邮箱验证 + Turnstile
+- 无 GitHub / Google / 微信 / OIDC 登录
+
+**免费额度与续领政策**
+
+- 仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://freeapi.site/v1`
+- **anthropic**：`https://freeapi.site`
+
+**限制与风险提示**
+
+- 登录协议写明「不为中国大陆服务」，大陆网络访问需自备网络条件，介意勿用
+- 模型广场关闭，公开页看不到模型清单，具体模型和价格登录后看控制台
+- 签到金额随机波动大，不作为稳定额度预期
+
+**入口**：[注册入口](https://freeapi.site/register) · [站点首页](https://freeapi.site/)
+
+
+---
+
+### 52. 词元枢阁 Token Nexus
+
+> GPT / Gemini / Grok chat 模型长期免费 · 综合倍率 0.1
+
+**白嫖式摘要**
+
+词元枢阁 Token Nexus 是GPT / Gemini / Grok chat 模型长期免费 · 综合倍率 0.1。GPT / Gemini / Grok 的 chat 模型长期在免费区挂着，直接调；综合倍率 0.1 偏低，不定期放 0.01 超低倍率活动。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：免费清单与活动倍率以站内当下为准。
+
+**服务与特点**
+
+- GPT / Gemini / Grok 的 chat 模型长期在免费区挂着，直接调
+- 综合倍率 0.1 偏低，不定期放 0.01 超低倍率活动
+- New API 深度定制版（rc48-20261105 构建），注册开放
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://api.aisz.mom/v1`
+- **anthropic**：`https://api.aisz.mom`
+
+**限制与风险提示**
+
+- 免费清单与活动倍率以站内当下为准
+- 公益线路、上游共享，勿压测
+
+**入口**：[注册入口](https://api.aisz.mom/register) · [站点首页](https://api.aisz.mom/)
+
+
+---
+
+### 53. cheap
+
+> 注册送 $20 + 签到再领 $20 的轻量公益线路
+
+**白嫖式摘要**
+
+cheap 是注册送 $20 + 签到再领 $20 的轻量公益线路。注册赠送 $20 额度，站内签到可再领取 $20；支持通过 API Key 访问模型列表、Chat Completions 与 Responses 接口。当前登记的福利是注册赠送 $20。接入方面提供 openai 协议，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：公开页面不展示完整模型清单，创建 Key 后先调 /v1/models 核对再正式使用。
+
+**服务与特点**
+
+- 注册赠送 $20 额度，站内签到可再领取 $20
+- 支持通过 API Key 访问模型列表、Chat Completions 与 Responses 接口
+- 无 AFF 注册页，邀请码可自行填写
+
+**注册与领取政策**
+
+- 注册方式：邮箱注册
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 注册赠送 $20。
+- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://api.cheapcodex.online/v1`
+
+**限制与风险提示**
+
+- 公开页面不展示完整模型清单，创建 Key 后先调 /v1/models 核对再正式使用
+- 签到周期与实际到账以账户页面为准
+
+**入口**：[注册入口](https://api.cheapcodex.online/register) · [站点首页](https://api.cheapcodex.online/)
+
+
+---
+
+### 54. HLOOL API
+
+> LDC 3 积分 = $1 充值兑换 · Codex 0.5x / Claude CC 2x 分组公益站
+
+**白嫖式摘要**
+
+HLOOL API 是LDC 3 积分 = $1 充值兑换 · Codex 0.5x / Claude CC 2x 分组公益站。LDC 兑换比例固定 3 LDC = 1 美元，LinuxDo 用户可用积分补额度；Codex 分组倍率维持 0.5，Claude 分组（CC）2x，公告与定价接口互相印证。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：站方曾公告总额度 3000 美元、每用户最多充 100 美元的充值方案，额度与活动以站内公告为准。
+
+**服务与特点**
+
+- LDC 兑换比例固定 3 LDC = 1 美元，LinuxDo 用户可用积分补额度
+- Codex 分组倍率维持 0.5，Claude 分组（CC）2x，公告与定价接口互相印证
+- 状态与定价接口公开，签到注册均开放
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码 / LinuxDO OAuth
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://api.hlool.top/v1`
+- **anthropic**：`https://api.hlool.top`
+
+**限制与风险提示**
+
+- 站方曾公告总额度 3000 美元、每用户最多充 100 美元的充值方案，额度与活动以站内公告为准
+- 模型计价随倍率调整，用前核对分组
+- 公益线路、上游共享，勿压测
+
+**入口**：[注册入口](https://api.hlool.top/register) · [站点首页](https://api.hlool.top/)
+
+
+---
+
+### 55. Huainova
+
+> 注册送起步额度 · 签到 + 游戏玩法 + 深夜定点抽奖的公益站
+
+**白嫖式摘要**
+
+Huainova 是注册送起步额度 · 签到 + 游戏玩法 + 深夜定点抽奖的公益站。新号注册送起步额度，每天能签到续一点；站内挂炸金花等小游戏拿余额练手气，巅峰期有每晚 23:50 定点抽奖（当天消费满 $1 且已签到参与，随机 100 人各 $10）。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：游戏与抽奖玩法是否全时段开放以站内当下为准。
+
+**服务与特点**
+
+- 新号注册送起步额度，每天能签到续一点
+- 站内挂炸金花等小游戏拿余额练手气，巅峰期有每晚 23:50 定点抽奖（当天消费满 $1 且已签到参与，随机 100 人各 $10）
+- VoAPI 系面板（1.1.6），状态接口公开
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://ai.huaibao.top/v1`
+- **anthropic**：`https://ai.huaibao.top`
+
+**限制与风险提示**
+
+- 游戏与抽奖玩法是否全时段开放以站内当下为准
+- 公益线路、上游共享，勿压测
+
+**入口**：[注册入口](https://ai.huaibao.top/register) · [站点首页](https://ai.huaibao.top/)
+
+
+---
+
+### 56. BudsAI
+
+> 邀请注册送 $15 · 签到日领 $4+ 的公益站，免费档双限流
+
+**白嫖式摘要**
+
+BudsAI 是邀请注册送 $15 · 签到日领 $4+ 的公益站，免费档双限流。走邀请码注册送 15（站内按美元计），每日签到实测 4 美元上下；另有聊天站 chat.budsin.dev 配套。当前登记的福利是注册赠送 $15、每日签到 $4。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：邀请注册的 15 需走带码入口，裸注册以站内规则为准。
+
+**服务与特点**
+
+- 走邀请码注册送 15（站内按美元计），每日签到实测 4 美元上下
+- 另有聊天站 chat.budsin.dev 配套
+- 免费档请求上限 15 次/小时、60 次/天，与额度分开计
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 注册赠送 $15；每日签到 $4。
+- 表中金额是面板额度，不等同于可提现现金；实际可调用量还取决于模型倍率、按次或按 Token 计费方式。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://apichat.budsin.dev/v1`
+- **anthropic**：`https://apichat.budsin.dev`
+
+**限制与风险提示**
+
+- 邀请注册的 15 需走带码入口，裸注册以站内规则为准
+- 免费档限流独立于额度，高频用户会先撞限流
+
+**入口**：[注册入口](https://apichat.budsin.dev/register) · [站点首页](https://apichat.budsin.dev/)
+
+
+**官方社区与联系**
+
+- 聊天站: https://chat.budsin.dev
+
+---
+
+### 57. Moyuu AI 公益站
+
+> Moyuu 公益站 · 赠送以控制台实际为准，面板每日更新
+
+**白嫖式摘要**
+
+Moyuu AI 公益站 是Moyuu 公益站 · 赠送以控制台实际为准，面板每日更新。面板每日滚动构建更新（latency-r1 等），注册开放；公开状态未列固定赠送额度，进入控制台后以账户余额、模型菜单和活动页为准。接入方面提供 openai / anthropic 协议入口，具体 Base URL 和模型以登录后的控制台为准。先说清楚一个容易踩的坑：赠送与签到规则以站内活动页为准。
+
+**服务与特点**
+
+- 面板每日滚动构建更新（latency-r1 等），注册开放
+- 公开状态未列固定赠送额度，进入控制台后以账户余额、模型菜单和活动页为准
+
+**注册与领取政策**
+
+- 注册方式：邮箱 + 密码
+- 未登记额外注册门槛；这不代表站点一定没有账号年龄、实名、人机验证或地区限制。
+
+**免费额度与续领政策**
+
+- 仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- **openai**：`https://moyuu.cc/v1`
+- **anthropic**：`https://moyuu.cc`
+
+**限制与风险提示**
+
+- 赠送与签到规则以站内活动页为准
+- 公益线路、上游共享，勿压测
+
+**入口**：[注册入口](https://moyuu.cc/register) · [站点首页](https://moyuu.cc/)
+
+
+---
+
+### 58. GGBOOM 公益站
+
+> Codex 系免费网关 · sign.qaq.al 过 PoW 签到领分发余额
+
+**白嫖式摘要**
+
+GGBOOM 公益站 是Codex 系免费网关 · sign.qaq.al 过 PoW 签到领分发余额。专供 Codex 系模型的免费网关：gpt-5.3-codex、gpt-5.2-codex、gpt-5.1-codex-max 等在列，走 openai-responses 格式，Codex CLI 原生对接；纯邮箱即可注册，不需要邀请码、不需要验证码、不接受第三方一键登录。先说清楚一个容易踩的坑：签到需过 WASM PoW 计算，手机 / 低性能设备可能吃力，可配合开源脚本。
+
+**服务与特点**
+
+- 专供 Codex 系模型的免费网关：gpt-5.3-codex、gpt-5.2-codex、gpt-5.1-codex-max 等在列，走 openai-responses 格式，Codex CLI 原生对接
+- 纯邮箱即可注册，不需要邀请码、不需要验证码、不接受第三方一键登录
+- 额度靠签到站 sign.qaq.al：LinuxDo 账号登录 + 完成 WASM PoW 算力验证后领分发余额，也可用 LDC 积分兑换
+- 社区有开源自动签到脚本 qaqCheck
+
+**注册与领取政策**
+
+- 注册方式：邮箱注册
+- 主站与签到站是两套不通的账号体系，两边都要各注册一遍
+
+**免费额度与续领政策**
+
+- 仓库尚未确认可公开量化的固定免费额度，注册后请以站内余额、套餐与活动页面为准。
+
+仓库未登记稳定的续领方式；不要把一次性活动额度理解为永久免费。
+
+**接口、模型与接入政策**
+
+- 仓库未登记可公开直填的 Base URL；可能需要登录后台领取，或该站并非通用 API 中转服务。
+
+**限制与风险提示**
+
+- 签到需过 WASM PoW 计算，手机 / 低性能设备可能吃力，可配合开源脚本
+- 额度用完站内没有充值入口，只能靠签到或 LDC 兑换续
+- 模型集中在 Codex/GPT 系，别按未证实的其它系列去接
+
+**入口**：[注册入口](https://ai.qaq.al/) · [站点首页](https://ai.qaq.al/)
+
+
+**官方社区与联系**
+
+- 签到站: https://sign.qaq.al
+- 自动签到脚本: https://github.com/priority3/qaqCheck
 
 ## 🏢 官方免费 API（公益站之外的保底方案）
 
