@@ -2432,6 +2432,53 @@
         "签到站: https://sign.qaq.al",
         "自动签到脚本: https://github.com/priority3/qaqCheck"
       ]
+    },
+    {
+      "id": "novai",
+      "name": "NovAI",
+      "subtitle": "国产模型聚合网关：109 个模型一个兼容端点；5 个免费模型转发智谱 Flash 额度",
+      "recommended": false,
+      "credits": {
+        "signup": 2,
+        "invite": 0,
+        "dailyCheckin": 0,
+        "approx": false
+      },
+      "signupUrl": "https://aiapi-pro.com/register",
+      "homeUrl": "https://aiapi-pro.com",
+      "docsUrl": "https://aiapi-pro.com/docs",
+      "tags": [
+        "聚合网关",
+        "免费额度",
+        "国产模型",
+        "USDT"
+      ],
+      "highlights": [
+        "5 个模型永久免费：每天 10 次、每分钟 5 次，充值任意金额后这 5 个模型不限次数",
+        "109 个国产模型（DeepSeek / Qwen / GLM / Kimi / MiniMax / 豆包 / 混元）一个 OpenAI 兼容端点",
+        "0% 平台加价，逐模型价格表公开"
+      ],
+      "endpoints": {
+        "openai": "https://aiapi-pro.com/v1"
+      },
+      "register": {
+        "methods": [
+          "邮箱注册",
+          "GitHub OAuth"
+        ],
+        "requirements": [
+          "无需信用卡"
+        ]
+      },
+      "earnMore": [
+        "注册赠送 $2（14 天有效，不含图片/视频模型）"
+      ],
+      "modelsNote": "5 个标为免费的模型在上游属于智谱（/v1/models 里 owned_by 均为 zhipu），NovAI 转发并自行承担成本，不是第一方免费层；额度由上游决定",
+      "caveats": [
+        "免费层每天 10 次、每分钟 5 次；充值后这 5 个模型不限次",
+        "免费额度源自上游智谱，随时可能调整"
+      ],
+      "community": []
     }
   ]
 }
