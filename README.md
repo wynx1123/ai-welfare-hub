@@ -5,7 +5,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/wynx1123/ai-welfare-hub?style=social)](https://github.com/wynx1123/ai-welfare-hub/stargazers)
 [![Live Status](https://img.shields.io/badge/%E6%8E%A2%E6%B4%BB-%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0-brightgreen)](https://wynx1123.github.io/ai-welfare-hub/)
 
-> 数据快照：2026-11-22 23:05 UTC，由 GitHub Actions 自动抓取更新。
+> 数据快照：2026-11-24 03:42 UTC，由 GitHub Actions 自动抓取更新。
 
 **当前收录 59 个站点**。按“注册奖励 + 邀请奖励 + 当日签到”的登记口径，美元计价站首日理论上限合计约 **$4108.50**；它不是无条件到账金额，也不代表可提现现金。
 
@@ -29,7 +29,7 @@
 | [肖恩Ai](https://free.supxh.xin/register?code=FKGTEA) | 🟢 在线 | ~7000 积分 | 注册赠送 5000 积分 + 每日签到 2000 积分 | ✅ 2000 积分 | — | — |
 | [SeekAI](https://seekai.cc/sign-up?aff=jVlv) | 🟢 在线 | — | — | — | — | — |
 | [NOFX](https://nofx.one/zh-CN/sign-in?ref=1B51CYR5) | 🟢 在线 | 30 积分 | 注册赠送 20 积分 + 邀请奖励 5 积分 + 每日签到 5 积分 | ✅ 5 积分 | — | — |
-| [维云](https://vsllm.com/register?aff=Aci9) | 🟢 在线 | — | — | ✅ 金额待确认 | anthropic / openai | 65 |
+| [维云](https://vsllm.com/register?aff=Aci9) | 🟢 在线 | — | — | ✅ 金额待确认 | anthropic / openai | 67 |
 | [DoCode](https://docode.cc/register?aff=7bWb) | 🟢 在线 | ~$360 | 注册赠送 $300 + 邀请奖励 $60 | ❌ | anthropic / openai | — |
 | [TrueSOTA](https://true-sota.com/register?aff=8DTJUTUBJNE3) | 🟢 在线 | $20 | 注册赠送 $0 + 邀请奖励 $20 + 每日签到 $0 | ✅ $0 | openai | — |
 | [幻城网安](https://api.hcnsec.cn/sign-up?aff=zDqY) | 🟢 在线 | — | — | ✅ 金额待确认 | anthropic / openai | — |
@@ -39,15 +39,15 @@
 | [Conduit](https://t.me/conduitoff_bot?start=ref_6939669896) | 🟢 在线 | $500 | 注册赠送 $500 | — | openai / anthropic | — |
 | [Arena Hero](https://app.arenahero.io/arena) | 🟢 在线 | — | — | — | — | — |
 | [LiveLove AI](https://livelove.dev/register) | 🟢 在线 | $1 | 注册赠送 $1 | — | openai / anthropic | — |
-| [大白饭公益站](https://newapi.hkkkj.qzz.io/sign-up) | 🟢 在线 | $3 | 注册赠送 $2 + 每日签到 $1 | ✅ $1 | openai / anthropic | 40 |
+| [大白饭公益站](https://newapi.hkkkj.qzz.io/sign-up) | 🟢 在线 | $3 | 注册赠送 $2 + 每日签到 $1 | ✅ $1 | openai / anthropic | 35 |
 | [Tokeness](https://tokeness.ai/sign-up) | 🟢 在线 | ~$0.50 | 每日签到 $0.50 | ✅ $0.50 | openai / anthropic | 52 |
 | [iamhc 公益站](https://api.iamhc.cn/) | 🟢 在线 | ~$2000 | 注册赠送 $2000 | — | openai | — |
-| [星见雅 API](https://new.xinjianya.top/sign-up) | 🟢 在线 | ~$20 | 注册赠送 $20 | ✅ 金额待确认 | openai / anthropic | 27 |
+| [星见雅 API](https://new.xinjianya.top/sign-up) | 🟢 在线 | ~$20 | 注册赠送 $20 | ✅ 金额待确认 | openai / anthropic | 24 |
 | [白嫖福利站](https://ai.baipiao.co/) | 🟢 在线 | — | — | — | — | — |
 | [DeadlySignal API](https://myapi.creitingameplays.com/register) | 🟢 在线 | — | — | ❌ | openai / anthropic | 80 |
-| [莱斯超级API](https://laisiai.tw.cpolar.io/register) | 🔴 离线 | — | — | ✅ 金额待确认 | openai / anthropic | 0 |
-| [Future Hub](https://api.futureppo.top/register) | 🟢 在线 | ~$20 | 每日签到 $20 | ✅ $20 | openai / anthropic | 27 |
-| [Liminality](https://beizhi.dedyn.io/register) | 🟢 在线 | ~100 积分 | 每日签到 100 积分 | ✅ 100 积分 | openai / anthropic | 18 |
+| [莱斯超级API](https://laisiai.tw.cpolar.io/register) | 🔴 离线 | — | — | — | openai / anthropic | — |
+| [Future Hub](https://api.futureppo.top/register) | 🟢 在线 | ~$20 | 每日签到 $20 | ✅ $20 | openai / anthropic | 57 |
+| [Liminality](https://beizhi.dedyn.io/register) | 🟢 在线 | ~100 积分 | 每日签到 100 积分 | ✅ 100 积分 | openai / anthropic | 13 |
 | [初叶 Furry API](https://ai.chuyel.top/sign-up) | 🟢 在线 | ~10 积分 | 每日签到 10 积分 | ✅ 10 积分 | openai / anthropic | 80 |
 | [KiosAPI](https://kiosapi.com/sign-up) | 🟢 在线 | — | — | ❌ | openai / anthropic | — |
 | [君の公益](https://muyuan.do/) | 🟢 在线 | — | — | — | openai | — |
@@ -58,16 +58,16 @@
 | [启源星](https://chuan.sylu.cc/register) | 🟢 在线 | $100 | 邀请奖励 $50 + 每日签到 $50 | ✅ $50 | openai / anthropic | 1 |
 | [哈基猫API](https://hjmapi.923578.xyz/register) | 🟢 在线 | — | — | ✅ 金额待确认 | openai / anthropic | 35 |
 | [黑与白公益站](https://ai.hybgzs.com/) | 🟢 在线 | — | — | — | openai / anthropic | — |
-| [年华 API](https://newapi.makelove.cloud/register) | 🟢 在线 | $2 | 每日签到 $2 | ✅ $2 | openai / anthropic | 64 |
+| [年华 API](https://newapi.makelove.cloud/register) | 🔴 离线 | $2 | 每日签到 $2 | ✅ $2 | openai / anthropic | 64 |
 | [小欢公益站](https://free-llm.cups.moe) | 🟢 在线 | — | — | — | — | — |
 | [Lunora API](https://www.uselunora.com/register) | 🟢 在线 | — | — | — | openai / anthropic | — |
 | [橘子API](https://api.juziai.cc/register) | 🟢 在线 | $50 | 注册赠送 $50 | ✅ 金额待确认 | openai / anthropic | 80 |
 | [薄荷公益站](https://x666.me/) | 🟢 在线 | $50 | 注册赠送 $25 + 邀请奖励 $25 | ❌ | openai / anthropic | 6 |
 | [小米 MiMo 公益站](https://fufu.iqach.top/) | 🔴 离线 | — | — | — | openai / anthropic | — |
-| [xxzl 公益站](https://ai.1tim.com/register) | 🟢 在线 | $3 | 每日签到 $3 | ✅ $3 | openai / anthropic | 10 |
+| [xxzl 公益站](https://ai.1tim.com/register) | 🟢 在线 | $3 | 每日签到 $3 | ✅ $3 | openai / anthropic | 9 |
 | [88888 AI](https://88888.qzz.io/) | 🟢 在线 | $100 | 注册赠送 $100 | — | openai | — |
 | [ShareLLM](https://sharellm.net/register) | 🟢 在线 | ~$120 | 注册赠送 $120 | ❌ | openai / anthropic | — |
-| [Ultra Router](https://ultrarouter.org/register) | 🟢 在线 | ~$28 | 每日签到 $28 | ✅ $28 | openai / anthropic | 3 |
+| [Ultra Router](https://ultrarouter.org/register) | 🟢 在线 | ~$28 | 每日签到 $28 | ✅ $28 | openai / anthropic | 4 |
 | [熊猫API](https://api520.pro/register) | 🟢 在线 | ~$200 | 注册赠送 $200 | ❌ | openai / anthropic | 80 |
 | [DGB 公益站](https://freeapi.dgbmc.top/register) | 🟢 在线 | — | — | ✅ 金额待确认 | openai / anthropic | 6 |
 | [V-API 公益站](https://v-api.de5.net/register) | 🟢 在线 | — | — | ❌ | openai / anthropic | — |
@@ -75,12 +75,12 @@
 | [api456 公益站](https://api456.me/register) | 🟢 在线 | 20 积分 | 注册赠送 20 积分 | ✅ 金额待确认 | openai / anthropic | 37 |
 | [100xLabs](https://sub.100xlabs.space/) | 🟢 在线 | $200 | 每日签到 $200 | ✅ $200 | anthropic | — |
 | [露娜](https://freeapi.site/register) | 🟢 在线 | — | — | — | openai / anthropic | — |
-| [词元枢阁 Token Nexus](https://api.aisz.mom/register) | 🟢 在线 | — | — | ❌ | openai / anthropic | 28 |
+| [词元枢阁 Token Nexus](https://api.aisz.mom/register) | 🟢 在线 | — | — | ❌ | openai / anthropic | 29 |
 | [cheap](https://api.cheapcodex.online/register) | 🟢 在线 | $20 | 注册赠送 $20 | — | openai | — |
 | [HLOOL API](https://api.hlool.top/register) | 🟢 在线 | — | — | ✅ 金额待确认 | openai / anthropic | 23 |
 | [Huainova](https://ai.huaibao.top/register) | 🟢 在线 | — | — | ✅ 金额待确认 | openai / anthropic | 0 |
-| [BudsAI](https://apichat.budsin.dev/register) | 🟢 在线 | ~$19 | 注册赠送 $15 + 每日签到 $4 | ✅ $4 | openai / anthropic | 19 |
-| [Moyuu AI 公益站](https://moyuu.cc/register) | 🟢 在线 | — | — | ❌ | openai / anthropic | 58 |
+| [BudsAI](https://apichat.budsin.dev/register) | 🟢 在线 | ~$19 | 注册赠送 $15 + 每日签到 $4 | ✅ $4 | openai / anthropic | 53 |
+| [Moyuu AI 公益站](https://moyuu.cc/register) | 🟢 在线 | — | — | ❌ | openai / anthropic | 55 |
 | [GGBOOM 公益站](https://ai.qaq.al/) | 🟢 在线 | — | — | — | — | — |
 | [NovAI](https://aiapi-pro.com/register) | 🟢 在线 | $2 | 注册赠送 $2 + 邀请奖励 $0 + 每日签到 $0 | ✅ $0 | openai | — |
 
