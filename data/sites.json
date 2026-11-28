@@ -2479,6 +2479,36 @@
         "免费额度源自上游智谱，随时可能调整"
       ],
       "community": []
+    },
+    {
+      "id": "beiluo-api",
+      "name": "北洛API",
+      "subtitle": "提供多模型 API 接入，注册用户可每日签到领取站内额度",
+      "recommended": false,
+      "homeUrl": "https://beiluoxi.xyz/",
+      "signupUrl": "https://beiluoxi.xyz/",
+      "docsUrl": "https://beiluoxi.xyz/help/_full.html",
+      "pricingApi": "https://beiluoxi.xyz/api/provider/pricing",
+      "tags": [
+        "每日签到",
+        "聚合网关",
+        "国产模型"
+      ],
+      "highlights": [
+        "通过 OpenAI 兼容接口访问 GPT、Claude、Gemini、Grok 和 DeepSeek 等模型",
+        "官网提供分组价目与客户端接入文档"
+      ],
+      "endpoints": {
+        "openai": "https://beiluoxi.xyz/v1",
+        "anthropic": "https://beiluoxi.xyz"
+      },
+      "earnMore": [
+        "登录后可在每日签到页领取小额站内余额。"
+      ],
+      "caveats": [
+        "常规 API 调用按模型和分组计费。"
+      ],
+      "community": []
     }
   ]
 }
